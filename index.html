@@ -196,21 +196,46 @@
   </label>
   <button class="print-btn" onclick="printPage()">Print</button>
 </div>
-
+<div id="adminLink" style="display:none; text-align:right; margin-bottom: 16px;">
+  <a id="adminAnchor" href="#" target="_blank" 
+     style="font-size: 12px; color: #94a3b8; text-decoration: none; transition: color 0.15s;"
+     onmouseover="this.style.color='#475569'" 
+     onmouseout="this.style.color='#94a3b8'">
+    &#9881; Admin settings
+  </a>
+</div>
 <div id="content">Loading assignments...</div>
 
 <button id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8679;</button>
 
 <script>
   (function() {
-  try {
-    if (window.self === window.top) {
-      document.getElementById('siteHeader').style.display = 'flex';
+    try {
+      if (window.self === window.top) {
+        document.getElementById('siteHeader').style.display = 'flex';
+      }
+    } catch(e) {
+      // Cross-origin iframe — keep header hidden
     }
-  } catch(e) {
-    // Cross-origin iframe — keep header hidden
-  }
-})();
+  })();
+
+  (function() {
+    try {
+      if (window.self === window.top) {
+        document.getElementById('siteHeader').style.display = 'flex';
+
+        // Show admin link and set its URL
+        const adminLink = document.getElementById('adminLink');
+        if (adminLink) adminLink.style.display = 'block';
+        const adminAnchor = document.getElementById('adminAnchor');
+        if (adminAnchor) {
+          adminAnchor.href = 'https://script.google.com/macros/s/AKfycbyrR-MFia5qvS53e84LvZbL1bKVMNd3paomGKq0nkvNZnILn5kLIOjPfu3DklQ9sPS66Q/exec?page=config';
+        }
+      }
+    } catch(e) {
+      // iframe — keep both hidden
+    }
+  })();
   const API_URL = 'https://script.google.com/macros/s/AKfycbyrR-MFia5qvS53e84LvZbL1bKVMNd3paomGKq0nkvNZnILn5kLIOjPfu3DklQ9sPS66Q/exec';
   let lastData = null;
   let cachedConfig = null;
