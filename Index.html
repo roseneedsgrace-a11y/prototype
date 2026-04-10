@@ -218,22 +218,12 @@
 <button id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8679;</button>
 
 <script>
-  (function() {
-    try {
-      if (window.self === window.top) {
-        document.getElementById('siteHeader').style.display = 'flex';
-      }
-    } catch(e) {
-      // Cross-origin iframe — keep header hidden
-    }
-  })();
-
-  
-    const API_URL = 'https://script.google.com/macros/s/AKfycbyrR-MFia5qvS53e84LvZbL1bKVMNd3paomGKq0nkvNZnILn5kLIOjPfu3DklQ9sPS66Q/exec';
+  const API_URL = 'https://script.google.com/macros/s/AKfycbyrR-MFia5qvS53e84LvZbL1bKVMNd3paomGKq0nkvNZnILn5kLIOjPfu3DklQ9sPS66Q/exec';
   const isGAS = typeof google !== 'undefined' && typeof google.script !== 'undefined';
+  const hideHeader = new URLSearchParams(window.location.search).get('hideheader') === 'true';
 
   // ── ENVIRONMENT SETUP (runs immediately) ──────────
-  document.getElementById('siteHeader').style.display = 'flex';
+  if (!hideHeader) document.getElementById('siteHeader').style.display = 'flex';
 
   const adminLink = document.getElementById('adminLink');
   if (adminLink) adminLink.style.display = 'flex';
@@ -249,7 +239,7 @@
       ? API_URL + '?page=parents'
       : 'https://roseneedsgrace-a11y.github.io/the7/parents.html';
   }
-  
+
 
 
   let lastData = null;
