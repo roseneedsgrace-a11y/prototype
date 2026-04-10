@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     :root { 
       --primary: #9988CC;
@@ -20,17 +21,17 @@
     .page-header { display: none; margin-bottom: 20px; border-bottom: 2px solid #334155; padding-bottom: 10px; }
     .page-header h1 { margin: 0; color: var(--text); font-size: 24px; }
 
-    .site-header {
-      background: #741b47;
-      width: 100%;
-      box-sizing: border-box;
-      height: 280px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 0 20px 0;
-      padding: 20px;
-    }
+.site-header {
+  background: #741b47;
+  width: calc(100% + 40px);
+  margin: 0 -20px 20px -20px;
+  box-sizing: border-box;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
     .site-header h1 {
       font-family: 'Cinzel Decorative', serif;
       color: #f9e7f0;
