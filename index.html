@@ -170,7 +170,7 @@
   <label style="display:flex; align-items:center; font-size:13px; cursor:pointer;">Status Mode
     <div class="switch"><input type="checkbox" id="statusToggle" onchange="refreshClasses()"><span class="slider"></span></div>
   </label>
-  <button class="print-btn" onclick="window.print()">Print</button>
+  <button class="print-btn" onclick="printPage()">Print</button>
 </div>
 
 <div id="content">Loading assignments...</div>
@@ -385,6 +385,19 @@
     }
     fetch(API_URL + '?action=toggle&key=' + encodeURIComponent(id) + '&status=' + el.checked);
   }
+  function printPage() {
+  try {
+    // If we're in an iframe, open self in new tab for printing
+    if (window.self !== window.top) {
+      window.open(window.location.href, '_blank');
+    } else {
+      window.print();
+    }
+  } catch(e) {
+    // Cross-origin iframe blocks even the check — just open a new tab
+    window.open(window.location.href, '_blank');
+  }
+}
 </script>
 </body>
 </html>
