@@ -206,24 +206,35 @@
   const API_URL = 'https://script.google.com/macros/s/AKfycbyrR-MFia5qvS53e84LvZbL1bKVMNd3paomGKq0nkvNZnILn5kLIOjPfu3DklQ9sPS66Q/exec';
   let lastData = null;
 
-  window.onload = function() {
-    fetch(API_URL + '?action=getConfig')
-      .then(r => r.json())
-      .then(function(config) {
-        const sel = document.getElementById('student');
-        sel.innerHTML = '';
-        config.students.forEach(s => {
-          const opt = document.createElement('option');
-          opt.value = s.name;
-          opt.textContent = s.name;
-          sel.appendChild(opt);
-        });
-        load(true);
-      })
-      .catch(function(err) {
-        document.getElementById('content').innerHTML = '<div style="color:red;">Failed to load config: ' + err + '</div>';
+window.onload = function() {
+  fetch(API_URL + '?action=getConfig')
+    .then(r => r.json())
+    .then(function(config) {
+      const sel = document.getElementById('student');
+      sel.innerHTML = '';
+      config.students.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s.name;
+        opt.textContent = s.name;
+        sel.appendChild(opt);
       });
-  };
+
+      // Check for ?student= in the URL and pre-select if found
+      const params = new URLSearchParams(window.location.search);
+      const preselect = params.get('student');
+      if (preselect) {
+        const match = Array.from(sel.options).find(o => 
+          o.value.toLowerCase() === preselect.toLowerCase()
+        );
+        if (match) sel.value = match.value;
+      }
+
+      load(true);
+    })
+    .catch(function(err) {
+      document.getElementById('content').innerHTML = '<div style="color:red;">Failed to load config: ' + err + '</div>';
+    });
+};
 
   window.addEventListener('scroll', function() {
     const btn = document.getElementById('scrollTopBtn');
