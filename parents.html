@@ -351,16 +351,15 @@
       google.script.run
         .withSuccessHandler(function(config) { applyHeaderSettings(config); })
         .getStudentConfig();
-      // Load full week data for all students for day switching
       google.script.run
         .withSuccessHandler(function(data) { renderDashboard(data); })
         .withFailureHandler(function(e) { showError(e.message); })
-        .getTodayData();
+        .getWeekForAllStudents();
     } else {
       fetch(API_URL + '?action=getConfig')
         .then(r => r.json())
         .then(function(config) { applyHeaderSettings(config); });
-      fetch(API_URL + '?action=getToday')
+      fetch(API_URL + '?action=getWeek')
         .then(r => r.json())
         .then(function(data) { renderDashboard(data); })
         .catch(function(e) { showError(e.message); });
