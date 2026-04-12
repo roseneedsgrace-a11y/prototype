@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-11T13:22:27.548Z",
+  "generated": "2026-04-12T23:30:50.423Z",
   "headerText": "Thus Far the Lord Has Helped Us",
   "headerColor": "#741b47",
   "sharedDesign": "bookish",
@@ -12053,7 +12053,7 @@
                   "rawDate": 1775538000000,
                   "task": "Read \"Relationships\": Ch. 4 (pp. 29-39)",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-Bible-Tue"
                 },
                 {
@@ -12062,7 +12062,7 @@
                   "rawDate": 1775624400000,
                   "task": "Read \"Relationships\": Ch. 5 (pp. 40-50)",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-Bible-Wed"
                 },
                 {
@@ -12071,7 +12071,7 @@
                   "rawDate": 1775710800000,
                   "task": "Read \"Relationships\": Ch. 6 (pp. 51-62)",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-Bible-Thu"
                 },
                 {
@@ -12080,7 +12080,7 @@
                   "rawDate": 1775797200000,
                   "task": "Write 10 key details from the chapters.",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-Bible-Fri"
                 }
               ]
@@ -12104,7 +12104,7 @@
                   "rawDate": 1775538000000,
                   "task": "🧭 24.4",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-History-Tue"
                 },
                 {
@@ -12113,7 +12113,7 @@
                   "rawDate": 1775624400000,
                   "task": "🧭 24.5",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-History-Wed"
                 },
                 {
@@ -12122,7 +12122,7 @@
                   "rawDate": 1775710800000,
                   "task": "🧭 25.1",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-History-Thu"
                 },
                 {
@@ -12155,7 +12155,7 @@
                   "rawDate": 1775538000000,
                   "task": "Lesson & Paper",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-English-Tue"
                 },
                 {
@@ -12164,7 +12164,7 @@
                   "rawDate": 1775624400000,
                   "task": "Lesson & Paper",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-English-Wed"
                 },
                 {
@@ -12206,7 +12206,7 @@
                   "rawDate": 1775538000000,
                   "task": "Lesson 30 Quiz",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-Foreign Language-Tue"
                 },
                 {
@@ -12308,7 +12308,7 @@
                   "rawDate": 1775538000000,
                   "task": "Exam 4 & Print Certificate of Completion*",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-Math-Tue"
                 },
                 {
@@ -12359,7 +12359,7 @@
                   "rawDate": 1775538000000,
                   "task": "Understanding Capitalism: Lesson/Quiz #7",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-Citizenship-Tue"
                 },
                 {
@@ -12368,7 +12368,7 @@
                   "rawDate": 1775624400000,
                   "task": "Understanding Capitalism: Final Quiz",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W34-Citizenship-Wed"
                 },
                 {
@@ -12478,7 +12478,7 @@
                   "rawDate": 1776056400000,
                   "task": "🧭 25.2",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W35-History-Mon"
                 },
                 {
@@ -12496,7 +12496,7 @@
                   "rawDate": 1776229200000,
                   "task": "🧭 25.4",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W35-History-Wed"
                 },
                 {
@@ -12538,7 +12538,7 @@
                   "rawDate": 1776142800000,
                   "task": "Lesson & Paper",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Brent-W35-English-Tue"
                 },
                 {
@@ -41773,7 +41773,7 @@
                   "rawDate": 1775538000000,
                   "task": "The Ology, BIble Reading, Catechism Q32",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Bible-Tue"
                 },
                 {
@@ -41782,7 +41782,7 @@
                   "rawDate": 1775624400000,
                   "task": "The Ology, BIble Reading, Catechism Q32",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Bible-Wed"
                 },
                 {
@@ -41800,7 +41800,7 @@
                   "rawDate": 1775797200000,
                   "task": "The Ology, BIble Reading, Catechism Q32",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Bible-Fri"
                 },
                 {
@@ -41824,7 +41824,7 @@
                   "rawDate": 1775538000000,
                   "task": "Drill Team & Lesson 49",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Mammoth Math-Tue"
                 },
                 {
@@ -41833,7 +41833,7 @@
                   "rawDate": 1775624400000,
                   "task": "Drill Team & Lesson 50",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Mammoth Math-Wed"
                 },
                 {
@@ -41842,7 +41842,7 @@
                   "rawDate": 1775710800000,
                   "task": "Drill Team & Investigation 5",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Mammoth Math-Thu"
                 },
                 {
@@ -41875,7 +41875,7 @@
                   "rawDate": 1775538000000,
                   "task": "Tell mom and Tabitha what you learned.",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-History-Tue"
                 },
                 {
@@ -41884,7 +41884,7 @@
                   "rawDate": 1775624400000,
                   "task": "Tell mom and Tabitha what you learned.",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-History-Wed"
                 },
                 {
@@ -41893,7 +41893,7 @@
                   "rawDate": 1775710800000,
                   "task": "Tell mom and Tabitha what you learned.",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-History-Thu"
                 },
                 {
@@ -41926,7 +41926,7 @@
                   "rawDate": 1775538000000,
                   "task": "Trust and Obey (p. 166) - The Story & Hymn Study & Bible Lesson",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Music-Tue"
                 },
                 {
@@ -41953,7 +41953,7 @@
                   "rawDate": 1775797200000,
                   "task": "Trust and Obey (p. 166) - Activity",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Music-Fri"
                 },
                 {
@@ -41977,7 +41977,7 @@
                   "rawDate": 1775538000000,
                   "task": "Chapter 13, Lesson 7",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Reading & Grammar-Tue"
                 },
                 {
@@ -42028,7 +42028,7 @@
                   "rawDate": 1775538000000,
                   "task": "Level 4, pp. 91-92",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W34-Handwriting-Tue"
                 },
                 {
