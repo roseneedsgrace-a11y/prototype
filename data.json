@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-12T23:31:04.146Z",
+  "generated": "2026-04-13T15:18:33.294Z",
   "headerText": "Thus Far the Lord Has Helped Us",
   "headerColor": "#741b47",
   "sharedDesign": "bookish",
@@ -42258,7 +42258,7 @@
                   "rawDate": 1776142800000,
                   "task": "Tell mom and Tabitha what you learned.",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W35-History-Tue"
                 },
                 {
@@ -42309,7 +42309,7 @@
                   "rawDate": 1776142800000,
                   "task": "When We All Get to Heaven (p. 172) - The Story & Hymn Study",
                   "imageUrl": null,
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W35-Music-Tue"
                 },
                 {
@@ -42360,7 +42360,7 @@
                   "rawDate": 1776142800000,
                   "task": "",
                   "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fapp.nightzookeeper.com%2Fzoo%2Fmap",
-                  "done": false,
+                  "done": true,
                   "id": "Grace-W35-Reading & Grammar-Tue"
                 },
                 {
