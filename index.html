@@ -184,8 +184,8 @@
 <div id="printHeader" class="page-header"><h1>Student Planner</h1></div>
 
 <div class="controls">
-  <div><strong>Student:</strong> <select id="studentSelect" onchange="render()"></select></div>
-  <div><strong>Week:</strong> <input type="number" id="weekInput" min="1" max="36" style="width: 60px" onchange="render()"></div>
+  <div><strong>Student:</strong> <select id="studentSelect" onchange="()"></select></div>
+  <div><strong>Week:</strong> <input type="number" id="weekInput" min="1" max="36" style="width: 60px" onchange="()"></div>
   <label style="display:flex; align-items:center; font-size:13px; cursor:pointer;">Status Mode
     <div class="switch"><input type="checkbox" id="statusToggle" onchange="render()"><span class="slider"></span></div>
   </label>
@@ -222,7 +222,8 @@ function render() {
   
   updateColors(student.palette);
   
-  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+  // 1. Expand days if you want to see Saturday
+  const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']; 
   const now = new Date();
   const todayTs = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
 
@@ -231,37 +232,41 @@ function render() {
   tableHtml += `</tr></thead><tbody>`;
 
   let listHtml = `<div class="list-view"><div class="${isStatusMode ? 'status-mode' : ''}">`;
-  const tasksByDay = [[], [], [], [], []];
+  const tasksByDay = days.map(() => []); // Creates an array for each day in our list
 
   student.grid.forEach(row => {
     tableHtml += `<tr><td class="subject-cell">${row.subject}<span class="curriculum-subtitle">${row.curriculum || ''}</span></td>`;
     
-    row.tasks.forEach((t, idx) => {
-      if (idx > 4) return; // Only process Mon-Fri
+    // 2. Instead of row.tasks.forEach((t, idx)...), we match by day name
+    days.forEach((dayName, dayIdx) => {
+      const t = row.tasks.find(task => task.day === dayName);
       
-      const taskDate = new Date(t.rawDate).getTime();
-      let statusClass = '';
-      if (taskDate < todayTs) statusClass = 'due-late';
-      else if (taskDate === todayTs) statusClass = 'due-warning';
+      if (t) {
+        const taskDate = new Date(t.rawDate).getTime();
+        let statusClass = '';
+        if (taskDate < todayTs) statusClass = 'due-late';
+        else if (taskDate === todayTs) statusClass = 'due-warning';
 
-      // FIX: Improved check to catch tasks that ONLY have a URL/Image
-      const hasTaskText = t.task && t.task.trim().length > 0;
-      const hasMedia = t.imageUrl && t.imageUrl.trim().length > 0;
+        // Valid content check: Task text, Image, OR LinkUrl
+        const hasContent = (t.task && t.task.trim().length > 0) || t.imageUrl || t.linkUrl;
 
-      if (hasTaskText || hasMedia) {
-        const isLinkOnly = hasMedia && t.imageUrl.includes('api.qrserver.com') && !hasTaskText;
-        const mediaHtml = renderMedia(t);
-        
-        tableHtml += `<td>
-          <label class="task-card ${t.done ? 'is-done' : ''} ${statusClass} ${isLinkOnly ? 'link-only' : ''}">
-            ${hasTaskText ? `<div class="task-text">${t.task}</div>` : ''}
-            <div class="media-container">${mediaHtml}</div>
-            <div class="status-indicator"></div>
-            <input type="checkbox" class="check-overlay" ${t.done ? 'checked' : ''} onchange="toggle('${t.id}', this)">
-          </label>
-        </td>`;
+        if (hasContent) {
+          const isLinkOnly = t.linkUrl && (!t.task || t.task.trim() === "");
+          const mediaHtml = renderMedia(t);
+          
+          tableHtml += `<td>
+            <label class="task-card ${t.done ? 'is-done' : ''} ${statusClass} ${isLinkOnly ? 'link-only' : ''}">
+              ${t.task ? `<div class="task-text">${t.task}</div>` : ''}
+              <div class="media-container">${mediaHtml}</div>
+              <div class="status-indicator"></div>
+              <input type="checkbox" class="check-overlay" ${t.done ? 'checked' : ''} onchange="toggle('${t.id}', this)">
+            </label>
+          </td>`;
 
-        tasksByDay[idx].push({ ...t, subject: row.subject, curriculum: row.curriculum, statusClass, isLinkOnly });
+          tasksByDay[dayIdx].push({ ...t, subject: row.subject, curriculum: row.curriculum, statusClass, isLinkOnly });
+        } else {
+          tableHtml += `<td><div class="task-card empty-card"></div></td>`;
+        }
       } else {
         tableHtml += `<td><div class="task-card empty-card"></div></td>`;
       }
