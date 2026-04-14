@@ -237,22 +237,25 @@ function render() {
     tableHtml += `<tr><td class="subject-cell">${row.subject}<span class="curriculum-subtitle">${row.curriculum || ''}</span></td>`;
     
     row.tasks.forEach((t, idx) => {
-      if (idx > 4) return;
+      if (idx > 4) return; // Only process Mon-Fri
       
       const taskDate = new Date(t.rawDate).getTime();
       let statusClass = '';
       if (taskDate < todayTs) statusClass = 'due-late';
       else if (taskDate === todayTs) statusClass = 'due-warning';
 
-      // CRITICAL: Check if there is either text OR an image/URL
-      if (t.task || t.imageUrl) {
-        const isLinkOnly = t.imageUrl && t.imageUrl.includes('api.qrserver.com') && (!t.task || t.task.trim() === "");
-        const media = renderMedia(t);
+      // FIX: Improved check to catch tasks that ONLY have a URL/Image
+      const hasTaskText = t.task && t.task.trim().length > 0;
+      const hasMedia = t.imageUrl && t.imageUrl.trim().length > 0;
+
+      if (hasTaskText || hasMedia) {
+        const isLinkOnly = hasMedia && t.imageUrl.includes('api.qrserver.com') && !hasTaskText;
+        const mediaHtml = renderMedia(t);
         
         tableHtml += `<td>
           <label class="task-card ${t.done ? 'is-done' : ''} ${statusClass} ${isLinkOnly ? 'link-only' : ''}">
-            ${!isLinkOnly ? `<div class="task-text">${t.task || ''}</div>` : ''}
-            <div class="media-container">${media}</div>
+            ${hasTaskText ? `<div class="task-text">${t.task}</div>` : ''}
+            <div class="media-container">${mediaHtml}</div>
             <div class="status-indicator"></div>
             <input type="checkbox" class="check-overlay" ${t.done ? 'checked' : ''} onchange="toggle('${t.id}', this)">
           </label>
@@ -266,20 +269,21 @@ function render() {
     tableHtml += `</tr>`;
   });
 
-  // List View Construction
+  // Build List View (Mobile)
   tasksByDay.forEach((dayTasks, idx) => {
     if (dayTasks.length === 0) return;
     const doneCount = dayTasks.filter(t => t.done).length;
     listHtml += `<div class="day-block"><div class="day-header"><span class="day-name">${days[idx]}</span><span class="progress-pill">${doneCount} / ${dayTasks.length} done</span></div>`;
 
     dayTasks.forEach(t => {
+      const hasTaskText = t.task && t.task.trim().length > 0;
       listHtml += `
-        <label class="list-task-row ${t.done ? 'is-done' : ''} ${t.statusClass} ${t.isLinkOnly ? 'link-only' : ''}">
+        <label class="list-task-row ${t.done ? 'is-done' : ''} ${t.statusClass}">
           <div class="list-checkbox"></div>
           <div style="flex:1">
             <div style="font-size:10px; font-weight:bold; color:var(--primary); text-transform:uppercase;">${t.subject}</div>
             ${t.curriculum ? `<div style="font-size:10px; color:#94a3b8; margin-bottom:4px;">${t.curriculum}</div>` : ''}
-            ${!t.isLinkOnly ? `<div class="task-text" style="font-size:14px;">${t.task || ''}</div>` : ''}
+            ${hasTaskText ? `<div class="task-text" style="font-size:14px;">${t.task}</div>` : ''}
             ${renderMedia(t)}
           </div>
           <input type="checkbox" class="check-overlay" ${t.done ? 'checked' : ''} onchange="toggle('${t.id}', this)">
@@ -293,29 +297,20 @@ function render() {
   document.getElementById('content').innerHTML = tableHtml + listHtml;
 }
 
-  
 function renderMedia(t) {
   if (!t.imageUrl) return '';
 
-  // Check if the script turned your URL into a QR code
+  // Extract link from QR code URL if present
   if (t.imageUrl.includes('api.qrserver.com')) {
-    
-    // This regex looks for everything after "data=" and before the next "&"
     const urlMatch = t.imageUrl.match(/data=([^&]+)/);
-    
     if (urlMatch && urlMatch[1]) {
       const originalUrl = decodeURIComponent(urlMatch[1]);
-      
       return `
-        <a href="${originalUrl}" target="_blank" class="link-btn" onclick="event.stopPropagation();">
-          Open Link
-        </a>
-        <img src="${t.imageUrl}" class="qr-img task-image" alt="QR code" style="display:none;">
+        <a href="${originalUrl}" target="_blank" class="link-btn" onclick="event.stopPropagation();">Open Link</a>
+        <img src="${t.imageUrl}" class="qr-img task-image" alt="QR" style="display:none;">
       `;
     }
   }
-
-  // If it's a normal image (like a diagram or photo), show it normally
   return `<img src="${t.imageUrl}" class="task-image">`;
 }
   
