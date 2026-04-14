@@ -108,6 +108,45 @@
       .task-card { border: 1px solid #94a3b8 !important; page-break-inside: avoid; }
       @page { size: landscape; margin: 0.5in; }
     }
+
+  /* Rendering URLs from assignments  */  
+  .link-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 8px auto 4px;
+  padding: 8px 16px;
+  background: var(--primary);
+  color: white;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 10;
+  position: relative;
+}
+
+.link-btn:hover {
+  opacity: 0.9;
+  filter: brightness(1.1);
+}
+
+.link-btn::before {
+  content: '↗';
+  font-size: 0.9rem;
+}
+
+/* Ensure QR codes only show up on the printed page, not the screen */
+@media screen {
+  .qr-img { display: none; }
+}
+
+@media print {
+  .link-btn { display: none !important; }
+  .qr-img { display: block !important; margin: 5px auto; width: 50px; height: 50px; }
+}
   </style>
 </head>
 <body>
@@ -148,85 +187,107 @@
       });
   };
 
-  function render() {
-    if (!allData) return;
-    const studentName = document.getElementById('studentSelect').value;
-    const student = allData.studentData.find(s => s.student === studentName);
-    const isStatusMode = document.getElementById('statusToggle').checked;
+function render() {
+  if (!allData) return;
+  const studentName = document.getElementById('studentSelect').value;
+  const student = allData.studentData.find(s => s.student === studentName);
+  const isStatusMode = document.getElementById('statusToggle').checked;
+  
+  updateColors(student.palette);
+  
+  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+  const now = new Date();
+  const todayTs = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+
+  // Initialize Views
+  let tableHtml = `<div class="table-view"><div class="${isStatusMode ? 'status-mode' : ''}"><table><thead><tr><th>Subject</th>`;
+  days.forEach(d => tableHtml += `<th>${d}</th>`);
+  tableHtml += `</tr></thead><tbody>`;
+
+  let listHtml = `<div class="list-view"><div class="${isStatusMode ? 'status-mode' : ''}">`;
+  const tasksByDay = [[], [], [], [], []];
+
+  // Process Grid
+  student.grid.forEach(row => {
+    tableHtml += `<tr><td class="subject-cell">${row.subject}<span class="curriculum-subtitle">${row.curriculum || ''}</span></td>`;
     
-    updateColors(student.palette);
-    
-    // Build Table and List simultaneously
-    let tableHtml = `<div class="table-view"><div class="${isStatusMode ? 'status-mode' : ''}"><table><thead><tr><th>Subject</th>`;
-    let listHtml = `<div class="list-view"><div class="${isStatusMode ? 'status-mode' : ''}">`;
-
-    // Headers for table
-    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-    days.forEach(d => tableHtml += `<th>${d}</th>`);
-    tableHtml += `</tr></thead><tbody>`;
-
-    // Logic to determine "Late" or "Warning"
-    const now = new Date();
-    const todayTs = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
-
-    // Map tasks by day for List View
-    const tasksByDay = [ [], [], [], [], [] ];
-
-    student.grid.forEach(row => {
-      tableHtml += `<tr><td class="subject-cell">${row.subject}<span class="curriculum-subtitle">${row.curriculum || ''}</span></td>`;
+    row.tasks.forEach((t, idx) => {
+      if (idx > 4) return;
       
-      row.tasks.forEach((t, idx) => {
-        if (idx > 4) return; // Only Mon-Fri
-        const taskDate = new Date(t.rawDate).getTime();
-        let statusClass = '';
-        if (taskDate < todayTs) statusClass = 'due-late';
-        else if (taskDate === todayTs) statusClass = 'due-warning';
+      const taskDate = new Date(t.rawDate).getTime();
+      let statusClass = '';
+      if (taskDate < todayTs) statusClass = 'due-late';
+      else if (taskDate === todayTs) statusClass = 'due-warning';
 
-        const cardHtml = t.task || t.imageUrl ? `
-          <label class="task-card ${t.done ? 'is-done' : ''} ${statusClass}">
-            <div class="task-text">${t.task || ''}</div>
-            ${t.imageUrl ? `<img src="${t.imageUrl}" class="task-image">` : ''}
+      if (t.task || t.imageUrl) {
+        const isLinkOnly = t.imageUrl && t.imageUrl.includes('api.qrserver.com') && !t.task;
+        const media = renderMedia(t);
+        
+        // Build Table Cell
+        tableHtml += `<td>
+          <label class="task-card ${t.done ? 'is-done' : ''} ${statusClass} ${isLinkOnly ? 'link-only' : ''}">
+            ${!isLinkOnly ? `<div class="task-text">${t.task || ''}</div>` : ''}
+            ${media}
             <div class="status-indicator"></div>
             <input type="checkbox" class="check-overlay" ${t.done ? 'checked' : ''} onchange="toggle('${t.id}', this)">
-          </label>` : '';
+          </label>
+        </td>`;
 
-        tableHtml += `<td>${cardHtml}</td>`;
-        if (t.task || t.imageUrl) {
-          tasksByDay[idx].push({ ...t, subject: row.subject, statusClass });
-        }
-      });
-      tableHtml += `</tr>`;
+        // Store for List View
+        tasksByDay[idx].push({ ...t, subject: row.subject, curriculum: row.curriculum, statusClass, isLinkOnly });
+      } else {
+        tableHtml += `<td><div class="task-card" style="background:transparent;border:1px dashed #cbd5e1;cursor:default;"></div></td>`;
+      }
     });
+    tableHtml += `</tr>`;
+  });
 
-    // Build List View
-    tasksByDay.forEach((dayTasks, idx) => {
-      if (dayTasks.length === 0) return;
-      const doneCount = dayTasks.filter(t => t.done).length;
+  // Build List View
+  tasksByDay.forEach((dayTasks, idx) => {
+    if (dayTasks.length === 0) return;
+    const doneCount = dayTasks.filter(t => t.done).length;
+    
+    listHtml += `
+      <div class="day-block">
+        <div class="day-header">
+          <span class="day-name">${days[idx]}</span>
+          <span class="progress-pill">${doneCount} / ${dayTasks.length} done</span>
+        </div>`;
+
+    dayTasks.forEach(t => {
       listHtml += `
-        <div class="day-block">
-          <div class="day-header">
-            <span class="day-name">${days[idx]}</span>
-            <span class="progress-pill">${doneCount} / ${dayTasks.length} done</span>
-          </div>`;
-      dayTasks.forEach(t => {
-        listHtml += `
-          <label class="list-task-row ${t.done ? 'is-done' : ''} ${t.statusClass}">
-            <div class="list-checkbox"></div>
-            <div style="flex:1">
-              <div style="font-size:10px; font-weight:bold; color:var(--primary);">${t.subject}</div>
-              <div class="task-text" style="font-size:14px;">${t.task || ''}</div>
-            </div>
-            <input type="checkbox" class="check-overlay" ${t.done ? 'checked' : ''} onchange="toggle('${t.id}', this)">
-          </label>`;
-      });
-      listHtml += `</div>`;
+        <label class="list-task-row ${t.done ? 'is-done' : ''} ${t.statusClass} ${t.isLinkOnly ? 'link-only' : ''}">
+          <div class="list-checkbox"></div>
+          <div style="flex:1">
+            <div style="font-size:10px; font-weight:bold; color:var(--primary); text-transform:uppercase;">${t.subject}</div>
+            ${t.curriculum ? `<div style="font-size:10px; color:#94a3b8; margin-bottom:4px;">${t.curriculum}</div>` : ''}
+            ${!t.isLinkOnly ? `<div class="task-text" style="font-size:14px;">${t.task || ''}</div>` : ''}
+            ${renderMedia(t)}
+          </div>
+          <input type="checkbox" class="check-overlay" ${t.done ? 'checked' : ''} onchange="toggle('${t.id}', this)">
+        </label>`;
     });
+    listHtml += `</div>`;
+  });
 
-    tableHtml += `</tbody></table></div></div>`;
-    listHtml += `</div></div>`;
-    document.getElementById('content').innerHTML = tableHtml + listHtml;
+  tableHtml += `</tbody></table></div></div>`;
+  listHtml += `</div></div>`;
+  document.getElementById('content').innerHTML = tableHtml + listHtml;
+}
+
+function renderMedia(t) {
+  if (!t.imageUrl) return '';
+
+  if (t.imageUrl.includes('api.qrserver.com')) {
+    const match = t.imageUrl.match(/data=([^&]+)/);
+    const url = match ? decodeURIComponent(match[1]) : '#';
+    return `
+      <a href="${url}" target="_blank" class="link-btn" onclick="event.stopPropagation();">Open Link</a>
+      <img src="${t.imageUrl}" class="qr-img task-image" alt="QR" style="display:none;">
+    `;
   }
-
+  return `<img src="${t.imageUrl}" class="task-image">`;
+}
   function toggle(id, el) {
     const isDone = el.checked;
     fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}`, { mode: 'no-cors' });
@@ -246,6 +307,8 @@
     root.style.setProperty('--secondary', palette.secondary);
     root.style.setProperty('--bg', palette.bg || '#f8fafc');
   }
+
+
 </script>
 </body>
 </html>
