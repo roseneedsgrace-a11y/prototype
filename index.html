@@ -298,20 +298,24 @@ function render() {
 }
 
 function renderMedia(t) {
-  if (!t.imageUrl) return '';
+  let html = '';
 
-  // Extract link from QR code URL if present
-  if (t.imageUrl.includes('api.qrserver.com')) {
-    const urlMatch = t.imageUrl.match(/data=([^&]+)/);
-    if (urlMatch && urlMatch[1]) {
-      const originalUrl = decodeURIComponent(urlMatch[1]);
-      return `
-        <a href="${originalUrl}" target="_blank" class="link-btn" onclick="event.stopPropagation();">Open Link</a>
-        <img src="${t.imageUrl}" class="qr-img task-image" alt="QR" style="display:none;">
-      `;
-    }
+  // 1. If there's a specific link provided, create the button
+  if (t.linkUrl) {
+    html += `
+      <a href="${t.linkUrl}" target="_blank" class="link-btn" onclick="event.stopPropagation();">
+        Open Link
+      </a>`;
   }
-  return `<img src="${t.imageUrl}" class="task-image">`;
+
+  // 2. If there's an image (QR or otherwise), include it
+  // The 'qr-img' class keeps it hidden on screen but visible for printing
+  if (t.imageUrl) {
+    const isQR = t.imageUrl.includes('api.qrserver.com');
+    html += `<img src="${t.imageUrl}" class="${isQR ? 'qr-img' : ''} task-image" alt="Task Media">`;
+  }
+
+  return html;
 }
   
 function toggle(id, el) {
