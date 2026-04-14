@@ -138,6 +138,33 @@
   font-size: 0.9rem;
 }
 
+/* Ensure the card has a footprint when it only contains a link */
+.task-card.link-only {
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.media-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-card {
+  background: transparent;
+  border: 1px dashed #cbd5e1;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Make sure the link button doesn't look like a tiny sliver */
+.link-btn {
+  min-width: 100px;
+  text-align: center;
+}
+
 /* Ensure QR codes only show up on the printed page, not the screen */
 @media screen {
   .qr-img { display: none; }
@@ -199,7 +226,6 @@ function render() {
   const now = new Date();
   const todayTs = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
 
-  // Initialize Views
   let tableHtml = `<div class="table-view"><div class="${isStatusMode ? 'status-mode' : ''}"><table><thead><tr><th>Subject</th>`;
   days.forEach(d => tableHtml += `<th>${d}</th>`);
   tableHtml += `</tr></thead><tbody>`;
@@ -207,7 +233,6 @@ function render() {
   let listHtml = `<div class="list-view"><div class="${isStatusMode ? 'status-mode' : ''}">`;
   const tasksByDay = [[], [], [], [], []];
 
-  // Process Grid
   student.grid.forEach(row => {
     tableHtml += `<tr><td class="subject-cell">${row.subject}<span class="curriculum-subtitle">${row.curriculum || ''}</span></td>`;
     
@@ -219,40 +244,33 @@ function render() {
       if (taskDate < todayTs) statusClass = 'due-late';
       else if (taskDate === todayTs) statusClass = 'due-warning';
 
+      // CRITICAL: Check if there is either text OR an image/URL
       if (t.task || t.imageUrl) {
-        const isLinkOnly = t.imageUrl && t.imageUrl.includes('api.qrserver.com') && !t.task;
+        const isLinkOnly = t.imageUrl && t.imageUrl.includes('api.qrserver.com') && (!t.task || t.task.trim() === "");
         const media = renderMedia(t);
         
-        // Build Table Cell
         tableHtml += `<td>
           <label class="task-card ${t.done ? 'is-done' : ''} ${statusClass} ${isLinkOnly ? 'link-only' : ''}">
             ${!isLinkOnly ? `<div class="task-text">${t.task || ''}</div>` : ''}
-            ${media}
+            <div class="media-container">${media}</div>
             <div class="status-indicator"></div>
             <input type="checkbox" class="check-overlay" ${t.done ? 'checked' : ''} onchange="toggle('${t.id}', this)">
           </label>
         </td>`;
 
-        // Store for List View
         tasksByDay[idx].push({ ...t, subject: row.subject, curriculum: row.curriculum, statusClass, isLinkOnly });
       } else {
-        tableHtml += `<td><div class="task-card" style="background:transparent;border:1px dashed #cbd5e1;cursor:default;"></div></td>`;
+        tableHtml += `<td><div class="task-card empty-card"></div></td>`;
       }
     });
     tableHtml += `</tr>`;
   });
 
-  // Build List View
+  // List View Construction
   tasksByDay.forEach((dayTasks, idx) => {
     if (dayTasks.length === 0) return;
     const doneCount = dayTasks.filter(t => t.done).length;
-    
-    listHtml += `
-      <div class="day-block">
-        <div class="day-header">
-          <span class="day-name">${days[idx]}</span>
-          <span class="progress-pill">${doneCount} / ${dayTasks.length} done</span>
-        </div>`;
+    listHtml += `<div class="day-block"><div class="day-header"><span class="day-name">${days[idx]}</span><span class="progress-pill">${doneCount} / ${dayTasks.length} done</span></div>`;
 
     dayTasks.forEach(t => {
       listHtml += `
@@ -275,6 +293,7 @@ function render() {
   document.getElementById('content').innerHTML = tableHtml + listHtml;
 }
 
+  
 function renderMedia(t) {
   if (!t.imageUrl) return '';
 
