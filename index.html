@@ -278,17 +278,29 @@ function render() {
 function renderMedia(t) {
   if (!t.imageUrl) return '';
 
+  // Check if the script turned your URL into a QR code
   if (t.imageUrl.includes('api.qrserver.com')) {
-    const match = t.imageUrl.match(/data=([^&]+)/);
-    const url = match ? decodeURIComponent(match[1]) : '#';
-    return `
-      <a href="${url}" target="_blank" class="link-btn" onclick="event.stopPropagation();">Open Link</a>
-      <img src="${t.imageUrl}" class="qr-img task-image" alt="QR" style="display:none;">
-    `;
+    
+    // This regex looks for everything after "data=" and before the next "&"
+    const urlMatch = t.imageUrl.match(/data=([^&]+)/);
+    
+    if (urlMatch && urlMatch[1]) {
+      const originalUrl = decodeURIComponent(urlMatch[1]);
+      
+      return `
+        <a href="${originalUrl}" target="_blank" class="link-btn" onclick="event.stopPropagation();">
+          Open Link
+        </a>
+        <img src="${t.imageUrl}" class="qr-img task-image" alt="QR code" style="display:none;">
+      `;
+    }
   }
+
+  // If it's a normal image (like a diagram or photo), show it normally
   return `<img src="${t.imageUrl}" class="task-image">`;
 }
-  function toggle(id, el) {
+  
+function toggle(id, el) {
     const isDone = el.checked;
     fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}`, { mode: 'no-cors' });
     // Instant UI feedback: update all instances of this task ID
