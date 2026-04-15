@@ -85,6 +85,12 @@
   currentDate.setHours(0, 0, 0, 0);
   let allData = null;
 
+    window.addEventListener('storage', function(e) {
+      if (e.key === 'local_progress') {
+        renderForDate(currentDate);
+      }
+    });
+  
   window.onload = function() {
     fetch('data.json?v=' + new Date().getTime())
       .then(r => {
