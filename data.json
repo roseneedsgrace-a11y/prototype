@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-14T14:31:00.222Z",
+  "generated": "2026-04-15T01:14:12.165Z",
   "date": "Tuesday, April 14",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
@@ -42,7 +42,7 @@
       "student": "Brent",
       "palette": {
         "primary": "#708090",
-        "secondary": "#002868",
+        "secondary": "#4682B4",
         "bg": "#F0F8FF"
       },
       "weekNum": 35,
@@ -58,6 +58,7 @@
               "week": 34,
               "task": "Read \"Relationships\": Ch. 3 (pp. 17-28)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Bible-Mon"
             },
@@ -68,6 +69,7 @@
               "week": 34,
               "task": "Read \"Relationships\": Ch. 4 (pp. 29-39)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-Bible-Tue"
             },
@@ -78,6 +80,7 @@
               "week": 34,
               "task": "Read \"Relationships\": Ch. 5 (pp. 40-50)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-Bible-Wed"
             },
@@ -88,6 +91,7 @@
               "week": 34,
               "task": "Read \"Relationships\": Ch. 6 (pp. 51-62)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-Bible-Thu"
             },
@@ -98,6 +102,7 @@
               "week": 34,
               "task": "Write 10 key details from the chapters.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-Bible-Fri"
             },
@@ -108,6 +113,7 @@
               "week": 35,
               "task": "Read \"Relationships\": Ch. 7 (pp. 63-71)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Bible-Mon"
             },
@@ -118,6 +124,7 @@
               "week": 35,
               "task": "Read \"Relationships\": Ch. 8 (pp. 72-84)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Bible-Tue"
             },
@@ -128,6 +135,7 @@
               "week": 35,
               "task": "Read \"Relationships\": Ch. 9 (pp. 85-97)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Bible-Wed"
             },
@@ -138,6 +146,7 @@
               "week": 35,
               "task": "Read \"Relationships\": Ch. 10 (pp. 98-108)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Bible-Thu"
             },
@@ -148,6 +157,7 @@
               "week": 35,
               "task": "Write 10 key details from the chapters.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Bible-Fri"
             },
@@ -158,6 +168,7 @@
               "week": 36,
               "task": "Read \"Relationships\": Ch. 11 (pp. 109-121)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Bible-Mon"
             },
@@ -168,6 +179,7 @@
               "week": 36,
               "task": "Read \"Relationships\": Ch. 12 (pp. 122-131)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Bible-Tue"
             },
@@ -178,6 +190,7 @@
               "week": 36,
               "task": "Review \"Relationships\" Ch. 1-12 / Catch-up",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Bible-Wed"
             },
@@ -188,6 +201,7 @@
               "week": 36,
               "task": "Read \"Relationships\": Ch. 13 (pp. 132-143)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Bible-Thu"
             },
@@ -198,6 +212,7 @@
               "week": 36,
               "task": "Write 10 key details from the chapters.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Bible-Fri"
             }
@@ -214,6 +229,7 @@
               "week": 34,
               "task": "🧭 24.3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-History-Mon"
             },
@@ -224,6 +240,7 @@
               "week": 34,
               "task": "🧭 24.4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-History-Tue"
             },
@@ -234,6 +251,7 @@
               "week": 34,
               "task": "🧭 24.5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-History-Wed"
             },
@@ -244,6 +262,7 @@
               "week": 34,
               "task": "🧭 25.1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-History-Thu"
             },
@@ -254,6 +273,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-History-Fri"
             },
@@ -264,6 +284,7 @@
               "week": 35,
               "task": "🧭 25.2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W35-History-Mon"
             },
@@ -274,6 +295,7 @@
               "week": 35,
               "task": "🧭 25.3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-History-Tue"
             },
@@ -284,6 +306,7 @@
               "week": 35,
               "task": "🧭 25.4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W35-History-Wed"
             },
@@ -294,6 +317,7 @@
               "week": 35,
               "task": "🧭 25.5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-History-Thu"
             },
@@ -304,6 +328,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-History-Fri"
             },
@@ -314,6 +339,7 @@
               "week": 36,
               "task": "🧭 26.1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-History-Mon"
             },
@@ -324,6 +350,7 @@
               "week": 36,
               "task": "🧭 26.2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-History-Tue"
             },
@@ -334,6 +361,7 @@
               "week": 36,
               "task": "🧭 26.3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-History-Wed"
             },
@@ -344,6 +372,7 @@
               "week": 36,
               "task": "🧭 26.4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-History-Thu"
             },
@@ -354,6 +383,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-History-Fri"
             }
@@ -370,6 +400,7 @@
               "week": 34,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-English-Mon"
             },
@@ -380,6 +411,7 @@
               "week": 34,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-English-Tue"
             },
@@ -390,6 +422,7 @@
               "week": 34,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-English-Wed"
             },
@@ -400,6 +433,7 @@
               "week": 34,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-English-Thu"
             },
@@ -410,6 +444,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-English-Fri"
             },
@@ -420,7 +455,8 @@
               "week": 35,
               "task": "Lesson & Paper",
               "imageUrl": null,
-              "done": false,
+              "linkUrl": null,
+              "done": true,
               "id": "Brent-W35-English-Mon"
             },
             {
@@ -430,6 +466,7 @@
               "week": 35,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W35-English-Tue"
             },
@@ -440,6 +477,7 @@
               "week": 35,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-English-Wed"
             },
@@ -450,6 +488,7 @@
               "week": 35,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-English-Thu"
             },
@@ -460,6 +499,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-English-Fri"
             },
@@ -470,6 +510,7 @@
               "week": 36,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-English-Mon"
             },
@@ -480,6 +521,7 @@
               "week": 36,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-English-Tue"
             },
@@ -490,6 +532,7 @@
               "week": 36,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-English-Wed"
             },
@@ -500,6 +543,7 @@
               "week": 36,
               "task": "Lesson & Paper",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-English-Thu"
             },
@@ -510,6 +554,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-English-Fri"
             }
@@ -526,6 +571,7 @@
               "week": 34,
               "task": "Lesson 30",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Foreign Language-Mon"
             },
@@ -536,6 +582,7 @@
               "week": 34,
               "task": "Lesson 30 Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-Foreign Language-Tue"
             },
@@ -546,6 +593,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Foreign Language-Wed"
             },
@@ -556,6 +604,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Foreign Language-Thu"
             },
@@ -566,6 +615,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Foreign Language-Fri"
             },
@@ -576,6 +626,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Foreign Language-Mon"
             },
@@ -586,6 +637,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Foreign Language-Tue"
             },
@@ -596,6 +648,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Foreign Language-Wed"
             },
@@ -606,6 +659,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Foreign Language-Thu"
             },
@@ -616,6 +670,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Foreign Language-Fri"
             },
@@ -626,6 +681,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Foreign Language-Mon"
             },
@@ -636,6 +692,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Foreign Language-Tue"
             },
@@ -646,6 +703,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Foreign Language-Wed"
             },
@@ -656,6 +714,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Foreign Language-Thu"
             },
@@ -666,6 +725,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Foreign Language-Fri"
             }
@@ -682,6 +742,7 @@
               "week": 34,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Physical Training-Mon"
             },
@@ -692,6 +753,7 @@
               "week": 34,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Physical Training-Tue"
             },
@@ -702,6 +764,7 @@
               "week": 34,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Physical Training-Wed"
             },
@@ -712,6 +775,7 @@
               "week": 34,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Physical Training-Thu"
             },
@@ -722,6 +786,7 @@
               "week": 34,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Physical Training-Fri"
             },
@@ -732,6 +797,7 @@
               "week": 35,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Physical Training-Mon"
             },
@@ -742,6 +808,7 @@
               "week": 35,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Physical Training-Tue"
             },
@@ -752,6 +819,7 @@
               "week": 35,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Physical Training-Wed"
             },
@@ -762,6 +830,7 @@
               "week": 35,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Physical Training-Thu"
             },
@@ -772,6 +841,7 @@
               "week": 35,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Physical Training-Fri"
             },
@@ -782,6 +852,7 @@
               "week": 36,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Physical Training-Mon"
             },
@@ -792,6 +863,7 @@
               "week": 36,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Physical Training-Tue"
             },
@@ -802,6 +874,7 @@
               "week": 36,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Physical Training-Wed"
             },
@@ -812,6 +885,7 @@
               "week": 36,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Physical Training-Thu"
             },
@@ -822,6 +896,7 @@
               "week": 36,
               "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Physical Training-Fri"
             }
@@ -838,6 +913,7 @@
               "week": 34,
               "task": "Final Review",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Math-Mon"
             },
@@ -848,6 +924,7 @@
               "week": 34,
               "task": "Exam 4 & Print Certificate of Completion*",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-Math-Tue"
             },
@@ -858,6 +935,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Math-Wed"
             },
@@ -868,6 +946,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Math-Thu"
             },
@@ -878,6 +957,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Math-Fri"
             },
@@ -888,6 +968,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Math-Mon"
             },
@@ -898,6 +979,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Math-Tue"
             },
@@ -908,6 +990,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Math-Wed"
             },
@@ -918,6 +1001,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Math-Thu"
             },
@@ -928,6 +1012,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Math-Fri"
             },
@@ -938,6 +1023,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Math-Mon"
             },
@@ -948,6 +1034,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Math-Tue"
             },
@@ -958,6 +1045,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Math-Wed"
             },
@@ -968,6 +1056,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Math-Thu"
             },
@@ -978,6 +1067,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Math-Fri"
             }
@@ -994,6 +1084,7 @@
               "week": 34,
               "task": "Understanding Capitalism: Lesson/Quiz #6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Citizenship-Mon"
             },
@@ -1004,6 +1095,7 @@
               "week": 34,
               "task": "Understanding Capitalism: Lesson/Quiz #7",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-Citizenship-Tue"
             },
@@ -1014,6 +1106,7 @@
               "week": 34,
               "task": "Understanding Capitalism: Final Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Brent-W34-Citizenship-Wed"
             },
@@ -1024,6 +1117,7 @@
               "week": 34,
               "task": "Record your class grade: ________",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Citizenship-Thu"
             },
@@ -1034,6 +1128,7 @@
               "week": 34,
               "task": "Supply Side Economics: Lesson/Quiz #1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W34-Citizenship-Fri"
             },
@@ -1044,6 +1139,7 @@
               "week": 35,
               "task": "Supply Side Economics: Lesson/Quiz #2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Citizenship-Mon"
             },
@@ -1054,6 +1150,7 @@
               "week": 35,
               "task": "Supply Side Economics: Lesson/Quiz #3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Citizenship-Tue"
             },
@@ -1064,6 +1161,7 @@
               "week": 35,
               "task": "Supply Side Economics: Lesson/Quiz #4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Citizenship-Wed"
             },
@@ -1074,6 +1172,7 @@
               "week": 35,
               "task": "Supply Side Economics: Lesson/Quiz #5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Citizenship-Thu"
             },
@@ -1084,6 +1183,7 @@
               "week": 35,
               "task": "Supply Side Economics: Lesson/Quiz #6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W35-Citizenship-Fri"
             },
@@ -1094,6 +1194,7 @@
               "week": 36,
               "task": "Supply Side Economics: Lesson/Quiz #7",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Citizenship-Mon"
             },
@@ -1104,6 +1205,7 @@
               "week": 36,
               "task": "Supply Side Economics: Lesson/Quiz #8",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Citizenship-Tue"
             },
@@ -1114,6 +1216,7 @@
               "week": 36,
               "task": "Supply Side Economics: Take Final Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Citizenship-Wed"
             },
@@ -1124,6 +1227,7 @@
               "week": 36,
               "task": "Record overall class score: _______",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Citizenship-Thu"
             },
@@ -1134,6 +1238,7 @@
               "week": 36,
               "task": "Average all three Hillsdale Course scores together: ________",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Brent-W36-Citizenship-Fri"
             }
@@ -1161,6 +1266,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Bible-Tue"
             },
@@ -1171,6 +1277,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Bible-Wed"
             },
@@ -1181,6 +1288,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Bible-Thu"
             },
@@ -1191,6 +1299,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Bible-Fri"
             },
@@ -1201,6 +1310,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Bible-Mon"
             },
@@ -1211,6 +1321,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q35",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Bible-Tue"
             },
@@ -1221,6 +1332,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q35",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Bible-Wed"
             },
@@ -1231,6 +1343,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q35",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Bible-Thu"
             },
@@ -1241,6 +1354,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q35",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Bible-Fri"
             },
@@ -1251,6 +1365,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q35",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Bible-Mon"
             },
@@ -1261,6 +1376,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q36",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Bible-Tue"
             },
@@ -1271,6 +1387,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q36",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Bible-Wed"
             },
@@ -1281,6 +1398,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q36",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Bible-Thu"
             },
@@ -1291,6 +1409,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q36",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Bible-Fri"
             },
@@ -1301,6 +1420,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q36",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Bible-Mon"
             }
@@ -1317,6 +1437,7 @@
               "week": 34,
               "task": "Lesson 116",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Saxon Math-Tue"
             },
@@ -1327,6 +1448,7 @@
               "week": 34,
               "task": "Lesson 117",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Saxon Math-Wed"
             },
@@ -1337,6 +1459,7 @@
               "week": 34,
               "task": "Lesson 118",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Saxon Math-Thu"
             },
@@ -1347,6 +1470,7 @@
               "week": 34,
               "task": "Lesson 119",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Saxon Math-Fri"
             },
@@ -1357,6 +1481,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Saxon Math-Mon"
             },
@@ -1367,6 +1492,7 @@
               "week": 35,
               "task": "Lesson 120",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Saxon Math-Tue"
             },
@@ -1377,6 +1503,7 @@
               "week": 35,
               "task": "Assessment (after Lesson 120)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Saxon Math-Wed"
             },
@@ -1387,6 +1514,7 @@
               "week": 35,
               "task": "Lesson 121",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Saxon Math-Thu"
             },
@@ -1397,6 +1525,7 @@
               "week": 35,
               "task": "Lesson 122",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Saxon Math-Fri"
             },
@@ -1407,6 +1536,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Saxon Math-Mon"
             },
@@ -1417,6 +1547,7 @@
               "week": 36,
               "task": "Lesson 123",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Saxon Math-Tue"
             },
@@ -1427,6 +1558,7 @@
               "week": 36,
               "task": "Lesson 124",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Saxon Math-Wed"
             },
@@ -1437,6 +1569,7 @@
               "week": 36,
               "task": "Lesson 125",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Saxon Math-Thu"
             },
@@ -1447,6 +1580,7 @@
               "week": 36,
               "task": "Drill Team Practice",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Saxon Math-Fri"
             },
@@ -1457,6 +1591,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Saxon Math-Mon"
             }
@@ -1473,6 +1608,7 @@
               "week": 34,
               "task": "Read Vol. 2, Ch. 13, pp. 256-260",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-History-Tue"
             },
@@ -1483,6 +1619,7 @@
               "week": 34,
               "task": "Read Vol. 2, Ch. 13, pp. 261-265",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-History-Wed"
             },
@@ -1493,6 +1630,7 @@
               "week": 34,
               "task": "Read Vol. 2, Ch. 13, pp. 266-271 (finishes Ch. 13, starts Ch. 14)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-History-Thu"
             },
@@ -1503,6 +1641,7 @@
               "week": 34,
               "task": "Read Vol. 2, Ch. 14, pp. 272-277",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-History-Fri"
             },
@@ -1513,6 +1652,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-History-Mon"
             },
@@ -1523,6 +1663,7 @@
               "week": 35,
               "task": "Read Vol. 2, Ch. 14, pp. 278-282",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-History-Tue"
             },
@@ -1533,6 +1674,7 @@
               "week": 35,
               "task": "Read Vol. 2, Ch. 14, pp. 283-287",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-History-Wed"
             },
@@ -1543,6 +1685,7 @@
               "week": 35,
               "task": "Read Vol. 2, Ch. 14, pp. 288-292",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-History-Thu"
             },
@@ -1553,6 +1696,7 @@
               "week": 35,
               "task": "Read Vol. 2, pp. 293-298 (finishes Ch. 14, starts Ch. 15)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-History-Fri"
             },
@@ -1563,6 +1707,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-History-Mon"
             },
@@ -1573,6 +1718,7 @@
               "week": 36,
               "task": "Read Vol. 2, Ch. 15, pp. 299-303",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-History-Tue"
             },
@@ -1583,6 +1729,7 @@
               "week": 36,
               "task": "Read Vol. 2, Ch. 15, pp. 304-308",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-History-Wed"
             },
@@ -1593,6 +1740,7 @@
               "week": 36,
               "task": "Read Vol. 2, Ch. 15, pp. 309-313",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-History-Thu"
             },
@@ -1603,6 +1751,7 @@
               "week": 36,
               "task": "Read Vol. 2, Ch. 15, pp. 314-319 (finishes Ch. 15, starts Ch. 16)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-History-Fri"
             },
@@ -1613,6 +1762,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-History-Mon"
             }
@@ -1629,6 +1779,7 @@
               "week": 34,
               "task": "Read Chap. from Christian Heroes book.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Literature-Tue"
             },
@@ -1639,6 +1790,7 @@
               "week": 34,
               "task": "Read Chap. from Christian Heroes book.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Literature-Wed"
             },
@@ -1649,6 +1801,7 @@
               "week": 34,
               "task": "Read Chapter 16: What Happened About the Statues",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Literature-Thu"
             },
@@ -1659,6 +1812,7 @@
               "week": 34,
               "task": "Discuss chapter w/mom and Narnia book",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Literature-Fri"
             },
@@ -1669,6 +1823,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Literature-Mon"
             },
@@ -1679,6 +1834,7 @@
               "week": 35,
               "task": "Read Chap. from Christian Heroes book.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Literature-Tue"
             },
@@ -1689,6 +1845,7 @@
               "week": 35,
               "task": "Read Chap. from Christian Heroes book.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Literature-Wed"
             },
@@ -1699,6 +1856,7 @@
               "week": 35,
               "task": "Read Chapter 17: The Hunting of the White Stag",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Literature-Thu"
             },
@@ -1709,6 +1867,7 @@
               "week": 35,
               "task": "Discuss chapter w/mom and Narnia book",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Literature-Fri"
             },
@@ -1719,6 +1878,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Literature-Mon"
             },
@@ -1729,6 +1889,7 @@
               "week": 36,
               "task": "Read Chap. from Christian Heroes book.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Literature-Tue"
             },
@@ -1739,6 +1900,7 @@
               "week": 36,
               "task": "Read Chap. from Christian Heroes book.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Literature-Wed"
             },
@@ -1749,6 +1911,7 @@
               "week": 36,
               "task": "Read Chapter 1: How Shasta Set Out on His Travels",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Literature-Thu"
             },
@@ -1759,6 +1922,7 @@
               "week": 36,
               "task": "Discuss chapter w/mom and Narnia book",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Literature-Fri"
             },
@@ -1769,6 +1933,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Literature-Mon"
             }
@@ -1785,6 +1950,7 @@
               "week": 34,
               "task": "Lesson Jingles EACH day. Complete Ch. 22, Lesson 1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Grammar-Tue"
             },
@@ -1795,6 +1961,7 @@
               "week": 34,
               "task": "Lesson Jingles EACH day. Complete Ch. 22, Lesson 2 & Lesson 3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Grammar-Wed"
             },
@@ -1805,6 +1972,7 @@
               "week": 34,
               "task": "Lesson Jingles EACH day. Complete Ch. 22, Lesson 4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Grammar-Thu"
             },
@@ -1815,6 +1983,7 @@
               "week": 34,
               "task": "Lesson Jingles EACH day. Complete Ch. 22, Lesson 5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Grammar-Fri"
             },
@@ -1825,6 +1994,7 @@
               "week": 34,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fyoutu.be%2FGLmjfJyZ-iM%3Fsi%3DFGqogPFs1XasxyEC",
+              "linkUrl": "https://youtu.be/GLmjfJyZ-iM?si=FGqogPFs1XasxyEC",
               "done": false,
               "id": "Emily-W34-Grammar-Mon"
             },
@@ -1835,6 +2005,7 @@
               "week": 35,
               "task": "Lesson Jingles EACH day. Complete Ch. 22, Lesson 6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Grammar-Tue"
             },
@@ -1845,6 +2016,7 @@
               "week": 35,
               "task": "Lesson Jingles EACH day. Complete Ch. 23, Lesson 1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Grammar-Wed"
             },
@@ -1855,6 +2027,7 @@
               "week": 35,
               "task": "Lesson Jingles EACH day. Complete Ch. 23, Lesson 2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Grammar-Thu"
             },
@@ -1865,6 +2038,7 @@
               "week": 35,
               "task": "Lesson Jingles EACH day. Complete Ch. 23, Lesson 3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Grammar-Fri"
             },
@@ -1875,6 +2049,7 @@
               "week": 35,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fyoutu.be%2FGLmjfJyZ-iM%3Fsi%3DFGqogPFs1XasxyEC",
+              "linkUrl": "https://youtu.be/GLmjfJyZ-iM?si=FGqogPFs1XasxyEC",
               "done": false,
               "id": "Emily-W35-Grammar-Mon"
             },
@@ -1885,6 +2060,7 @@
               "week": 36,
               "task": "Lesson Jingles EACH day. Complete Ch. 23, Lesson 4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Grammar-Tue"
             },
@@ -1895,6 +2071,7 @@
               "week": 36,
               "task": "Lesson Jingles EACH day. Complete Ch. 23, Lesson 5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Grammar-Wed"
             },
@@ -1905,6 +2082,7 @@
               "week": 36,
               "task": "Lesson Jingles EACH day. Complete Ch. 23, Lesson 6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Grammar-Thu"
             },
@@ -1915,6 +2093,7 @@
               "week": 36,
               "task": "Lesson Jingles EACH day. Complete Ch. 23, Lesson 7",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Grammar-Fri"
             },
@@ -1925,6 +2104,7 @@
               "week": 36,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fyoutu.be%2FGLmjfJyZ-iM%3Fsi%3DFGqogPFs1XasxyEC",
+              "linkUrl": "https://youtu.be/GLmjfJyZ-iM?si=FGqogPFs1XasxyEC",
               "done": false,
               "id": "Emily-W36-Grammar-Mon"
             }
@@ -1941,6 +2121,7 @@
               "week": 34,
               "task": "Complete p. 96",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Handwriting-Tue"
             },
@@ -1951,6 +2132,7 @@
               "week": 34,
               "task": "Complete p. 97",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Handwriting-Wed"
             },
@@ -1961,6 +2143,7 @@
               "week": 34,
               "task": "Complete p. 98",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Handwriting-Thu"
             },
@@ -1971,6 +2154,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Handwriting-Fri"
             },
@@ -1981,6 +2165,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W34-Handwriting-Mon"
             },
@@ -1991,6 +2176,7 @@
               "week": 35,
               "task": "Complete p. 99",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Handwriting-Tue"
             },
@@ -2001,6 +2187,7 @@
               "week": 35,
               "task": "Complete p. 100",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Handwriting-Wed"
             },
@@ -2011,6 +2198,7 @@
               "week": 35,
               "task": "Complete p. 101",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Handwriting-Thu"
             },
@@ -2021,6 +2209,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Handwriting-Fri"
             },
@@ -2031,6 +2220,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W35-Handwriting-Mon"
             },
@@ -2041,6 +2231,7 @@
               "week": 36,
               "task": "Complete p. 102",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Handwriting-Tue"
             },
@@ -2051,6 +2242,7 @@
               "week": 36,
               "task": "Complete p. 103 (Last page)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Handwriting-Wed"
             },
@@ -2061,6 +2253,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Handwriting-Thu"
             },
@@ -2071,6 +2264,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Handwriting-Fri"
             },
@@ -2081,6 +2275,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Handwriting-Mon"
             }
@@ -2108,6 +2303,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q32",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Bible-Tue"
             },
@@ -2118,6 +2314,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q32",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Bible-Wed"
             },
@@ -2128,6 +2325,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q32",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Bible-Thu"
             },
@@ -2138,6 +2336,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q32",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Bible-Fri"
             },
@@ -2148,6 +2347,7 @@
               "week": 34,
               "task": "The Ology, BIble Reading, Catechism Q32",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Bible-Sat"
             },
@@ -2158,6 +2358,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q33",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Bible-Tue"
             },
@@ -2168,6 +2369,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q33",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Bible-Wed"
             },
@@ -2178,6 +2380,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q33",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Bible-Thu"
             },
@@ -2188,6 +2391,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q33",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Bible-Fri"
             },
@@ -2198,6 +2402,7 @@
               "week": 35,
               "task": "The Ology, BIble Reading, Catechism Q33",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Bible-Sat"
             },
@@ -2208,6 +2413,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Bible-Tue"
             },
@@ -2218,6 +2424,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Bible-Wed"
             },
@@ -2228,6 +2435,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Bible-Thu"
             },
@@ -2238,6 +2446,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Bible-Fri"
             },
@@ -2248,6 +2457,7 @@
               "week": 36,
               "task": "The Ology, BIble Reading, Catechism Q34",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Bible-Sat"
             }
@@ -2264,6 +2474,7 @@
               "week": 34,
               "task": "Drill Team & Lesson 49",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Mammoth Math-Tue"
             },
@@ -2274,6 +2485,7 @@
               "week": 34,
               "task": "Drill Team & Lesson 50",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Mammoth Math-Wed"
             },
@@ -2284,6 +2496,7 @@
               "week": 34,
               "task": "Drill Team & Investigation 5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Mammoth Math-Thu"
             },
@@ -2294,6 +2507,7 @@
               "week": 34,
               "task": "Drill Team & Lesson 51",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Mammoth Math-Fri"
             },
@@ -2304,6 +2518,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Mammoth Math-Sat"
             },
@@ -2314,6 +2529,7 @@
               "week": 35,
               "task": "Drill Team & Lesson 52",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Mammoth Math-Tue"
             },
@@ -2324,6 +2540,7 @@
               "week": 35,
               "task": "Drill Team & Lesson 53",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Mammoth Math-Wed"
             },
@@ -2334,6 +2551,7 @@
               "week": 35,
               "task": "Drill Team & Lesson 54",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Mammoth Math-Thu"
             },
@@ -2344,6 +2562,7 @@
               "week": 35,
               "task": "Drill Team & Lesson 55",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Mammoth Math-Fri"
             },
@@ -2354,6 +2573,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Mammoth Math-Sat"
             },
@@ -2364,6 +2584,7 @@
               "week": 36,
               "task": "Drill Team & Lesson 56",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Mammoth Math-Tue"
             },
@@ -2374,6 +2595,7 @@
               "week": 36,
               "task": "Drill Team & Lesson 57",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Mammoth Math-Wed"
             },
@@ -2384,6 +2606,7 @@
               "week": 36,
               "task": "Drill Team & Lesson 58",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Mammoth Math-Thu"
             },
@@ -2394,6 +2617,7 @@
               "week": 36,
               "task": "Drill Team & Lesson 59",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Mammoth Math-Fri"
             },
@@ -2404,6 +2628,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Mammoth Math-Sat"
             }
@@ -2420,6 +2645,7 @@
               "week": 34,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-History-Tue"
             },
@@ -2430,6 +2656,7 @@
               "week": 34,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-History-Wed"
             },
@@ -2440,6 +2667,7 @@
               "week": 34,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-History-Thu"
             },
@@ -2450,6 +2678,7 @@
               "week": 34,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-History-Fri"
             },
@@ -2460,6 +2689,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-History-Sat"
             },
@@ -2470,6 +2700,7 @@
               "week": 35,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W35-History-Tue"
             },
@@ -2480,6 +2711,7 @@
               "week": 35,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-History-Wed"
             },
@@ -2490,6 +2722,7 @@
               "week": 35,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-History-Thu"
             },
@@ -2500,6 +2733,7 @@
               "week": 35,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-History-Fri"
             },
@@ -2510,6 +2744,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-History-Sat"
             },
@@ -2520,6 +2755,7 @@
               "week": 36,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-History-Tue"
             },
@@ -2530,6 +2766,7 @@
               "week": 36,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-History-Wed"
             },
@@ -2540,6 +2777,7 @@
               "week": 36,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-History-Thu"
             },
@@ -2550,6 +2788,7 @@
               "week": 36,
               "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-History-Fri"
             },
@@ -2560,6 +2799,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-History-Sat"
             }
@@ -2576,6 +2816,7 @@
               "week": 34,
               "task": "Trust and Obey (p. 166) - The Story & Hymn Study & Bible Lesson",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Music-Tue"
             },
@@ -2586,6 +2827,7 @@
               "week": 34,
               "task": "Trust and Obey (p. 166) - Copywork",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Music-Wed"
             },
@@ -2596,6 +2838,7 @@
               "week": 34,
               "task": "Trust and Obey (p. 166) - Music Theory & Practice",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Music-Thu"
             },
@@ -2606,6 +2849,7 @@
               "week": 34,
               "task": "Trust and Obey (p. 166) - Activity",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Music-Fri"
             },
@@ -2616,6 +2860,7 @@
               "week": 34,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
+              "linkUrl": "https://drive.google.com/drive/folders/1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
               "done": false,
               "id": "Grace-W34-Music-Sat"
             },
@@ -2626,6 +2871,7 @@
               "week": 35,
               "task": "When We All Get to Heaven (p. 172) - The Story & Hymn Study",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W35-Music-Tue"
             },
@@ -2636,6 +2882,7 @@
               "week": 35,
               "task": "When We All Get to Heaven (p. 172) - Bible Lesson",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Music-Wed"
             },
@@ -2646,6 +2893,7 @@
               "week": 35,
               "task": "When We All Get to Heaven (p. 172) - Copywork & Music Theory",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Music-Thu"
             },
@@ -2656,6 +2904,7 @@
               "week": 35,
               "task": "When We All Get to Heaven (p. 172) - Activity",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Music-Fri"
             },
@@ -2666,6 +2915,7 @@
               "week": 35,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
+              "linkUrl": "https://drive.google.com/drive/folders/1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
               "done": false,
               "id": "Grace-W35-Music-Sat"
             },
@@ -2676,6 +2926,7 @@
               "week": 36,
               "task": "When We All Get to Heaven (p. 172) - Practice",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Music-Tue"
             },
@@ -2686,6 +2937,7 @@
               "week": 36,
               "task": "The Star-Spangled Banner (p. 178) - The Story & Hymn Study & Bible Lesson",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Music-Wed"
             },
@@ -2696,6 +2948,7 @@
               "week": 36,
               "task": "The Star-Spangled Banner (p. 178) - Copywork",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Music-Thu"
             },
@@ -2706,6 +2959,7 @@
               "week": 36,
               "task": "The Star-Spangled Banner (p. 178) - Music Theory",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Music-Fri"
             },
@@ -2716,6 +2970,7 @@
               "week": 36,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
+              "linkUrl": "https://drive.google.com/drive/folders/1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
               "done": false,
               "id": "Grace-W36-Music-Sat"
             }
@@ -2732,6 +2987,7 @@
               "week": 34,
               "task": "Chapter 13, Lesson 7",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Reading & Grammar-Tue"
             },
@@ -2742,6 +2998,7 @@
               "week": 34,
               "task": "Chapter 13, Lesson 8",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Reading & Grammar-Wed"
             },
@@ -2752,6 +3009,7 @@
               "week": 34,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fapp.nightzookeeper.com%2Fzoo%2Fmap",
+              "linkUrl": "https://app.nightzookeeper.com/zoo/map",
               "done": false,
               "id": "Grace-W34-Reading & Grammar-Thu"
             },
@@ -2762,6 +3020,7 @@
               "week": 34,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fapp.nightzookeeper.com%2Fzoo%2Fmap",
+              "linkUrl": "https://app.nightzookeeper.com/zoo/map",
               "done": false,
               "id": "Grace-W34-Reading & Grammar-Fri"
             },
@@ -2772,6 +3031,7 @@
               "week": 34,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fapp.nightzookeeper.com%2Fzoo%2Fmap",
+              "linkUrl": "https://app.nightzookeeper.com/zoo/map",
               "done": false,
               "id": "Grace-W34-Reading & Grammar-Sat"
             },
@@ -2782,6 +3042,7 @@
               "week": 35,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fapp.nightzookeeper.com%2Fzoo%2Fmap",
+              "linkUrl": "https://app.nightzookeeper.com/zoo/map",
               "done": true,
               "id": "Grace-W35-Reading & Grammar-Tue"
             },
@@ -2792,6 +3053,7 @@
               "week": 35,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fapp.nightzookeeper.com%2Fzoo%2Fmap",
+              "linkUrl": "https://app.nightzookeeper.com/zoo/map",
               "done": false,
               "id": "Grace-W35-Reading & Grammar-Wed"
             },
@@ -2802,6 +3064,7 @@
               "week": 35,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPLKTUEjoI9EhsLRrAQwC9hOp9MJMcXOG54%26si%3D6FZOxg_OFmfRAzEg",
+              "linkUrl": "https://youtube.com/playlist?list=PLKTUEjoI9EhsLRrAQwC9hOp9MJMcXOG54&si=6FZOxg_OFmfRAzEg",
               "done": false,
               "id": "Grace-W35-Reading & Grammar-Thu"
             },
@@ -2812,6 +3075,7 @@
               "week": 35,
               "task": "",
               "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fyoutu.be%2FGLmjfJyZ-iM%3Fsi%3DFGqogPFs1XasxyEC",
+              "linkUrl": "https://youtu.be/GLmjfJyZ-iM?si=FGqogPFs1XasxyEC",
               "done": false,
               "id": "Grace-W35-Reading & Grammar-Fri"
             },
@@ -2822,6 +3086,7 @@
               "week": 35,
               "task": "Chapter 13, Lesson 11",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Reading & Grammar-Sat"
             },
@@ -2832,6 +3097,7 @@
               "week": 36,
               "task": "Chapter 14, Lesson 1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Reading & Grammar-Tue"
             },
@@ -2842,6 +3108,7 @@
               "week": 36,
               "task": "Chapter 14, Lesson 2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Reading & Grammar-Wed"
             },
@@ -2852,6 +3119,7 @@
               "week": 36,
               "task": "Chapter 14, Lesson 3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Reading & Grammar-Thu"
             },
@@ -2862,6 +3130,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Reading & Grammar-Fri"
             },
@@ -2872,6 +3141,7 @@
               "week": 36,
               "task": "Chapter 14, Lesson 4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Reading & Grammar-Sat"
             }
@@ -2888,6 +3158,7 @@
               "week": 34,
               "task": "Level 4, pp. 91-92",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Grace-W34-Handwriting-Tue"
             },
@@ -2898,6 +3169,7 @@
               "week": 34,
               "task": "Level 4, p. 93",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Handwriting-Wed"
             },
@@ -2908,6 +3180,7 @@
               "week": 34,
               "task": "Level 4, pp. 94-95",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Handwriting-Thu"
             },
@@ -2918,6 +3191,7 @@
               "week": 34,
               "task": "Level 4, p. 96",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Handwriting-Fri"
             },
@@ -2928,6 +3202,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Handwriting-Sat"
             },
@@ -2938,6 +3213,7 @@
               "week": 35,
               "task": "Level 4, p. 97",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Handwriting-Tue"
             },
@@ -2948,6 +3224,7 @@
               "week": 35,
               "task": "Level 4, p. 98",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Handwriting-Wed"
             },
@@ -2958,6 +3235,7 @@
               "week": 35,
               "task": "Level 4, p. 99",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Handwriting-Thu"
             },
@@ -2968,6 +3246,7 @@
               "week": 35,
               "task": "Level 4, p. 100",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Handwriting-Fri"
             },
@@ -2978,6 +3257,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Handwriting-Sat"
             },
@@ -2988,6 +3268,7 @@
               "week": 36,
               "task": "Level 4, p. 101",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Handwriting-Tue"
             },
@@ -2998,6 +3279,7 @@
               "week": 36,
               "task": "Level 4, p. 102 (Last page)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Handwriting-Wed"
             },
@@ -3008,6 +3290,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Handwriting-Thu"
             },
@@ -3018,6 +3301,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Handwriting-Fri"
             },
@@ -3028,6 +3312,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Handwriting-Sat"
             }
@@ -3044,6 +3329,7 @@
               "week": 34,
               "task": "Latin Homework",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Latin-Tue"
             },
@@ -3054,6 +3340,7 @@
               "week": 34,
               "task": "Latin Class!",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Latin-Wed"
             },
@@ -3064,6 +3351,7 @@
               "week": 34,
               "task": "Review Latin Flash Cards",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Latin-Thu"
             },
@@ -3074,6 +3362,7 @@
               "week": 34,
               "task": "Latin Homework",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Latin-Fri"
             },
@@ -3084,6 +3373,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W34-Latin-Sat"
             },
@@ -3094,6 +3384,7 @@
               "week": 35,
               "task": "Latin Homework",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Latin-Tue"
             },
@@ -3104,6 +3395,7 @@
               "week": 35,
               "task": "Latin Class!",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Latin-Wed"
             },
@@ -3114,6 +3406,7 @@
               "week": 35,
               "task": "Review Latin Flash Cards",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Latin-Thu"
             },
@@ -3124,6 +3417,7 @@
               "week": 35,
               "task": "Latin Homework",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Latin-Fri"
             },
@@ -3134,6 +3428,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W35-Latin-Sat"
             },
@@ -3144,6 +3439,7 @@
               "week": 36,
               "task": "Latin Homework",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Latin-Tue"
             },
@@ -3154,6 +3450,7 @@
               "week": 36,
               "task": "Latin Class!",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Latin-Wed"
             },
@@ -3164,6 +3461,7 @@
               "week": 36,
               "task": "Review Latin Flash Cards",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Latin-Thu"
             },
@@ -3174,6 +3472,7 @@
               "week": 36,
               "task": "Latin Homework",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Latin-Fri"
             },
@@ -3184,6 +3483,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Grace-W36-Latin-Sat"
             }
@@ -3195,7 +3495,7 @@
       "student": "Joey",
       "palette": {
         "primary": "#708090",
-        "secondary": "#002868",
+        "secondary": "#4682B4",
         "bg": "#F0F8FF"
       },
       "weekNum": 35,
@@ -3211,6 +3511,7 @@
               "week": 34,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Bible-Tue"
             },
@@ -3221,6 +3522,7 @@
               "week": 34,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Bible-Wed"
             },
@@ -3231,6 +3533,7 @@
               "week": 34,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Bible-Thu"
             },
@@ -3241,6 +3544,7 @@
               "week": 34,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Bible-Fri"
             },
@@ -3251,6 +3555,7 @@
               "week": 34,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Bible-Sat"
             },
@@ -3261,6 +3566,7 @@
               "week": 35,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Bible-Mon"
             },
@@ -3271,6 +3577,7 @@
               "week": 35,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Bible-Tue"
             },
@@ -3281,6 +3588,7 @@
               "week": 35,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Bible-Wed"
             },
@@ -3291,6 +3599,7 @@
               "week": 35,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Bible-Thu"
             },
@@ -3301,6 +3610,7 @@
               "week": 35,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Bible-Fri"
             },
@@ -3311,6 +3621,7 @@
               "week": 36,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Bible-Mon"
             },
@@ -3321,6 +3632,7 @@
               "week": 36,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Bible-Tue"
             },
@@ -3331,6 +3643,7 @@
               "week": 36,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Bible-Wed"
             },
@@ -3341,6 +3654,7 @@
               "week": 36,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Bible-Thu"
             },
@@ -3351,6 +3665,7 @@
               "week": 36,
               "task": "The Ology\nProv. Lesson\nBible Reading",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Bible-Fri"
             }
@@ -3367,6 +3682,7 @@
               "week": 34,
               "task": "American Heritage #8",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Hillsdale History-Tue"
             },
@@ -3377,6 +3693,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Hillsdale History-Wed"
             },
@@ -3387,6 +3704,7 @@
               "week": 34,
               "task": "American Heritage #9",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Hillsdale History-Thu"
             },
@@ -3397,6 +3715,7 @@
               "week": 34,
               "task": "American Heritage #10",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Hillsdale History-Fri"
             },
@@ -3407,6 +3726,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Hillsdale History-Sat"
             },
@@ -3417,6 +3737,7 @@
               "week": 35,
               "task": "American Heritage #11",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Hillsdale History-Mon"
             },
@@ -3427,6 +3748,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Hillsdale History-Tue"
             },
@@ -3437,6 +3759,7 @@
               "week": 35,
               "task": "Review Course Material",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Hillsdale History-Wed"
             },
@@ -3447,6 +3770,7 @@
               "week": 35,
               "task": "Take Final Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Hillsdale History-Thu"
             },
@@ -3457,6 +3781,7 @@
               "week": 35,
               "task": "Take Final Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Hillsdale History-Fri"
             },
@@ -3467,6 +3792,7 @@
               "week": 36,
               "task": "The Second World Wars #1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Hillsdale History-Mon"
             },
@@ -3477,6 +3803,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Hillsdale History-Tue"
             },
@@ -3487,6 +3814,7 @@
               "week": 36,
               "task": "The Second World Wars #2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Hillsdale History-Wed"
             },
@@ -3497,6 +3825,7 @@
               "week": 36,
               "task": "The Second World Wars #3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Hillsdale History-Thu"
             },
@@ -3507,6 +3836,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Hillsdale History-Fri"
             }
@@ -3523,6 +3853,7 @@
               "week": 34,
               "task": "The Culture of Genesis, Lesson 4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Creation Science-Tue"
             },
@@ -3533,6 +3864,7 @@
               "week": 34,
               "task": "The Culture of Genesis, Lesson 5 & Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Creation Science-Wed"
             },
@@ -3543,6 +3875,7 @@
               "week": 34,
               "task": "The Church & Genesis, Lessons 1 & 2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Creation Science-Thu"
             },
@@ -3553,6 +3886,7 @@
               "week": 34,
               "task": "The Church & Genesis, Lessons 3 & 4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Creation Science-Fri"
             },
@@ -3563,6 +3897,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Creation Science-Sat"
             },
@@ -3573,6 +3908,7 @@
               "week": 35,
               "task": "The Church & Genesis, Lesson 5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Creation Science-Mon"
             },
@@ -3583,6 +3919,7 @@
               "week": 35,
               "task": "The Church & Genesis, Lesson 6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Joey-W35-Creation Science-Tue"
             },
@@ -3593,6 +3930,7 @@
               "week": 35,
               "task": "The Church & Genesis, Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Creation Science-Wed"
             },
@@ -3603,6 +3941,7 @@
               "week": 35,
               "task": "Final Advanced Topics, Lesson 1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Creation Science-Thu"
             },
@@ -3613,6 +3952,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Creation Science-Fri"
             },
@@ -3623,6 +3963,7 @@
               "week": 36,
               "task": "Final Advanced Topics, Lesson 2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Creation Science-Mon"
             },
@@ -3633,6 +3974,7 @@
               "week": 36,
               "task": "Final Advanced Topics, Lesson 3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Creation Science-Tue"
             },
@@ -3643,6 +3985,7 @@
               "week": 36,
               "task": "Final Advanced Topics, Lesson 4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Creation Science-Wed"
             },
@@ -3653,6 +3996,7 @@
               "week": 36,
               "task": "Course Complete! 🎉",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Creation Science-Thu"
             },
@@ -3663,6 +4007,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Creation Science-Fri"
             }
@@ -3679,6 +4024,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Algebra 1-Tue"
             },
@@ -3689,6 +4035,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Algebra 1-Wed"
             },
@@ -3699,6 +4046,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Algebra 1-Thu"
             },
@@ -3709,6 +4057,7 @@
               "week": 34,
               "task": "Shormann Math\nLesson 92 Practice Set",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Algebra 1-Fri"
             },
@@ -3719,6 +4068,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Algebra 1-Sat"
             },
@@ -3729,6 +4079,7 @@
               "week": 35,
               "task": "Shormann Math\nWeek 27 Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Algebra 1-Mon"
             },
@@ -3739,6 +4090,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Algebra 1-Tue"
             },
@@ -3749,6 +4101,7 @@
               "week": 35,
               "task": "Shormann Math\nLesson 93 Practice Set",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Algebra 1-Wed"
             },
@@ -3759,6 +4112,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Algebra 1-Thu"
             },
@@ -3769,6 +4123,7 @@
               "week": 35,
               "task": "Shormann Math\nLesson 94 Practice Set",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Algebra 1-Fri"
             },
@@ -3779,6 +4134,7 @@
               "week": 36,
               "task": "Shormann Math\nLesson 95 Practice Set",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Algebra 1-Mon"
             },
@@ -3789,6 +4145,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Algebra 1-Tue"
             },
@@ -3799,6 +4156,7 @@
               "week": 36,
               "task": "Shormann Math\nLesson 96 Practice Set",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Algebra 1-Wed"
             },
@@ -3809,6 +4167,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Algebra 1-Thu"
             },
@@ -3819,6 +4178,7 @@
               "week": 36,
               "task": "Shormann Math\nWeek 28 Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Algebra 1-Fri"
             }
@@ -3835,6 +4195,7 @@
               "week": 34,
               "task": "A Tutle Twins Logical Fallacy",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Latin 1-Tue"
             },
@@ -3845,6 +4206,7 @@
               "week": 34,
               "task": "Sherlock Holmes Cunundrum",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Latin 1-Wed"
             },
@@ -3855,6 +4217,7 @@
               "week": 34,
               "task": "Sherlock Holmes Cunundrum",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Latin 1-Thu"
             },
@@ -3865,6 +4228,7 @@
               "week": 34,
               "task": "Sherlock Holmes Cunundrum",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Latin 1-Fri"
             },
@@ -3875,6 +4239,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Latin 1-Sat"
             },
@@ -3885,6 +4250,7 @@
               "week": 35,
               "task": "A Tutle Twins Logical Fallacy",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Latin 1-Mon"
             },
@@ -3895,6 +4261,7 @@
               "week": 35,
               "task": "Sherlock Holmes Cunundrum",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Latin 1-Tue"
             },
@@ -3905,6 +4272,7 @@
               "week": 35,
               "task": "Sherlock Holmes Cunundrum",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Joey-W35-Latin 1-Wed"
             },
@@ -3915,6 +4283,7 @@
               "week": 35,
               "task": "Sherlock Holmes Cunundrum",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Latin 1-Thu"
             },
@@ -3925,6 +4294,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Latin 1-Fri"
             },
@@ -3935,6 +4305,7 @@
               "week": 36,
               "task": "A Tutle Twins Logical Fallacy",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Latin 1-Mon"
             },
@@ -3945,6 +4316,7 @@
               "week": 36,
               "task": "Sherlock Holmes Cunundrum",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Latin 1-Tue"
             },
@@ -3955,6 +4327,7 @@
               "week": 36,
               "task": "Sherlock Holmes Cunundrum",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Latin 1-Wed"
             },
@@ -3965,6 +4338,7 @@
               "week": 36,
               "task": "Sherlock Holmes Cunundrum",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Latin 1-Thu"
             },
@@ -3975,6 +4349,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Latin 1-Fri"
             }
@@ -3991,6 +4366,7 @@
               "week": 34,
               "task": "Biblical Arch. Lesson 15 Watch",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Electives-Tue"
             },
@@ -4001,6 +4377,7 @@
               "week": 34,
               "task": "Biblical Arch. Lesson 15 Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Electives-Wed"
             },
@@ -4011,6 +4388,7 @@
               "week": 34,
               "task": "Read",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Electives-Thu"
             },
@@ -4021,6 +4399,7 @@
               "week": 34,
               "task": "Discuss",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Electives-Fri"
             },
@@ -4031,6 +4410,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Electives-Sat"
             },
@@ -4041,6 +4421,7 @@
               "week": 35,
               "task": "Biblical Arch. Lesson 16 Watch",
               "imageUrl": null,
+              "linkUrl": null,
               "done": true,
               "id": "Joey-W35-Electives-Mon"
             },
@@ -4051,6 +4432,7 @@
               "week": 35,
               "task": "Biblical Arch. Lesson 16 Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Electives-Tue"
             },
@@ -4061,6 +4443,7 @@
               "week": 35,
               "task": "Read",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Electives-Wed"
             },
@@ -4071,6 +4454,7 @@
               "week": 35,
               "task": "Discuss",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Electives-Thu"
             },
@@ -4081,6 +4465,7 @@
               "week": 35,
               "task": "Biblical Archeology Project #4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Electives-Fri"
             },
@@ -4091,6 +4476,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Electives-Mon"
             },
@@ -4101,6 +4487,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Electives-Tue"
             },
@@ -4111,6 +4498,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Electives-Wed"
             },
@@ -4121,6 +4509,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Electives-Thu"
             },
@@ -4131,6 +4520,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Electives-Fri"
             }
@@ -4147,6 +4537,7 @@
               "week": 34,
               "task": "When We All Get to Heaven (p. 172) - Practice",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Music-Tue"
             },
@@ -4157,6 +4548,7 @@
               "week": 34,
               "task": "The Star-Spangled Banner (p. 178) - The Story & Hymn Study & Bible Lesson",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Music-Wed"
             },
@@ -4167,6 +4559,7 @@
               "week": 34,
               "task": "The Star-Spangled Banner (p. 178) - Copywork",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Music-Thu"
             },
@@ -4177,6 +4570,7 @@
               "week": 34,
               "task": "The Star-Spangled Banner (p. 178) - Music Theory",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Music-Fri"
             },
@@ -4187,6 +4581,7 @@
               "week": 34,
               "task": "CellImage",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W34-Music-Sat"
             },
@@ -4197,6 +4592,7 @@
               "week": 35,
               "task": "The Star-Spangled Banner (p. 178) - Activity & Practice",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Music-Mon"
             },
@@ -4207,6 +4603,7 @@
               "week": 35,
               "task": "My Country, 'Tis of Thee (p. 184) - The Story & Hymn Study & Bible Lesson",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Music-Tue"
             },
@@ -4217,6 +4614,7 @@
               "week": 35,
               "task": "My Country, 'Tis of Thee (p. 184) - Copywork & Music Theory & Practice",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Music-Wed"
             },
@@ -4227,6 +4625,7 @@
               "week": 35,
               "task": "My Country, 'Tis of Thee (p. 184) - Activity",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Music-Thu"
             },
@@ -4237,6 +4636,7 @@
               "week": 35,
               "task": "CellImage",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W35-Music-Fri"
             },
@@ -4247,6 +4647,7 @@
               "week": 36,
               "task": "America the Beautiful (p. 190) - The Story & Hymn Study & Bible Lesson",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Music-Mon"
             },
@@ -4257,6 +4658,7 @@
               "week": 36,
               "task": "America the Beautiful (p. 190) - Copywork & Music Theory & Practice",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Music-Tue"
             },
@@ -4267,6 +4669,7 @@
               "week": 36,
               "task": "America the Beautiful (p. 190) - Activity",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Music-Wed"
             },
@@ -4277,6 +4680,7 @@
               "week": 36,
               "task": "America the Beautiful (p. 190) - Review & Final Practice",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Music-Thu"
             },
@@ -4287,6 +4691,7 @@
               "week": 36,
               "task": "CellImage",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Joey-W36-Music-Fri"
             }
@@ -4314,6 +4719,7 @@
               "week": 34,
               "task": "Chap. from God w/o Passions, Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Bible-Tue"
             },
@@ -4324,6 +4730,7 @@
               "week": 34,
               "task": "Chap. from God w/o Passions, Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Bible-Wed"
             },
@@ -4334,6 +4741,7 @@
               "week": 34,
               "task": "Chap. from God w/o Passions, Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Bible-Thu"
             },
@@ -4344,6 +4752,7 @@
               "week": 34,
               "task": "Chap. from God w/o Passions, Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Bible-Fri"
             },
@@ -4354,6 +4763,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Bible-Sat"
             },
@@ -4364,6 +4774,7 @@
               "week": 35,
               "task": "Read \"Relationships\": Ch. 1-2 (pp. 3-16), Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Bible-Tue"
             },
@@ -4374,6 +4785,7 @@
               "week": 35,
               "task": "Read \"Relationships\": Ch. 3 (pp. 17-28), Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Bible-Wed"
             },
@@ -4384,6 +4796,7 @@
               "week": 35,
               "task": "Read \"Relationships\": Ch. 4 (pp. 29-39), Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Bible-Thu"
             },
@@ -4394,6 +4807,7 @@
               "week": 35,
               "task": "Read \"Relationships\": Ch. 5 (pp. 40-50), Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Bible-Fri"
             },
@@ -4404,6 +4818,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Bible-Sat"
             },
@@ -4414,6 +4829,7 @@
               "week": 36,
               "task": "Read \"Relationships\": Ch. 6 (pp. 51-62), Bible Journaling, Journal Entries Due",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Bible-Tue"
             },
@@ -4424,6 +4840,7 @@
               "week": 36,
               "task": "Read \"Relationships\": Ch. 7 (pp. 63-71), Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Bible-Wed"
             },
@@ -4434,6 +4851,7 @@
               "week": 36,
               "task": "Read \"Relationships\": Ch. 8 (pp. 72-84), Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Bible-Thu"
             },
@@ -4444,6 +4862,7 @@
               "week": 36,
               "task": "Read \"Relationships\": Ch. 9 (pp. 85-97), Bible Journaling",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Bible-Fri"
             },
@@ -4454,6 +4873,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Bible-Sat"
             }
@@ -4470,6 +4890,7 @@
               "week": 34,
               "task": "P4 L1 #1-2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Health-Tue"
             },
@@ -4480,6 +4901,7 @@
               "week": 34,
               "task": "P4 L1 #3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Health-Wed"
             },
@@ -4490,6 +4912,7 @@
               "week": 34,
               "task": "P4 L1 #4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Health-Thu"
             },
@@ -4500,6 +4923,7 @@
               "week": 34,
               "task": "P4 L1 #5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Health-Fri"
             },
@@ -4510,6 +4934,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Health-Sat"
             },
@@ -4520,6 +4945,7 @@
               "week": 35,
               "task": "P4 L1 #6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Health-Tue"
             },
@@ -4530,6 +4956,7 @@
               "week": 35,
               "task": "P4 L1 #7 & Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Health-Wed"
             },
@@ -4540,6 +4967,7 @@
               "week": 35,
               "task": "P4 L2 #1-2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Health-Thu"
             },
@@ -4550,6 +4978,7 @@
               "week": 35,
               "task": "P4 L2 #3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Health-Fri"
             },
@@ -4560,6 +4989,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Health-Sat"
             },
@@ -4570,6 +5000,7 @@
               "week": 36,
               "task": "P4 L2 #4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Health-Tue"
             },
@@ -4580,6 +5011,7 @@
               "week": 36,
               "task": "P4 L2 #5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Health-Wed"
             },
@@ -4590,6 +5022,7 @@
               "week": 36,
               "task": "P4 L2 #6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Health-Thu"
             },
@@ -4600,6 +5033,7 @@
               "week": 36,
               "task": "P4 L2 #7 & Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Health-Fri"
             },
@@ -4610,6 +5044,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Health-Sat"
             }
@@ -4626,6 +5061,7 @@
               "week": 34,
               "task": "S&H Step #5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-History of Ideas-Tue"
             },
@@ -4636,6 +5072,7 @@
               "week": 34,
               "task": "S&H Step #6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-History of Ideas-Wed"
             },
@@ -4646,6 +5083,7 @@
               "week": 34,
               "task": "Quiz",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-History of Ideas-Thu"
             },
@@ -4656,6 +5094,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-History of Ideas-Fri"
             },
@@ -4666,6 +5105,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-History of Ideas-Sat"
             },
@@ -4676,6 +5116,7 @@
               "week": 35,
               "task": "Russell & Modern Philospohers Step #1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-History of Ideas-Tue"
             },
@@ -4686,6 +5127,7 @@
               "week": 35,
               "task": "Russell & Modern Philospohers Step #2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-History of Ideas-Wed"
             },
@@ -4696,6 +5138,7 @@
               "week": 35,
               "task": "Russell & Modern Philospohers Step #3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-History of Ideas-Thu"
             },
@@ -4706,6 +5149,7 @@
               "week": 35,
               "task": "Russell & Modern Philospohers Step #4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-History of Ideas-Fri"
             },
@@ -4716,6 +5160,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-History of Ideas-Sat"
             },
@@ -4726,6 +5171,7 @@
               "week": 36,
               "task": "Russell & Modern Philospohers Step #5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-History of Ideas-Tue"
             },
@@ -4736,6 +5182,7 @@
               "week": 36,
               "task": "Russell & Modern Philospohers Step #6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-History of Ideas-Wed"
             },
@@ -4746,6 +5193,7 @@
               "week": 36,
               "task": "Russell & Modern Philospohers Step #7",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-History of Ideas-Thu"
             },
@@ -4756,6 +5204,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-History of Ideas-Fri"
             },
@@ -4766,6 +5215,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-History of Ideas-Sat"
             }
@@ -4782,6 +5232,7 @@
               "week": 34,
               "task": "☐ Read WHB pg 282\n☐ Color ABC 168-169",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Anatomy-Tue"
             },
@@ -4792,6 +5243,7 @@
               "week": 34,
               "task": "☐ Read WHB pg 283-284\n☐ Color ABC 180-181",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Anatomy-Wed"
             },
@@ -4802,6 +5254,7 @@
               "week": 34,
               "task": "☐ Worksheet 54 front",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Anatomy-Thu"
             },
@@ -4812,6 +5265,7 @@
               "week": 34,
               "task": "☐ Worksheet 54 back\n☐ Read WHB pg 284-286",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Anatomy-Fri"
             },
@@ -4822,6 +5276,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Anatomy-Sat"
             },
@@ -4832,6 +5287,7 @@
               "week": 35,
               "task": "☐ Read WHB pg 286-287\n☐ Color ABC 182-183",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Anatomy-Tue"
             },
@@ -4842,6 +5298,7 @@
               "week": 35,
               "task": "☐ Worksheet 55 front",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Anatomy-Wed"
             },
@@ -4852,6 +5309,7 @@
               "week": 35,
               "task": "☐ Worksheet 55 back",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Anatomy-Thu"
             },
@@ -4862,6 +5320,7 @@
               "week": 35,
               "task": "☐ Read pg 187-191",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Anatomy-Fri"
             },
@@ -4872,6 +5331,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Anatomy-Sat"
             },
@@ -4882,6 +5342,7 @@
               "week": 36,
               "task": "☐ Worksheet 56",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Anatomy-Tue"
             },
@@ -4892,6 +5353,7 @@
               "week": 36,
               "task": "☐ Read WHB pg 292-301",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Anatomy-Wed"
             },
@@ -4902,6 +5364,7 @@
               "week": 36,
               "task": "☐ Color ABC 186-187",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Anatomy-Thu"
             },
@@ -4912,6 +5375,7 @@
               "week": 36,
               "task": "☐ Worksheet 57\n☐ Color ABC 176-177\n☐ Study for Unit 3: Quiz 3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Anatomy-Fri"
             },
@@ -4922,6 +5386,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Anatomy-Sat"
             }
@@ -4938,6 +5403,7 @@
               "week": 34,
               "task": "Chap 24 #1 (Part 2)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Math-Tue"
             },
@@ -4948,6 +5414,7 @@
               "week": 34,
               "task": "Chap 24 #2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Math-Wed"
             },
@@ -4958,6 +5425,7 @@
               "week": 34,
               "task": "Chap 24 #3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Math-Thu"
             },
@@ -4968,6 +5436,7 @@
               "week": 34,
               "task": "Chap 24 #4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Math-Fri"
             },
@@ -4978,6 +5447,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Math-Sat"
             },
@@ -4988,6 +5458,7 @@
               "week": 35,
               "task": "Chap 25 #1 (Part 1)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Math-Tue"
             },
@@ -4998,6 +5469,7 @@
               "week": 35,
               "task": "Chap 25 #1 (Part 2)",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Math-Wed"
             },
@@ -5008,6 +5480,7 @@
               "week": 35,
               "task": "Chap 25 #2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Math-Thu"
             },
@@ -5018,6 +5491,7 @@
               "week": 35,
               "task": "Chap 25 #3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Math-Fri"
             },
@@ -5028,6 +5502,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Math-Sat"
             },
@@ -5038,6 +5513,7 @@
               "week": 36,
               "task": "Chap 25 #4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Math-Tue"
             },
@@ -5048,6 +5524,7 @@
               "week": 36,
               "task": "Epilogue #1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Math-Wed"
             },
@@ -5058,6 +5535,7 @@
               "week": 36,
               "task": "Epilogue #2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Math-Thu"
             },
@@ -5068,6 +5546,7 @@
               "week": 36,
               "task": "Epilogue #3",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Math-Fri"
             },
@@ -5078,6 +5557,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Math-Sat"
             }
@@ -5094,6 +5574,7 @@
               "week": 34,
               "task": "The Book Thief Chap 13-18 & Day 4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-English-Tue"
             },
@@ -5104,6 +5585,7 @@
               "week": 34,
               "task": "The Book Thief Chap 19-24 & Day 5",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-English-Wed"
             },
@@ -5114,6 +5596,7 @@
               "week": 34,
               "task": "The Book Thief Chap 25-30 & Day 6-7",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-English-Thu"
             },
@@ -5124,6 +5607,7 @@
               "week": 34,
               "task": "The Book Thief Chap  31-36 & Day 8-9",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-English-Fri"
             },
@@ -5134,6 +5618,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-English-Sat"
             },
@@ -5144,6 +5629,7 @@
               "week": 35,
               "task": "The Book Thief Chap 37-42 & Day 10",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-English-Tue"
             },
@@ -5154,6 +5640,7 @@
               "week": 35,
               "task": "The Book Thief Chap 43-48 & Day 11",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-English-Wed"
             },
@@ -5164,6 +5651,7 @@
               "week": 35,
               "task": "The Book Thief Chap 49-54 & Day 12",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-English-Thu"
             },
@@ -5174,6 +5662,7 @@
               "week": 35,
               "task": "The Book Thief Chap 55-60 & Day 13-14",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-English-Fri"
             },
@@ -5184,6 +5673,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-English-Sat"
             },
@@ -5194,6 +5684,7 @@
               "week": 36,
               "task": "The Book Thief Chap 61-66 & Day 15-16",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-English-Tue"
             },
@@ -5204,6 +5695,7 @@
               "week": 36,
               "task": "The Book Thief Chap 67-72 & Day 17",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-English-Wed"
             },
@@ -5214,6 +5706,7 @@
               "week": 36,
               "task": "The Book Thief Chap 73-78 & Day 18",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-English-Thu"
             },
@@ -5224,6 +5717,7 @@
               "week": 36,
               "task": "The Book Thief Chap 79-86 & Day 19",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-English-Fri"
             },
@@ -5234,6 +5728,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-English-Sat"
             }
@@ -5250,6 +5745,7 @@
               "week": 34,
               "task": "Lesson 14.5 Project",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Financial Literacy-Tue"
             },
@@ -5260,6 +5756,7 @@
               "week": 34,
               "task": "Lesson 14.5 Project",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Financial Literacy-Wed"
             },
@@ -5270,6 +5767,7 @@
               "week": 34,
               "task": "Lessonn 15.1",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Financial Literacy-Thu"
             },
@@ -5280,6 +5778,7 @@
               "week": 34,
               "task": "Lessonn 15.2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Financial Literacy-Fri"
             },
@@ -5290,6 +5789,7 @@
               "week": 34,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W34-Financial Literacy-Sat"
             },
@@ -5300,6 +5800,7 @@
               "week": 35,
               "task": "Lessonn 15.3-4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Financial Literacy-Tue"
             },
@@ -5310,6 +5811,7 @@
               "week": 35,
               "task": "Lessonn 15.5 Project",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Financial Literacy-Wed"
             },
@@ -5320,6 +5822,7 @@
               "week": 35,
               "task": "Lessonn 15.5 Project",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Financial Literacy-Thu"
             },
@@ -5330,6 +5833,7 @@
               "week": 35,
               "task": "Lessonn 15.5 Project",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Financial Literacy-Fri"
             },
@@ -5340,6 +5844,7 @@
               "week": 35,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W35-Financial Literacy-Sat"
             },
@@ -5350,6 +5855,7 @@
               "week": 36,
               "task": "Lesson 16.1–2",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Financial Literacy-Tue"
             },
@@ -5360,6 +5866,7 @@
               "week": 36,
               "task": "Lesson 16.3–4",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Financial Literacy-Wed"
             },
@@ -5370,6 +5877,7 @@
               "week": 36,
               "task": "Lesson 16.5–6",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Financial Literacy-Thu"
             },
@@ -5380,6 +5888,7 @@
               "week": 36,
               "task": "Lesson 16.7–8",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Financial Literacy-Fri"
             },
@@ -5390,6 +5899,7 @@
               "week": 36,
               "task": "",
               "imageUrl": null,
+              "linkUrl": null,
               "done": false,
               "id": "Sharon-W36-Financial Literacy-Sat"
             }
