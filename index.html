@@ -396,6 +396,12 @@ a.link-btn::before {
 const API_URL = 'https://script.google.com/macros/s/AKfycbyrR-MFia5qvS53e84LvZbL1bKVMNd3paomGKq0nkvNZnILn5kLIOjPfu3DklQ9sPS66Q/exec';
   let allData = null;
 
+window.addEventListener('storage', function(e) {
+  if (e.key === 'local_progress') {
+    render(); // Re-render with the updated local progress
+  }
+});
+  
 window.onload = function() {
   fetch('data.json?v=' + Date.now())
     .then(r => r.json())
