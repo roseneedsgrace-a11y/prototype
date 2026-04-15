@@ -6,7 +6,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    /* ... [Keeping your existing CSS] ... */
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8fafc; color: #1e293b; padding-bottom: 60px; }
     .site-header { background: #741b47; width: 100%; height: 180px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; margin-bottom: 0; }
@@ -148,8 +147,12 @@ function renderForDate(date) {
 
             // FIX: Check if date matches AND ensure the task text isn't empty/whitespace
             if (taskMidnight === targetMidnight && t.task && t.task.trim() !== "") {
+              const localProgress = getLocalProgress();
+              const isDone = localProgress[t.id] !== undefined ? localProgress[t.id] : t.done;
+              
               dailyTasks.push({
                 ...t,
+                done: isDone,  // Local storage wins over JSON
                 subject: subject.subject,
                 curriculum: subject.curriculum
               });
@@ -243,29 +246,32 @@ function buildStudentCard(s) {
   }
 
 function toggleTask(id, paletteSecondary) {
-  const row = document.getElementById('prow-' + id);
-  if (!row) return;
+    const row = document.getElementById('prow-' + id);
+    if (!row) return;
+    
+    const isDone = !row.classList.contains('is-done');
+    row.classList.toggle('is-done', isDone);
   
-  const isDone = !row.classList.contains('is-done');
-  row.classList.toggle('is-done', isDone);
+    const checkbox = row.querySelector('.task-checkbox');
+    if (checkbox) {
+      checkbox.style.background = isDone ? paletteSecondary : '';
+      checkbox.style.borderColor = isDone ? paletteSecondary : '';
+    }
   
-  // Update the checkbox visual
-  const checkbox = row.querySelector('.task-checkbox');
-  if (checkbox) {
-    checkbox.style.background = isDone ? paletteSecondary : '';
-    checkbox.style.borderColor = isDone ? paletteSecondary : '';
-  }
-
-  // Update local data cache
-  allData.students.forEach(s => {
-    s.grid.forEach(subj => {
-      subj.tasks.forEach(t => { if (t.id === id) t.done = isDone; });
+    // Save to local storage immediately
+    setLocalProgress(id, isDone);
+  
+    // Update local data cache
+    allData.students.forEach(s => {
+      s.grid.forEach(subj => {
+        subj.tasks.forEach(t => { if (t.id === id) t.done = isDone; });
+      });
     });
-  });
-
-  updateCardStats(row.closest('.student-card'));
-  fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}`, { mode: 'no-cors' });
+  
+    updateCardStats(row.closest('.student-card'));
+    fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}`, { mode: 'no-cors' });
 }
+
 
 function approveEntireDay(studentName) {
   const student = allData.students.find(s => s.student === studentName);
@@ -285,8 +291,9 @@ function approveEntireDay(studentName) {
       const d = new Date(t.rawDate);
       const taskMidnight = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
       
-      if (taskMidnight === targetMidnight && !t.done) {
+     if (taskMidnight === targetMidnight && !t.done) {
         t.done = true;
+        setLocalProgress(t.id, true);
         const row = document.getElementById('prow-' + t.id);
         if (row) {
           row.classList.add('is-done');
@@ -335,7 +342,18 @@ function approveEntireDay(studentName) {
     // you would scan allData.students for min/max rawDates.
   }
 
+  // ─── LOCAL PROGRESS HELPERS ───────────────────
 
+  function getLocalProgress() {
+    return JSON.parse(localStorage.getItem('local_progress') || '{}');
+  }
+  
+  function setLocalProgress(id, isDone) {
+    const localProgress = getLocalProgress();
+    localProgress[id] = isDone;
+    localStorage.setItem('local_progress', JSON.stringify(localProgress));
+  }
+  
 
   function statCard(num, label, color) {
     return `<div class="stat-card"><div class="stat-num" style="color:${color};">${num}</div><div class="stat-label">${label}</div></div>`;
