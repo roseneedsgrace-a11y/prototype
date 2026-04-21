@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-21T04:40:13.536Z",
-  "date": "Monday, April 20",
+  "generated": "2026-04-21T05:40:17.288Z",
+  "date": "Tuesday, April 21",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
     "headerColor": "#741b47"
@@ -14,7 +14,7 @@
     {
       "name": "Emily",
       "palette": "female",
-      "currentWeek": 35
+      "currentWeek": 36
     },
     {
       "name": "Grace",
@@ -911,67 +911,12 @@
         "secondary": "#87CEEB",
         "bg": "#F0F8FF"
       },
-      "weekNum": 35,
+      "weekNum": 36,
       "grid": [
         {
           "subject": "Bible",
           "curriculum": "Join Ezra when possible",
           "tasks": [
-            {
-              "day": "Tue",
-              "date": "4/7",
-              "rawDate": 1775538000000,
-              "week": 34,
-              "task": "The Ology, BIble Reading, Catechism Q34",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Bible-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/8",
-              "rawDate": 1775624400000,
-              "week": 34,
-              "task": "The Ology, BIble Reading, Catechism Q34",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Bible-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/9",
-              "rawDate": 1775710800000,
-              "week": 34,
-              "task": "The Ology, BIble Reading, Catechism Q34",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Bible-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "4/10",
-              "rawDate": 1775797200000,
-              "week": 34,
-              "task": "The Ology, BIble Reading, Catechism Q34",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Bible-Fri"
-            },
-            {
-              "day": "Mon",
-              "date": "4/13",
-              "rawDate": 1776056400000,
-              "week": 34,
-              "task": "The Ology, BIble Reading, Catechism Q34",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Bible-Mon"
-            },
             {
               "day": "Tue",
               "date": "4/14",
@@ -1081,6 +1026,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Bible-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "4/28",
+              "rawDate": 1777352400000,
+              "week": 37,
+              "task": "The Ology, BIble Reading, Catechism Q37",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Bible-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "4/29",
+              "rawDate": 1777438800000,
+              "week": 37,
+              "task": "The Ology, BIble Reading, Catechism Q37",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Bible-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "4/30",
+              "rawDate": 1777525200000,
+              "week": 37,
+              "task": "The Ology, BIble Reading, Catechism Q37",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Bible-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "5/1",
+              "rawDate": 1777611600000,
+              "week": 37,
+              "task": "The Ology, BIble Reading, Catechism Q37",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Bible-Fri"
+            },
+            {
+              "day": "Mon",
+              "date": "5/4",
+              "rawDate": 1777870800000,
+              "week": 37,
+              "task": "The Ology, BIble Reading, Catechism Q37",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Bible-Mon"
             }
           ]
         },
@@ -1088,61 +1088,6 @@
           "subject": "Saxon Math",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Tue",
-              "date": "4/7",
-              "rawDate": 1775538000000,
-              "week": 34,
-              "task": "Lesson 116",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Saxon Math-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/8",
-              "rawDate": 1775624400000,
-              "week": 34,
-              "task": "Lesson 117",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Saxon Math-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/9",
-              "rawDate": 1775710800000,
-              "week": 34,
-              "task": "Lesson 118",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Saxon Math-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "4/10",
-              "rawDate": 1775797200000,
-              "week": 34,
-              "task": "Lesson 119",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Saxon Math-Fri"
-            },
-            {
-              "day": "Mon",
-              "date": "4/13",
-              "rawDate": 1776056400000,
-              "week": 34,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Saxon Math-Mon"
-            },
             {
               "day": "Tue",
               "date": "4/14",
@@ -1252,6 +1197,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Saxon Math-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "4/28",
+              "rawDate": 1777352400000,
+              "week": 37,
+              "task": "Lesson 126",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Saxon Math-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "4/29",
+              "rawDate": 1777438800000,
+              "week": 37,
+              "task": "Lesson 127",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Saxon Math-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "4/30",
+              "rawDate": 1777525200000,
+              "week": 37,
+              "task": "Lesson 128",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Saxon Math-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "5/1",
+              "rawDate": 1777611600000,
+              "week": 37,
+              "task": "Lesson 129",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Saxon Math-Fri"
+            },
+            {
+              "day": "Mon",
+              "date": "5/4",
+              "rawDate": 1777870800000,
+              "week": 37,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Saxon Math-Mon"
             }
           ]
         },
@@ -1259,61 +1259,6 @@
           "subject": "History",
           "curriculum": "Pages of History Reading",
           "tasks": [
-            {
-              "day": "Tue",
-              "date": "4/7",
-              "rawDate": 1775538000000,
-              "week": 34,
-              "task": "Read Vol. 2, Ch. 13, pp. 256-260",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-History-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/8",
-              "rawDate": 1775624400000,
-              "week": 34,
-              "task": "Read Vol. 2, Ch. 13, pp. 261-265",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-History-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/9",
-              "rawDate": 1775710800000,
-              "week": 34,
-              "task": "Read Vol. 2, Ch. 13, pp. 266-271 (finishes Ch. 13, starts Ch. 14)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-History-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "4/10",
-              "rawDate": 1775797200000,
-              "week": 34,
-              "task": "Read Vol. 2, Ch. 14, pp. 272-277",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-History-Fri"
-            },
-            {
-              "day": "Mon",
-              "date": "4/13",
-              "rawDate": 1776056400000,
-              "week": 34,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-History-Mon"
-            },
             {
               "day": "Tue",
               "date": "4/14",
@@ -1423,6 +1368,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W36-History-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "4/28",
+              "rawDate": 1777352400000,
+              "week": 37,
+              "task": "Read Vol. 2, Ch. 16, pp. 320-324",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-History-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "4/29",
+              "rawDate": 1777438800000,
+              "week": 37,
+              "task": "Read Vol. 2, Ch. 16, pp. 325-328 (finishes Vol. 2)",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-History-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "4/30",
+              "rawDate": 1777525200000,
+              "week": 37,
+              "task": "Review & Activities",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-History-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "5/1",
+              "rawDate": 1777611600000,
+              "week": 37,
+              "task": "Review & Activities",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-History-Fri"
+            },
+            {
+              "day": "Mon",
+              "date": "5/4",
+              "rawDate": 1777870800000,
+              "week": 37,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-History-Mon"
             }
           ]
         },
@@ -1430,61 +1430,6 @@
           "subject": "Literature",
           "curriculum": "Narnia & Christian Heroes",
           "tasks": [
-            {
-              "day": "Tue",
-              "date": "4/7",
-              "rawDate": 1775538000000,
-              "week": 34,
-              "task": "Read Chap. from Christian Heroes book.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Literature-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/8",
-              "rawDate": 1775624400000,
-              "week": 34,
-              "task": "Read Chap. from Christian Heroes book.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Literature-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/9",
-              "rawDate": 1775710800000,
-              "week": 34,
-              "task": "Read Chapter 16: What Happened About the Statues",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Literature-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "4/10",
-              "rawDate": 1775797200000,
-              "week": 34,
-              "task": "Discuss chapter w/mom and Narnia book",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Literature-Fri"
-            },
-            {
-              "day": "Mon",
-              "date": "4/13",
-              "rawDate": 1776056400000,
-              "week": 34,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Literature-Mon"
-            },
             {
               "day": "Tue",
               "date": "4/14",
@@ -1594,6 +1539,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Literature-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "4/28",
+              "rawDate": 1777352400000,
+              "week": 37,
+              "task": "Read Chap. from Christian Heroes book.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Literature-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "4/29",
+              "rawDate": 1777438800000,
+              "week": 37,
+              "task": "Read Chap. from Christian Heroes book.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Literature-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "4/30",
+              "rawDate": 1777525200000,
+              "week": 37,
+              "task": "Read Chapter 2: A Wayside Adventure",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Literature-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "5/1",
+              "rawDate": 1777611600000,
+              "week": 37,
+              "task": "Discuss chapter w/mom and Narnia book",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Literature-Fri"
+            },
+            {
+              "day": "Mon",
+              "date": "5/4",
+              "rawDate": 1777870800000,
+              "week": 37,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Literature-Mon"
             }
           ]
         },
@@ -1601,61 +1601,6 @@
           "subject": "Grammar",
           "curriculum": "(Shurley Eng. Lev. 2)",
           "tasks": [
-            {
-              "day": "Tue",
-              "date": "4/7",
-              "rawDate": 1775538000000,
-              "week": 34,
-              "task": "Lesson Jingles EACH day. Complete Ch. 22, Lesson 1",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Grammar-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/8",
-              "rawDate": 1775624400000,
-              "week": 34,
-              "task": "Lesson Jingles EACH day. Complete Ch. 22, Lesson 2 & Lesson 3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Grammar-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/9",
-              "rawDate": 1775710800000,
-              "week": 34,
-              "task": "Lesson Jingles EACH day. Complete Ch. 22, Lesson 4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Grammar-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "4/10",
-              "rawDate": 1775797200000,
-              "week": 34,
-              "task": "Lesson Jingles EACH day. Complete Ch. 22, Lesson 5",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Grammar-Fri"
-            },
-            {
-              "day": "Mon",
-              "date": "4/13",
-              "rawDate": 1776056400000,
-              "week": 34,
-              "task": "",
-              "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fyoutu.be%2FGLmjfJyZ-iM%3Fsi%3DFGqogPFs1XasxyEC",
-              "linkUrl": "https://youtu.be/GLmjfJyZ-iM?si=FGqogPFs1XasxyEC",
-              "done": false,
-              "id": "Emily-W34-Grammar-Mon"
-            },
             {
               "day": "Tue",
               "date": "4/14",
@@ -1765,6 +1710,61 @@
               "linkUrl": "https://youtu.be/GLmjfJyZ-iM?si=FGqogPFs1XasxyEC",
               "done": false,
               "id": "Emily-W36-Grammar-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "4/28",
+              "rawDate": 1777352400000,
+              "week": 37,
+              "task": "Lesson Jingles EACH day. Complete Ch. 24, Lesson 1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Grammar-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "4/29",
+              "rawDate": 1777438800000,
+              "week": 37,
+              "task": "Lesson Jingles EACH day. Complete Ch. 24, Lesson 2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Grammar-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "4/30",
+              "rawDate": 1777525200000,
+              "week": 37,
+              "task": "Lesson Jingles EACH day. Complete Ch. 24, Lesson 3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Grammar-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "5/1",
+              "rawDate": 1777611600000,
+              "week": 37,
+              "task": "Lesson Jingles EACH day. Complete Ch. 24, Lesson 4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Grammar-Fri"
+            },
+            {
+              "day": "Mon",
+              "date": "5/4",
+              "rawDate": 1777870800000,
+              "week": 37,
+              "task": "",
+              "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fyoutu.be%2FGLmjfJyZ-iM%3Fsi%3DFGqogPFs1XasxyEC",
+              "linkUrl": "https://youtu.be/GLmjfJyZ-iM?si=FGqogPFs1XasxyEC",
+              "done": false,
+              "id": "Emily-W37-Grammar-Mon"
             }
           ]
         },
@@ -1772,61 +1772,6 @@
           "subject": "Handwriting",
           "curriculum": "(Good and Beautiful)",
           "tasks": [
-            {
-              "day": "Tue",
-              "date": "4/7",
-              "rawDate": 1775538000000,
-              "week": 34,
-              "task": "Complete p. 96",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Handwriting-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/8",
-              "rawDate": 1775624400000,
-              "week": 34,
-              "task": "Complete p. 97",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Handwriting-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/9",
-              "rawDate": 1775710800000,
-              "week": 34,
-              "task": "Complete p. 98",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Handwriting-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "4/10",
-              "rawDate": 1775797200000,
-              "week": 34,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Handwriting-Fri"
-            },
-            {
-              "day": "Mon",
-              "date": "4/13",
-              "rawDate": 1776056400000,
-              "week": 34,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W34-Handwriting-Mon"
-            },
             {
               "day": "Tue",
               "date": "4/14",
@@ -1936,6 +1881,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W36-Handwriting-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "4/28",
+              "rawDate": 1777352400000,
+              "week": 37,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Handwriting-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "4/29",
+              "rawDate": 1777438800000,
+              "week": 37,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Handwriting-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "4/30",
+              "rawDate": 1777525200000,
+              "week": 37,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Handwriting-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "5/1",
+              "rawDate": 1777611600000,
+              "week": 37,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Handwriting-Fri"
+            },
+            {
+              "day": "Mon",
+              "date": "5/4",
+              "rawDate": 1777870800000,
+              "week": 37,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W37-Handwriting-Mon"
             }
           ]
         }
