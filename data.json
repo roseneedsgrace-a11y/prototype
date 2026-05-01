@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T12:02:26.486Z",
+  "generated": "2026-05-01T12:12:35.110Z",
   "date": "Friday, May 1",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
@@ -11,31 +11,43 @@
       "name": "Brent",
       "palette": "colonial",
       "currentWeek": 37,
-      "chore": "Mow front lawn"
+      "chore": [
+        "Mow front lawn or clean room"
+      ]
     },
     {
       "name": "Grace",
       "palette": "ocean",
       "currentWeek": 37,
-      "chore": "Vacuum and pick up floors"
+      "chore": [
+        "Vacuum and pick up floors"
+      ]
     },
     {
       "name": "Ruth",
       "palette": "safari",
       "currentWeek": 37,
-      "chore": "Pick up school work, vaccum"
+      "chore": [
+        "Pick up school work, vaccum",
+        "Load dishwasher"
+      ]
     },
     {
       "name": "Thomas",
       "palette": "boy",
       "currentWeek": 37,
-      "chore": "Clean kitchen - dishes, counters, dishwasher, organize"
+      "chore": [
+        "Clean kitchen - dishes, counters, dishwasher, organize",
+        "Clean Hall Bathroom"
+      ]
     },
     {
       "name": "Ryleigh",
       "palette": "original",
       "currentWeek": 37,
-      "chore": "Laundry"
+      "chore": [
+        "Laundry"
+      ]
     }
   ],
   "studentData": [
