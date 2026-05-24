@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-24T04:40:07.649Z",
-  "date": "Saturday, May 23",
+  "generated": "2026-05-24T05:40:10.517Z",
+  "date": "Sunday, May 24",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
     "headerColor": "#741b47"
@@ -9,7 +9,7 @@
     {
       "name": "Brent",
       "palette": "boy",
-      "currentWeek": 40
+      "currentWeek": 41
     },
     {
       "name": "Emily",
@@ -45,67 +45,12 @@
         "secondary": "#4682B4",
         "bg": "#F0F8FF"
       },
-      "weekNum": 40,
+      "weekNum": 41,
       "grid": [
         {
           "subject": "English",
           "curriculum": "Creative Writing on 🧭",
           "tasks": [
-            {
-              "day": "Mon",
-              "date": "5/11",
-              "rawDate": 1778475600000,
-              "week": 39,
-              "task": "Lesson & Paper",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W39-English-Mon"
-            },
-            {
-              "day": "Tue",
-              "date": "5/12",
-              "rawDate": 1778562000000,
-              "week": 39,
-              "task": "Lesson & Paper",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W39-English-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "5/13",
-              "rawDate": 1778648400000,
-              "week": 39,
-              "task": "Lesson & Paper",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W39-English-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "5/14",
-              "rawDate": 1778734800000,
-              "week": 39,
-              "task": "Lesson & Paper",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W39-English-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "5/15",
-              "rawDate": 1778821200000,
-              "week": 39,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W39-English-Fri"
-            },
             {
               "day": "Mon",
               "date": "5/18",
@@ -215,6 +160,28 @@
               "linkUrl": null,
               "done": false,
               "id": "Brent-W41-English-Fri"
+            },
+            {
+              "day": "Mon",
+              "date": "6/1",
+              "rawDate": 1780290000000,
+              "week": 42,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W42-English-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "6/2",
+              "rawDate": 1780376400000,
+              "week": 42,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W42-English-Tue"
             }
           ]
         }
