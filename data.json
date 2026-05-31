@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-31T04:40:11.915Z",
-  "date": "Saturday, May 30",
+  "generated": "2026-05-31T05:40:14.379Z",
+  "date": "Sunday, May 31",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
     "headerColor": "#741b47"
@@ -9,7 +9,7 @@
     {
       "name": "Brent",
       "palette": "boy",
-      "currentWeek": 41
+      "currentWeek": 42
     },
     {
       "name": "Emily",
@@ -45,67 +45,12 @@
         "secondary": "#4682B4",
         "bg": "#F0F8FF"
       },
-      "weekNum": 41,
+      "weekNum": 42,
       "grid": [
         {
           "subject": "English",
           "curriculum": "Creative Writing on 🧭",
           "tasks": [
-            {
-              "day": "Mon",
-              "date": "5/18",
-              "rawDate": 1779080400000,
-              "week": 40,
-              "task": "Lesson & Paper",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W40-English-Mon"
-            },
-            {
-              "day": "Tue",
-              "date": "5/19",
-              "rawDate": 1779166800000,
-              "week": 40,
-              "task": "Lesson & Paper",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W40-English-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "5/20",
-              "rawDate": 1779253200000,
-              "week": 40,
-              "task": "Lesson & Paper",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W40-English-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "5/21",
-              "rawDate": 1779339600000,
-              "week": 40,
-              "task": "Lesson & Paper",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W40-English-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "5/22",
-              "rawDate": 1779426000000,
-              "week": 40,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W40-English-Fri"
-            },
             {
               "day": "Mon",
               "date": "5/25",
