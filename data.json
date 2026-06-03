@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-03T04:40:12.193Z",
-  "date": "Tuesday, June 2",
+  "generated": "2026-06-03T05:40:10.930Z",
+  "date": "Wednesday, June 3",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
     "headerColor": "#741b47"
@@ -9,7 +9,7 @@
     {
       "name": "Brent",
       "palette": "boy",
-      "currentWeek": 42
+      "currentWeek": 1
     },
     {
       "name": "Emily",
@@ -45,88 +45,817 @@
         "secondary": "#4682B4",
         "bg": "#F0F8FF"
       },
-      "weekNum": 42,
+      "weekNum": 1,
       "grid": [
         {
-          "subject": "English",
-          "curriculum": "Creative Writing on 🧭",
+          "subject": "Bible",
+          "curriculum": "Old Testament",
           "tasks": [
             {
-              "day": "Mon",
-              "date": "5/25",
-              "rawDate": 1779685200000,
-              "week": 41,
-              "task": "Lesson & Paper",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W41-English-Mon"
-            },
-            {
               "day": "Tue",
-              "date": "5/26",
-              "rawDate": 1779771600000,
-              "week": 41,
-              "task": "Lesson & Paper",
+              "date": "8/5",
+              "rawDate": 1754370000000,
+              "week": 1,
+              "task": "The Ology, BIble Reading w/ Journaling",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Brent-W41-English-Tue"
+              "id": "Brent-W1-Bible-Tue"
             },
             {
               "day": "Wed",
-              "date": "5/27",
-              "rawDate": 1779858000000,
-              "week": 41,
-              "task": "Lesson & Paper",
+              "date": "8/6",
+              "rawDate": 1754456400000,
+              "week": 1,
+              "task": "The Ology, BIble Reading w/ Journaling",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Brent-W41-English-Wed"
+              "id": "Brent-W1-Bible-Wed"
             },
             {
               "day": "Thu",
-              "date": "5/28",
-              "rawDate": 1779944400000,
-              "week": 41,
-              "task": "Lesson & Paper",
+              "date": "8/7",
+              "rawDate": 1754542800000,
+              "week": 1,
+              "task": "The Ology, BIble Reading w/ Journaling",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Brent-W41-English-Thu"
+              "id": "Brent-W1-Bible-Thu"
             },
             {
               "day": "Fri",
-              "date": "5/29",
-              "rawDate": 1780030800000,
-              "week": 41,
-              "task": "",
+              "date": "8/8",
+              "rawDate": 1754629200000,
+              "week": 1,
+              "task": "The Ology, BIble Reading w/ Journaling",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Brent-W41-English-Fri"
+              "id": "Brent-W1-Bible-Fri"
             },
             {
-              "day": "Mon",
-              "date": "6/1",
-              "rawDate": 1780290000000,
-              "week": 42,
-              "task": "",
+              "day": "Sat",
+              "date": "8/9",
+              "rawDate": 1754715600000,
+              "week": 1,
+              "task": "The Ology, BIble Reading w/ Journaling (turn in 5 entries)",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Brent-W42-English-Mon"
+              "id": "Brent-W1-Bible-Sat"
             },
             {
               "day": "Tue",
-              "date": "6/2",
-              "rawDate": 1780376400000,
-              "week": 42,
+              "date": "8/12",
+              "rawDate": 1754974800000,
+              "week": 2,
+              "task": "The Ology, BIble Reading w/ Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Bible-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/13",
+              "rawDate": 1755061200000,
+              "week": 2,
+              "task": "The Ology, BIble Reading w/ Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Bible-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/14",
+              "rawDate": 1755147600000,
+              "week": 2,
+              "task": "The Ology, BIble Reading w/ Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Bible-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/15",
+              "rawDate": 1755234000000,
+              "week": 2,
+              "task": "The Ology, BIble Reading w/ Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Bible-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/16",
+              "rawDate": 1755320400000,
+              "week": 2,
+              "task": "The Ology, BIble Reading w/ Journaling (turn in 5 entries)",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Bible-Sat"
+            }
+          ]
+        },
+        {
+          "subject": "History",
+          "curriculum": "American on 🧭",
+          "tasks": [
+            {
+              "day": "Tue",
+              "date": "8/5",
+              "rawDate": 1754370000000,
+              "week": 1,
+              "task": "🧭 1.1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-History-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/6",
+              "rawDate": 1754456400000,
+              "week": 1,
+              "task": "🧭 1.2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-History-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/7",
+              "rawDate": 1754542800000,
+              "week": 1,
+              "task": "🧭 1.3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-History-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/8",
+              "rawDate": 1754629200000,
+              "week": 1,
+              "task": "🧭 1.4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-History-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/9",
+              "rawDate": 1754715600000,
+              "week": 1,
+              "task": "🧭 1.5",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-History-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/12",
+              "rawDate": 1754974800000,
+              "week": 2,
+              "task": "🧭 1.6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-History-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/13",
+              "rawDate": 1755061200000,
+              "week": 2,
+              "task": "🧭 2.1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-History-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/14",
+              "rawDate": 1755147600000,
+              "week": 2,
+              "task": "🧭 2.2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-History-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/15",
+              "rawDate": 1755234000000,
+              "week": 2,
+              "task": "🧭 2.3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-History-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/16",
+              "rawDate": 1755320400000,
+              "week": 2,
+              "task": "🧭 2.4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-History-Sat"
+            }
+          ]
+        },
+        {
+          "subject": "Foreign Language",
+          "curriculum": "Latin 1 🧭",
+          "tasks": [
+            {
+              "day": "Tue",
+              "date": "8/5",
+              "rawDate": 1754370000000,
+              "week": 1,
               "task": "",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Brent-W42-English-Tue"
+              "id": "Brent-W1-Foreign Language-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/6",
+              "rawDate": 1754456400000,
+              "week": 1,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Foreign Language-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/7",
+              "rawDate": 1754542800000,
+              "week": 1,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Foreign Language-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/8",
+              "rawDate": 1754629200000,
+              "week": 1,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Foreign Language-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/9",
+              "rawDate": 1754715600000,
+              "week": 1,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Foreign Language-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/12",
+              "rawDate": 1754974800000,
+              "week": 2,
+              "task": "Lesson 1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Foreign Language-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/13",
+              "rawDate": 1755061200000,
+              "week": 2,
+              "task": "Lesson 1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Foreign Language-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/14",
+              "rawDate": 1755147600000,
+              "week": 2,
+              "task": "Lesson 1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Foreign Language-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/15",
+              "rawDate": 1755234000000,
+              "week": 2,
+              "task": "Lesson 1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Foreign Language-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/16",
+              "rawDate": 1755320400000,
+              "week": 2,
+              "task": "Lesson 1 Quiz",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Foreign Language-Sat"
+            }
+          ]
+        },
+        {
+          "subject": "Physical Training",
+          "curriculum": "P.T.",
+          "tasks": [
+            {
+              "day": "Tue",
+              "date": "8/5",
+              "rawDate": 1754370000000,
+              "week": 1,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Physical Training-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/6",
+              "rawDate": 1754456400000,
+              "week": 1,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Physical Training-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/7",
+              "rawDate": 1754542800000,
+              "week": 1,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Physical Training-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/8",
+              "rawDate": 1754629200000,
+              "week": 1,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Physical Training-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/9",
+              "rawDate": 1754715600000,
+              "week": 1,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Physical Training-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/12",
+              "rawDate": 1754974800000,
+              "week": 2,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Physical Training-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/13",
+              "rawDate": 1755061200000,
+              "week": 2,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Physical Training-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/14",
+              "rawDate": 1755147600000,
+              "week": 2,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Physical Training-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/15",
+              "rawDate": 1755234000000,
+              "week": 2,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Physical Training-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/16",
+              "rawDate": 1755320400000,
+              "week": 2,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Physical Training-Sat"
+            }
+          ]
+        },
+        {
+          "subject": "Science",
+          "curriculum": "Biology 🧭",
+          "tasks": [
+            {
+              "day": "Tue",
+              "date": "8/5",
+              "rawDate": 1754370000000,
+              "week": 1,
+              "task": "How to Teach This Class Video for Teachers & Students",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Science-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/6",
+              "rawDate": 1754456400000,
+              "week": 1,
+              "task": "Preface & Intro Videos",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Science-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/7",
+              "rawDate": 1754542800000,
+              "week": 1,
+              "task": "Read Summary & Test Q.s",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Science-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/8",
+              "rawDate": 1754629200000,
+              "week": 1,
+              "task": "Ch 1.1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Science-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/9",
+              "rawDate": 1754715600000,
+              "week": 1,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Science-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/12",
+              "rawDate": 1754974800000,
+              "week": 2,
+              "task": "Ch 1.2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Science-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/13",
+              "rawDate": 1755061200000,
+              "week": 2,
+              "task": "Ch 1.3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Science-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/14",
+              "rawDate": 1755147600000,
+              "week": 2,
+              "task": "Ch 1.4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Science-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/15",
+              "rawDate": 1755234000000,
+              "week": 2,
+              "task": "Ch 1.5",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Science-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/16",
+              "rawDate": 1755320400000,
+              "week": 2,
+              "task": "Ch 1.6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Science-Sat"
+            }
+          ]
+        },
+        {
+          "subject": "Math",
+          "curriculum": "Schormann – Algebra 2",
+          "tasks": [
+            {
+              "day": "Tue",
+              "date": "8/5",
+              "rawDate": 1754370000000,
+              "week": 1,
+              "task": "Shormann Math Intro",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Math-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/6",
+              "rawDate": 1754456400000,
+              "week": 1,
+              "task": "Lesson 1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Math-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/7",
+              "rawDate": 1754542800000,
+              "week": 1,
+              "task": "Lesson 2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Math-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/8",
+              "rawDate": 1754629200000,
+              "week": 1,
+              "task": "Lesson 3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Math-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/9",
+              "rawDate": 1754715600000,
+              "week": 1,
+              "task": "Review/Catch-up",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Math-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/12",
+              "rawDate": 1754974800000,
+              "week": 2,
+              "task": "Lesson 4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Math-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/13",
+              "rawDate": 1755061200000,
+              "week": 2,
+              "task": "Quiz 1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Math-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/14",
+              "rawDate": 1755147600000,
+              "week": 2,
+              "task": "Lesson 5",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Math-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/15",
+              "rawDate": 1755234000000,
+              "week": 2,
+              "task": "Lesson 6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Math-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/16",
+              "rawDate": 1755320400000,
+              "week": 2,
+              "task": "Review/Catch-up",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Math-Sat"
+            }
+          ]
+        },
+        {
+          "subject": "Citizenship",
+          "curriculum": "Logic (1st)\nEconomics🧭/Hills (2nd)",
+          "tasks": [
+            {
+              "day": "Tue",
+              "date": "8/5",
+              "rawDate": 1754370000000,
+              "week": 1,
+              "task": "Dr. Ransom Fallacy #1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Citizenship-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/6",
+              "rawDate": 1754456400000,
+              "week": 1,
+              "task": "Dr. Ransom Fallacy #2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Citizenship-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/7",
+              "rawDate": 1754542800000,
+              "week": 1,
+              "task": "Dr. Ransom Fallacy #3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Citizenship-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/8",
+              "rawDate": 1754629200000,
+              "week": 1,
+              "task": "Dr. Ransom Fallacy #4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Citizenship-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/9",
+              "rawDate": 1754715600000,
+              "week": 1,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W1-Citizenship-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/12",
+              "rawDate": 1754974800000,
+              "week": 2,
+              "task": "Review last week's fallacies.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Citizenship-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/13",
+              "rawDate": 1755061200000,
+              "week": 2,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Citizenship-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/14",
+              "rawDate": 1755147600000,
+              "week": 2,
+              "task": "Review last week's fallacies.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Citizenship-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/15",
+              "rawDate": 1755234000000,
+              "week": 2,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Citizenship-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/16",
+              "rawDate": 1755320400000,
+              "week": 2,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W2-Citizenship-Sat"
             }
           ]
         }
