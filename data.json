@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05T12:26:38.881Z",
+  "generated": "2026-07-05T12:29:52.826Z",
   "date": "Sunday, July 5",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
@@ -72,7 +72,7 @@
               "task": "Lesson 20 Test, pt. 2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-History-Mon",
               "row": 204,
               "col": 4
@@ -85,7 +85,7 @@
               "task": "Portfolio",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-History-Tue",
               "row": 205,
               "col": 4
@@ -98,7 +98,7 @@
               "task": "Lesson 21 Test, pt. 1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-History-Wed",
               "row": 206,
               "col": 4
@@ -111,7 +111,7 @@
               "task": "Lesson 21 Test, pt. 2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-History-Thu",
               "row": 207,
               "col": 4
@@ -124,7 +124,7 @@
               "task": "Portfolio",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-History-Fri",
               "row": 208,
               "col": 4
@@ -137,7 +137,7 @@
               "task": "Lesson 22 Test, pt. 1-2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-History-Mon",
               "row": 209,
               "col": 4
@@ -150,7 +150,7 @@
               "task": "Portfolio",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-History-Tue",
               "row": 210,
               "col": 4
@@ -163,7 +163,7 @@
               "task": "Lesson 23 Test, pt. 1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-History-Wed",
               "row": 211,
               "col": 4
@@ -176,7 +176,7 @@
               "task": "Lesson 23 Test, pt. 2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-History-Thu",
               "row": 212,
               "col": 4
@@ -189,7 +189,7 @@
               "task": "Portfolio",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-History-Fri",
               "row": 213,
               "col": 4
@@ -202,7 +202,7 @@
               "task": "Lesson 24 Test, pt. 1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-History-Mon",
               "row": 214,
               "col": 4
@@ -215,7 +215,7 @@
               "task": "Lesson 24 Test, pt. 2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-History-Tue",
               "row": 215,
               "col": 4
@@ -228,7 +228,7 @@
               "task": "Portfolio",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-History-Wed",
               "row": 216,
               "col": 4
@@ -241,7 +241,7 @@
               "task": "Lesson 25 Test, pt. 1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-History-Thu",
               "row": 217,
               "col": 4
@@ -254,7 +254,7 @@
               "task": "Lesson 25 Test, pt. 2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-History-Fri",
               "row": 218,
               "col": 4
@@ -267,7 +267,7 @@
               "task": "Portfolio",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-History-Mon",
               "row": 219,
               "col": 4
@@ -280,7 +280,7 @@
               "task": "Lesson 26 Test, pt. 1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-History-Tue",
               "row": 220,
               "col": 4
@@ -293,7 +293,7 @@
               "task": "Lesson 26 Test, pt. 2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-History-Wed",
               "row": 221,
               "col": 4
@@ -306,7 +306,7 @@
               "task": "Portfolio",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-History-Thu",
               "row": 222,
               "col": 4
@@ -455,7 +455,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-English-Wed",
               "row": 206,
               "col": 5
@@ -481,7 +481,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-English-Fri",
               "row": 208,
               "col": 5
@@ -507,7 +507,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-English-Tue",
               "row": 210,
               "col": 5
@@ -520,7 +520,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-English-Wed",
               "row": 211,
               "col": 5
@@ -546,7 +546,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-English-Fri",
               "row": 213,
               "col": 5
@@ -572,7 +572,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-English-Tue",
               "row": 215,
               "col": 5
@@ -585,7 +585,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-English-Wed",
               "row": 216,
               "col": 5
@@ -611,7 +611,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-English-Fri",
               "row": 218,
               "col": 5
@@ -624,7 +624,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-English-Mon",
               "row": 219,
               "col": 5
@@ -637,7 +637,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-English-Tue",
               "row": 220,
               "col": 5
@@ -650,7 +650,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-English-Wed",
               "row": 221,
               "col": 5
@@ -786,7 +786,7 @@
               "task": "Chapter 12.1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-Science-Mon",
               "row": 204,
               "col": 7
@@ -799,7 +799,7 @@
               "task": "Chapter 12.2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-Science-Tue",
               "row": 205,
               "col": 7
@@ -812,7 +812,7 @@
               "task": "Chapter 12.3",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-Science-Wed",
               "row": 206,
               "col": 7
@@ -825,7 +825,7 @@
               "task": "Chatper 12 Test",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-Science-Thu",
               "row": 207,
               "col": 7
@@ -838,7 +838,7 @@
               "task": "Chapter 13.1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-Science-Fri",
               "row": 208,
               "col": 7
@@ -851,7 +851,7 @@
               "task": "Chapter 13.2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-Science-Mon",
               "row": 209,
               "col": 7
@@ -864,7 +864,7 @@
               "task": "Chapter 13.3",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-Science-Tue",
               "row": 210,
               "col": 7
@@ -877,7 +877,7 @@
               "task": "Chapter 13 Test",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-Science-Wed",
               "row": 211,
               "col": 7
@@ -890,7 +890,7 @@
               "task": "Chapter 14.1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-Science-Thu",
               "row": 212,
               "col": 7
@@ -903,7 +903,7 @@
               "task": "Chapter 14.2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W42-Science-Fri",
               "row": 213,
               "col": 7
@@ -916,7 +916,7 @@
               "task": "Chapter 14.3",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-Science-Mon",
               "row": 214,
               "col": 7
@@ -929,7 +929,7 @@
               "task": "Chapter 14.4",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-Science-Tue",
               "row": 215,
               "col": 7
@@ -942,7 +942,7 @@
               "task": "Chapter 14 Test.",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-Science-Wed",
               "row": 216,
               "col": 7
@@ -955,7 +955,7 @@
               "task": "Chapter15.1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-Science-Thu",
               "row": 217,
               "col": 7
@@ -968,7 +968,7 @@
               "task": "Chapter15.2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W43-Science-Fri",
               "row": 218,
               "col": 7
@@ -981,7 +981,7 @@
               "task": "Chapter15.3",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-Science-Mon",
               "row": 219,
               "col": 7
@@ -994,7 +994,7 @@
               "task": "Chapter15.4",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-Science-Tue",
               "row": 220,
               "col": 7
@@ -1007,7 +1007,7 @@
               "task": "Chapter 15 Test",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-Science-Wed",
               "row": 221,
               "col": 7
@@ -1020,7 +1020,7 @@
               "task": "Appendix Reading 1",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-Science-Thu",
               "row": 222,
               "col": 7
@@ -1033,7 +1033,7 @@
               "task": "Appendix Reading 2",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W44-Science-Fri",
               "row": 223,
               "col": 7
