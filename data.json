@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05T12:29:52.826Z",
+  "generated": "2026-07-05T12:31:40.478Z",
   "date": "Sunday, July 5",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
@@ -429,7 +429,7 @@
               "task": "Lesson & Paper",
               "imageUrl": null,
               "linkUrl": null,
-              "done": false,
+              "done": true,
               "id": "Brent-W41-English-Mon",
               "row": 204,
               "col": 5
