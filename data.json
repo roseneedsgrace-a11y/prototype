@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06T19:30:31.982Z",
+  "generated": "2026-08-06T19:31:01.061Z",
   "date": "Thursday, August 6",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
@@ -19,7 +19,7 @@
     {
       "name": "Grace",
       "palette": "outdoorsy",
-      "currentWeek": 38
+      "currentWeek": 1
     },
     {
       "name": "Joey",
@@ -1807,121 +1807,121 @@
         "secondary": "#C17F3A",
         "bg": "#F5F5EE"
       },
-      "weekNum": 38,
+      "weekNum": 1,
       "grid": [
         {
           "subject": "Bible",
           "curriculum": "",
           "tasks": [
             {
-              "day": "Tue",
-              "date": "4/28",
-              "rawDate": 1777352400000,
-              "week": 37,
-              "task": "The Ology, BIble Reading, Catechism Q35",
+              "day": "Mon",
+              "date": "8/3",
+              "rawDate": 1785733200000,
+              "week": 1,
+              "task": "The Ology, BIble Reading, Catechism Q1",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Bible-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/29",
-              "rawDate": 1777438800000,
-              "week": 37,
-              "task": "The Ology, BIble Reading, Catechism Q35",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Bible-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/30",
-              "rawDate": 1777525200000,
-              "week": 37,
-              "task": "The Ology, BIble Reading, Catechism Q35",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Bible-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "5/1",
-              "rawDate": 1777611600000,
-              "week": 37,
-              "task": "The Ology, BIble Reading, Catechism Q35",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Bible-Fri"
-            },
-            {
-              "day": "Sat",
-              "date": "5/2",
-              "rawDate": 1777698000000,
-              "week": 37,
-              "task": "The Ology, BIble Reading, Catechism Q35",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Bible-Sat"
+              "id": "Grace-W1-Bible-Mon"
             },
             {
               "day": "Tue",
-              "date": "5/5",
-              "rawDate": 1777957200000,
-              "week": 38,
-              "task": "The Ology, BIble Reading, Catechism Q36",
+              "date": "8/4",
+              "rawDate": 1785819600000,
+              "week": 1,
+              "task": "The Ology, BIble Reading, Catechism Q1",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Bible-Tue"
+              "id": "Grace-W1-Bible-Tue"
             },
             {
               "day": "Wed",
-              "date": "5/6",
-              "rawDate": 1778043600000,
-              "week": 38,
-              "task": "The Ology, BIble Reading, Catechism Q36",
+              "date": "8/5",
+              "rawDate": 1785906000000,
+              "week": 1,
+              "task": "The Ology, BIble Reading, Catechism Q1",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Bible-Wed"
+              "id": "Grace-W1-Bible-Wed"
             },
             {
               "day": "Thu",
-              "date": "5/7",
-              "rawDate": 1778130000000,
-              "week": 38,
-              "task": "The Ology, BIble Reading, Catechism Q36",
+              "date": "8/6",
+              "rawDate": 1785992400000,
+              "week": 1,
+              "task": "The Ology, BIble Reading, Catechism Q1",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Bible-Thu"
+              "id": "Grace-W1-Bible-Thu"
             },
             {
               "day": "Fri",
-              "date": "5/8",
-              "rawDate": 1778216400000,
-              "week": 38,
-              "task": "The Ology, BIble Reading, Catechism Q36",
+              "date": "8/7",
+              "rawDate": 1786078800000,
+              "week": 1,
+              "task": "The Ology, BIble Reading, Catechism Q1",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Bible-Fri"
+              "id": "Grace-W1-Bible-Fri"
             },
             {
               "day": "Sat",
-              "date": "5/9",
-              "rawDate": 1778302800000,
-              "week": 38,
-              "task": "The Ology, BIble Reading, Catechism Q36",
+              "date": "8/8",
+              "rawDate": 1786165200000,
+              "week": 2,
+              "task": "The Ology, BIble Reading, Catechism Q2",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Bible-Sat"
+              "id": "Grace-W2-Bible-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/11",
+              "rawDate": 1786424400000,
+              "week": 2,
+              "task": "The Ology, BIble Reading, Catechism Q2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Bible-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/12",
+              "rawDate": 1786510800000,
+              "week": 2,
+              "task": "The Ology, BIble Reading, Catechism Q2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Bible-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/13",
+              "rawDate": 1786597200000,
+              "week": 2,
+              "task": "The Ology, BIble Reading, Catechism Q2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Bible-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/14",
+              "rawDate": 1786683600000,
+              "week": 2,
+              "task": "The Ology, BIble Reading, Catechism Q2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Bible-Fri"
             }
           ]
         },
@@ -1930,114 +1930,114 @@
           "curriculum": "",
           "tasks": [
             {
-              "day": "Tue",
-              "date": "4/28",
-              "rawDate": 1777352400000,
-              "week": 37,
-              "task": "Drill Team & Lesson 60",
+              "day": "Mon",
+              "date": "8/3",
+              "rawDate": 1785733200000,
+              "week": 1,
+              "task": "Bar Models in Addition and Subtraction, pp. 25-26",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Mammoth Math-Tue"
+              "id": "Grace-W1-Mammoth Math-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "8/4",
+              "rawDate": 1785819600000,
+              "week": 1,
+              "task": "Bar Models in Addition and Subtraction, pp. 27-28",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Mammoth Math-Tue"
             },
             {
               "day": "Wed",
-              "date": "4/29",
-              "rawDate": 1777438800000,
-              "week": 37,
-              "task": "Drill Team & Investigation 6",
+              "date": "8/5",
+              "rawDate": 1785906000000,
+              "week": 1,
+              "task": "Order of Operations, pp. 29-30",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Mammoth Math-Wed"
+              "id": "Grace-W1-Mammoth Math-Wed"
             },
             {
               "day": "Thu",
-              "date": "4/30",
-              "rawDate": 1777525200000,
-              "week": 37,
-              "task": "Drill Team & Lesson 61",
+              "date": "8/6",
+              "rawDate": 1785992400000,
+              "week": 1,
+              "task": "Making Bar Graphs, pp. 31-32",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Mammoth Math-Thu"
+              "id": "Grace-W1-Mammoth Math-Thu"
             },
             {
               "day": "Fri",
-              "date": "5/1",
-              "rawDate": 1777611600000,
-              "week": 37,
-              "task": "Drill Team & Lesson 62",
+              "date": "8/7",
+              "rawDate": 1786078800000,
+              "week": 1,
+              "task": "Line Graphs, pp. 33-35",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Mammoth Math-Fri"
+              "id": "Grace-W1-Mammoth Math-Fri"
             },
             {
               "day": "Sat",
-              "date": "5/2",
-              "rawDate": 1777698000000,
-              "week": 37,
+              "date": "8/8",
+              "rawDate": 1786165200000,
+              "week": 2,
+              "task": "Rounding, pp. 36-38",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Mammoth Math-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/11",
+              "rawDate": 1786424400000,
+              "week": 2,
+              "task": "Estimating, pp. 39-40",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Mammoth Math-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/12",
+              "rawDate": 1786510800000,
+              "week": 2,
+              "task": "Money and Discounts, pp. 41-42",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Mammoth Math-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/13",
+              "rawDate": 1786597200000,
+              "week": 2,
+              "task": "Money and Discounts, p. 43",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Mammoth Math-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/14",
+              "rawDate": 1786683600000,
+              "week": 2,
               "task": "",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Mammoth Math-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "5/5",
-              "rawDate": 1777957200000,
-              "week": 38,
-              "task": "Drill Team & Lesson 63",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W38-Mammoth Math-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "5/6",
-              "rawDate": 1778043600000,
-              "week": 38,
-              "task": "Drill Team & Lesson 64",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W38-Mammoth Math-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "5/7",
-              "rawDate": 1778130000000,
-              "week": 38,
-              "task": "Drill Team & Lesson 65",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W38-Mammoth Math-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "5/8",
-              "rawDate": 1778216400000,
-              "week": 38,
-              "task": "Drill Team & Lesson 66",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W38-Mammoth Math-Fri"
-            },
-            {
-              "day": "Sat",
-              "date": "5/9",
-              "rawDate": 1778302800000,
-              "week": 38,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W38-Mammoth Math-Sat"
+              "id": "Grace-W2-Mammoth Math-Fri"
             }
           ]
         },
@@ -2046,114 +2046,114 @@
           "curriculum": "",
           "tasks": [
             {
-              "day": "Tue",
-              "date": "4/28",
-              "rawDate": 1777352400000,
-              "week": 37,
-              "task": "Tell mom and Tabitha what you learned.",
+              "day": "Mon",
+              "date": "8/3",
+              "rawDate": 1785733200000,
+              "week": 1,
+              "task": "A Child's History of the World: Read Story 1",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-History-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/29",
-              "rawDate": 1777438800000,
-              "week": 37,
-              "task": "Tell mom and Tabitha what you learned.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-History-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/30",
-              "rawDate": 1777525200000,
-              "week": 37,
-              "task": "Tell mom and Tabitha what you learned.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-History-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "5/1",
-              "rawDate": 1777611600000,
-              "week": 37,
-              "task": "Tell mom and Tabitha what you learned.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-History-Fri"
-            },
-            {
-              "day": "Sat",
-              "date": "5/2",
-              "rawDate": 1777698000000,
-              "week": 37,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-History-Sat"
+              "id": "Grace-W1-History-Mon"
             },
             {
               "day": "Tue",
-              "date": "5/5",
-              "rawDate": 1777957200000,
-              "week": 38,
-              "task": "",
+              "date": "8/4",
+              "rawDate": 1785819600000,
+              "week": 1,
+              "task": "Read Story 2",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-History-Tue"
+              "id": "Grace-W1-History-Tue"
             },
             {
               "day": "Wed",
-              "date": "5/6",
-              "rawDate": 1778043600000,
-              "week": 38,
-              "task": "",
+              "date": "8/5",
+              "rawDate": 1785906000000,
+              "week": 1,
+              "task": "Read Story 3",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-History-Wed"
+              "id": "Grace-W1-History-Wed"
             },
             {
               "day": "Thu",
-              "date": "5/7",
-              "rawDate": 1778130000000,
-              "week": 38,
-              "task": "",
+              "date": "8/6",
+              "rawDate": 1785992400000,
+              "week": 1,
+              "task": "Tell mom and Tabitha what you learned.",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-History-Thu"
+              "id": "Grace-W1-History-Thu"
             },
             {
               "day": "Fri",
-              "date": "5/8",
-              "rawDate": 1778216400000,
-              "week": 38,
+              "date": "8/7",
+              "rawDate": 1786078800000,
+              "week": 1,
               "task": "",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-History-Fri"
+              "id": "Grace-W1-History-Fri"
             },
             {
               "day": "Sat",
-              "date": "5/9",
-              "rawDate": 1778302800000,
-              "week": 38,
+              "date": "8/8",
+              "rawDate": 1786165200000,
+              "week": 2,
+              "task": "Read Story 4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-History-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/11",
+              "rawDate": 1786424400000,
+              "week": 2,
+              "task": "Read Story 5",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-History-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/12",
+              "rawDate": 1786510800000,
+              "week": 2,
+              "task": "Read Story 6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-History-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/13",
+              "rawDate": 1786597200000,
+              "week": 2,
+              "task": "Tell mom and Tabitha what you learned.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-History-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/14",
+              "rawDate": 1786683600000,
+              "week": 2,
               "task": "",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-History-Sat"
+              "id": "Grace-W2-History-Fri"
             }
           ]
         },
@@ -2162,114 +2162,230 @@
           "curriculum": "listen & practice each day",
           "tasks": [
             {
-              "day": "Tue",
-              "date": "4/28",
-              "rawDate": 1777352400000,
-              "week": 37,
-              "task": "The Star-Spangled Banner (p. 178) - Activity & Practice",
+              "day": "Mon",
+              "date": "8/3",
+              "rawDate": 1785733200000,
+              "week": 1,
+              "task": "He Keeps Me Singing (p. 4) - The Story & Hymn Study",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Music-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/29",
-              "rawDate": 1777438800000,
-              "week": 37,
-              "task": "My Country, 'Tis of Thee (p. 184) - The Story & Hymn Study & Bible Lesson",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Music-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/30",
-              "rawDate": 1777525200000,
-              "week": 37,
-              "task": "My Country, 'Tis of Thee (p. 184) - Copywork & Music Theory & Practice",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Music-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "5/1",
-              "rawDate": 1777611600000,
-              "week": 37,
-              "task": "My Country, 'Tis of Thee (p. 184) - Activity",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Music-Fri"
-            },
-            {
-              "day": "Sat",
-              "date": "5/2",
-              "rawDate": 1777698000000,
-              "week": 37,
-              "task": "",
-              "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
-              "linkUrl": "https://drive.google.com/drive/folders/1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
-              "done": false,
-              "id": "Grace-W37-Music-Sat"
+              "id": "Grace-W1-Music-Mon"
             },
             {
               "day": "Tue",
-              "date": "5/5",
-              "rawDate": 1777957200000,
-              "week": 38,
-              "task": "America the Beautiful (p. 190) - The Story & Hymn Study & Bible Lesson",
+              "date": "8/4",
+              "rawDate": 1785819600000,
+              "week": 1,
+              "task": "He Keeps Me Singing (p. 4) - Bible Lesson",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Music-Tue"
+              "id": "Grace-W1-Music-Tue"
             },
             {
               "day": "Wed",
-              "date": "5/6",
-              "rawDate": 1778043600000,
-              "week": 38,
-              "task": "America the Beautiful (p. 190) - Copywork & Music Theory & Practice",
+              "date": "8/5",
+              "rawDate": 1785906000000,
+              "week": 1,
+              "task": "He Keeps Me Singing (p. 4) - Copywork & Music Theory",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Music-Wed"
+              "id": "Grace-W1-Music-Wed"
             },
             {
               "day": "Thu",
-              "date": "5/7",
-              "rawDate": 1778130000000,
-              "week": 38,
-              "task": "America the Beautiful (p. 190) - Activity",
+              "date": "8/6",
+              "rawDate": 1785992400000,
+              "week": 1,
+              "task": "He Keeps Me Singing - Activity\n\nAudio files →",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Music-Thu"
+              "id": "Grace-W1-Music-Thu"
             },
             {
               "day": "Fri",
-              "date": "5/8",
-              "rawDate": 1778216400000,
-              "week": 38,
-              "task": "America the Beautiful (p. 190) - Review & Final Practice",
+              "date": "8/7",
+              "rawDate": 1786078800000,
+              "week": 1,
+              "task": "CellImage",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Music-Fri"
+              "id": "Grace-W1-Music-Fri"
             },
             {
               "day": "Sat",
-              "date": "5/9",
-              "rawDate": 1778302800000,
-              "week": 38,
-              "task": "",
-              "imageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
-              "linkUrl": "https://drive.google.com/drive/folders/1YhfsnOtZhJi0X5AIWDAnUDZHCWsZCmdZ",
+              "date": "8/8",
+              "rawDate": 1786165200000,
+              "week": 2,
+              "task": "He Keeps Me Singing (p. 4) - Practice",
+              "imageUrl": null,
+              "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Music-Sat"
+              "id": "Grace-W2-Music-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/11",
+              "rawDate": 1786424400000,
+              "week": 2,
+              "task": "Amazing Grace (p. 10) - The Story & Hymn Study & Bible Lesson",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Music-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/12",
+              "rawDate": 1786510800000,
+              "week": 2,
+              "task": "Amazing Grace (p. 10) - Copywork",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Music-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/13",
+              "rawDate": 1786597200000,
+              "week": 2,
+              "task": "Amazing Grace (p. 10) - Music Theory",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Music-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/14",
+              "rawDate": 1786683600000,
+              "week": 2,
+              "task": "CellImage",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Music-Fri"
+            }
+          ]
+        },
+        {
+          "subject": "Literature",
+          "curriculum": "",
+          "tasks": [
+            {
+              "day": "Mon",
+              "date": "8/3",
+              "rawDate": 1785733200000,
+              "week": 1,
+              "task": "Narnia Textbook: Read Introduction to the Magician's Nephew w/ Mom",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Literature-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "8/4",
+              "rawDate": 1785819600000,
+              "week": 1,
+              "task": "Read Chap. from Christian Heroes book.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Literature-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/5",
+              "rawDate": 1785906000000,
+              "week": 1,
+              "task": "Read Chapter 1: The Wrong Door",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Literature-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/6",
+              "rawDate": 1785992400000,
+              "week": 1,
+              "task": "Discuss chapter w/mom and Narnia book",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Literature-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/7",
+              "rawDate": 1786078800000,
+              "week": 1,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Literature-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/8",
+              "rawDate": 1786165200000,
+              "week": 2,
+              "task": "Read Chap. from Christian Heroes book.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Literature-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/11",
+              "rawDate": 1786424400000,
+              "week": 2,
+              "task": "Read Chap. from Christian Heroes book.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Literature-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/12",
+              "rawDate": 1786510800000,
+              "week": 2,
+              "task": "Read Chapter 2: Digory and His Uncle",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Literature-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/13",
+              "rawDate": 1786597200000,
+              "week": 2,
+              "task": "Discuss chapter w/mom and Narnia book",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Literature-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/14",
+              "rawDate": 1786683600000,
+              "week": 2,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Literature-Fri"
             }
           ]
         },
@@ -2278,230 +2394,346 @@
           "curriculum": "User: thronesAfire\nPwd: Tremor",
           "tasks": [
             {
-              "day": "Tue",
-              "date": "4/28",
-              "rawDate": 1777352400000,
-              "week": 37,
-              "task": "Chapter 14, Lessons 5-6",
+              "day": "Mon",
+              "date": "8/3",
+              "rawDate": 1785733200000,
+              "week": 1,
+              "task": "Shurley English Level 4:  Chapter 1, Lesson 1",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Reading & Grammar-Tue"
+              "id": "Grace-W1-Reading & Grammar-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "8/4",
+              "rawDate": 1785819600000,
+              "week": 1,
+              "task": "Chapter 1, Lesson 2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Reading & Grammar-Tue"
             },
             {
               "day": "Wed",
-              "date": "4/29",
-              "rawDate": 1777438800000,
-              "week": 37,
-              "task": "Chapter 14, Lesson 7",
+              "date": "8/5",
+              "rawDate": 1785906000000,
+              "week": 1,
+              "task": "Chapter 1, Lesson 3",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Reading & Grammar-Wed"
+              "id": "Grace-W1-Reading & Grammar-Wed"
             },
             {
               "day": "Thu",
-              "date": "4/30",
-              "rawDate": 1777525200000,
-              "week": 37,
-              "task": "Chapter 15, Lesson 1",
+              "date": "8/6",
+              "rawDate": 1785992400000,
+              "week": 1,
+              "task": "Chapter 1, Lesson 4",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Reading & Grammar-Thu"
+              "id": "Grace-W1-Reading & Grammar-Thu"
             },
             {
               "day": "Fri",
-              "date": "5/1",
-              "rawDate": 1777611600000,
-              "week": 37,
+              "date": "8/7",
+              "rawDate": 1786078800000,
+              "week": 1,
               "task": "",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Reading & Grammar-Fri"
+              "id": "Grace-W1-Reading & Grammar-Fri"
             },
             {
               "day": "Sat",
-              "date": "5/2",
-              "rawDate": 1777698000000,
-              "week": 37,
-              "task": "Chapter 15, Lesson 2",
+              "date": "8/8",
+              "rawDate": 1786165200000,
+              "week": 2,
+              "task": "Chapter 1, Lesson 5",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Reading & Grammar-Sat"
+              "id": "Grace-W2-Reading & Grammar-Sat"
             },
             {
               "day": "Tue",
-              "date": "5/5",
-              "rawDate": 1777957200000,
-              "week": 38,
-              "task": "Chapter 15, Lesson 3",
+              "date": "8/11",
+              "rawDate": 1786424400000,
+              "week": 2,
+              "task": "Chapter 1, Lessons 6-7",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Reading & Grammar-Tue"
+              "id": "Grace-W2-Reading & Grammar-Tue"
             },
             {
               "day": "Wed",
-              "date": "5/6",
-              "rawDate": 1778043600000,
-              "week": 38,
-              "task": "Chapter 15, Lesson 4",
+              "date": "8/12",
+              "rawDate": 1786510800000,
+              "week": 2,
+              "task": "Chapter 1, Lesson 8",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Reading & Grammar-Wed"
+              "id": "Grace-W2-Reading & Grammar-Wed"
             },
             {
               "day": "Thu",
-              "date": "5/7",
-              "rawDate": 1778130000000,
-              "week": 38,
-              "task": "Chapter 15, Lesson 5",
+              "date": "8/13",
+              "rawDate": 1786597200000,
+              "week": 2,
+              "task": "Chapter 2, Lesson 1",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Reading & Grammar-Thu"
+              "id": "Grace-W2-Reading & Grammar-Thu"
             },
             {
               "day": "Fri",
-              "date": "5/8",
-              "rawDate": 1778216400000,
-              "week": 38,
-              "task": "Chapter 15, Lessons 6-7",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W38-Reading & Grammar-Fri"
-            },
-            {
-              "day": "Sat",
-              "date": "5/9",
-              "rawDate": 1778302800000,
-              "week": 38,
+              "date": "8/14",
+              "rawDate": 1786683600000,
+              "week": 2,
               "task": "",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Reading & Grammar-Sat"
+              "id": "Grace-W2-Reading & Grammar-Fri"
             }
           ]
         },
         {
-          "subject": "Latin",
-          "curriculum": "with Sally",
+          "subject": "Writing & Rhetoric",
+          "curriculum": "",
           "tasks": [
             {
+              "day": "Mon",
+              "date": "8/3",
+              "rawDate": 1785733200000,
+              "week": 1,
+              "task": "Science & Art At Co-Cop",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Writing & Rhetoric-Mon"
+            },
+            {
               "day": "Tue",
-              "date": "4/28",
-              "rawDate": 1777352400000,
-              "week": 37,
-              "task": "Latin Homework",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Latin-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "4/29",
-              "rawDate": 1777438800000,
-              "week": 37,
-              "task": "Latin Class!",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Latin-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "4/30",
-              "rawDate": 1777525200000,
-              "week": 37,
-              "task": "Review Latin Flash Cards",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Latin-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "5/1",
-              "rawDate": 1777611600000,
-              "week": 37,
-              "task": "Latin Homework",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W37-Latin-Fri"
-            },
-            {
-              "day": "Sat",
-              "date": "5/2",
-              "rawDate": 1777698000000,
-              "week": 37,
+              "date": "8/4",
+              "rawDate": 1785819600000,
+              "week": 1,
               "task": "",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W37-Latin-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "5/5",
-              "rawDate": 1777957200000,
-              "week": 38,
-              "task": "Latin Homework",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W38-Latin-Tue"
+              "id": "Grace-W1-Writing & Rhetoric-Tue"
             },
             {
               "day": "Wed",
-              "date": "5/6",
-              "rawDate": 1778043600000,
-              "week": 38,
-              "task": "Latin Class!",
+              "date": "8/5",
+              "rawDate": 1785906000000,
+              "week": 1,
+              "task": "Introductory Lessons:** Read the book's Introduction; Discuss the purpose of fables and rhetoric.",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Latin-Wed"
+              "id": "Grace-W1-Writing & Rhetoric-Wed"
             },
             {
               "day": "Thu",
-              "date": "5/7",
-              "rawDate": 1778130000000,
-              "week": 38,
-              "task": "Review Latin Flash Cards",
+              "date": "8/6",
+              "rawDate": 1785992400000,
+              "week": 1,
+              "task": "Introductory Lessons:** Review the Introduction; Copy a key sentence from it.",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Latin-Thu"
+              "id": "Grace-W1-Writing & Rhetoric-Thu"
             },
             {
               "day": "Fri",
-              "date": "5/8",
-              "rawDate": 1778216400000,
-              "week": 38,
-              "task": "Latin Homework",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W38-Latin-Fri"
-            },
-            {
-              "day": "Sat",
-              "date": "5/9",
-              "rawDate": 1778302800000,
-              "week": 38,
+              "date": "8/7",
+              "rawDate": 1786078800000,
+              "week": 1,
               "task": "",
               "imageUrl": null,
               "linkUrl": null,
               "done": false,
-              "id": "Grace-W38-Latin-Sat"
+              "id": "Grace-W1-Writing & Rhetoric-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/8",
+              "rawDate": 1786165200000,
+              "week": 2,
+              "task": "Chapter 1: The Lion & The Mouse (Part 1):** Read \"The Lion & The Mouse.\" Discuss.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Writing & Rhetoric-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/11",
+              "rawDate": 1786424400000,
+              "week": 2,
+              "task": "Chapter 1: The Lion & The Mouse (Part 1):** Work on \"Talk About It\" questions.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Writing & Rhetoric-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/12",
+              "rawDate": 1786510800000,
+              "week": 2,
+              "task": "Chapter 1: The Lion & The Mouse (Part 1):** Practice Oral Narration of the fable.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Writing & Rhetoric-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/13",
+              "rawDate": 1786597200000,
+              "week": 2,
+              "task": "Chapter 1: The Lion & The Mouse (Part 1):** Complete a short Written Narration.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Writing & Rhetoric-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/14",
+              "rawDate": 1786683600000,
+              "week": 2,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Writing & Rhetoric-Fri"
+            }
+          ]
+        },
+        {
+          "subject": "Handwriting",
+          "curriculum": "Good & Beautiful",
+          "tasks": [
+            {
+              "day": "Mon",
+              "date": "8/3",
+              "rawDate": 1785733200000,
+              "week": 1,
+              "task": "Good & Beautiful: Level 3, p. 1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Handwriting-Mon"
+            },
+            {
+              "day": "Tue",
+              "date": "8/4",
+              "rawDate": 1785819600000,
+              "week": 1,
+              "task": "Level 3, pp. 2-3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Handwriting-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/5",
+              "rawDate": 1785906000000,
+              "week": 1,
+              "task": "Level 3, p. 4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Handwriting-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/6",
+              "rawDate": 1785992400000,
+              "week": 1,
+              "task": "Level 3, pp. 5-6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Handwriting-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/7",
+              "rawDate": 1786078800000,
+              "week": 1,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W1-Handwriting-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "8/8",
+              "rawDate": 1786165200000,
+              "week": 2,
+              "task": "Level 3, p. 7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Handwriting-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "8/11",
+              "rawDate": 1786424400000,
+              "week": 2,
+              "task": "Level 3, pp. 8-9",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Handwriting-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "8/12",
+              "rawDate": 1786510800000,
+              "week": 2,
+              "task": "Level 3, p. 10",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Handwriting-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "8/13",
+              "rawDate": 1786597200000,
+              "week": 2,
+              "task": "Level 3, pp. 11-12",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Handwriting-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "8/14",
+              "rawDate": 1786683600000,
+              "week": 2,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W2-Handwriting-Fri"
             }
           ]
         }
