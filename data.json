@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-05T04:40:10.768Z",
-  "date": "Friday, September 4",
+  "generated": "2026-09-05T05:40:13.435Z",
+  "date": "Saturday, September 5",
   "config": {
     "headerText": "Thus Far the Lord Has Helped Us",
     "headerColor": "#741b47"
@@ -9,27 +9,27 @@
     {
       "name": "Brent",
       "palette": "boy",
-      "currentWeek": 5
+      "currentWeek": 6
     },
     {
       "name": "Emily",
       "palette": "female",
-      "currentWeek": 5
+      "currentWeek": 6
     },
     {
       "name": "Grace",
       "palette": "outdoorsy",
-      "currentWeek": 5
+      "currentWeek": 6
     },
     {
       "name": "Joey",
       "palette": "boy",
-      "currentWeek": 5
+      "currentWeek": 6
     },
     {
       "name": "Sharon",
       "palette": "bookish",
-      "currentWeek": 5
+      "currentWeek": 6
     },
     {
       "name": "Tim",
@@ -45,67 +45,12 @@
         "secondary": "#4682B4",
         "bg": "#F0F8FF"
       },
-      "weekNum": 5,
+      "weekNum": 6,
       "grid": [
         {
           "subject": "Bible",
           "curriculum": "Old Testament",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Bible-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Bible-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Bible-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Bible-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling (turn in 5 entries)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Bible-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -215,6 +160,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Brent-W6-Bible-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Bible-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Bible-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Bible-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Bible-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling (5 entries due)",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Bible-Fri"
             }
           ]
         },
@@ -222,61 +222,6 @@
           "subject": "History",
           "curriculum": "American on 🧭",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "🧭 3.4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-History-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "🧭 3.5",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-History-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "🧭 4.1",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-History-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "🧭 4.2",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-History-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "🧭 4.3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-History-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -386,6 +331,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Brent-W6-History-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "🧭 6.4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-History-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "🧭 6.5",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-History-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "🧭 6.6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-History-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "🧭 7.1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-History-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "🧭 7.2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-History-Fri"
             }
           ]
         },
@@ -393,61 +393,6 @@
           "subject": "Foreign Language",
           "curriculum": "Latin 1 🧭",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Lesson 3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Foreign Language-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Lesson 3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Foreign Language-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Lesson 3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Foreign Language-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Lesson 3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Foreign Language-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "Lesson 3 Quiz",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Foreign Language-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -557,6 +502,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Brent-W6-Foreign Language-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Lesson 6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Foreign Language-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Lesson 6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Foreign Language-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Lesson 6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Foreign Language-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Lesson 6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Foreign Language-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "Lesson 6 Quiz",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Foreign Language-Fri"
             }
           ]
         },
@@ -564,61 +564,6 @@
           "subject": "Physical Training",
           "curriculum": "P.T.",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Physical Training-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Physical Training-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Physical Training-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Physical Training-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Physical Training-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -728,6 +673,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Brent-W6-Physical Training-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Physical Training-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Physical Training-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Physical Training-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Physical Training-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "5 sets: 🔲 \n5 pushups, 10 sit-ups, 2 pull-ups, 5 curls",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Physical Training-Fri"
             }
           ]
         },
@@ -735,61 +735,6 @@
           "subject": "Science",
           "curriculum": "Biology 🧭",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Ch. 2.4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Science-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Ch. 2.5",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Science-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Ch. 2.6",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Science-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Chapter 2 Test (take and submit)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Science-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Science-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -899,6 +844,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Brent-W6-Science-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Chapter 4.3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Science-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Chapter 4.4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Science-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Study for test",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Science-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Chapter 4 test",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Science-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Science-Fri"
             }
           ]
         },
@@ -906,61 +906,6 @@
           "subject": "Math",
           "curriculum": "Schormann – Algebra 2",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Lesson 10",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Math-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Lesson 11",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Math-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Lesson 12",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Math-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Quiz 3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Math-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "Review/Catch-up",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Math-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -1070,6 +1015,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Brent-W6-Math-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Lesson 20",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Math-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Lesson 21",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Math-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Lesson 22",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Math-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Quiz 6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Math-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "Review/Catch-up",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Math-Fri"
             }
           ]
         },
@@ -1077,61 +1077,6 @@
           "subject": "Citizenship",
           "curriculum": "Logic (1st)\nEconomics🧭/Hills (2nd)",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Dr Ransom Fallacy #9",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Citizenship-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Dr Ransom Fallacy #10",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Citizenship-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Dr Ransom Fallacy #11",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Citizenship-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Dr Ransom Fallacy #12",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Citizenship-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Brent-W4-Citizenship-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -1241,6 +1186,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Brent-W6-Citizenship-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Dr. Ransom Fallacy #19",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Citizenship-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Dr. Ransom Fallacy #20",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Citizenship-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Dr. Ransom Fallacy #21",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Citizenship-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Dr. Ransom Fallacy #22",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Citizenship-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Brent-W7-Citizenship-Fri"
             }
           ]
         }
@@ -1253,67 +1253,12 @@
         "secondary": "#87CEEB",
         "bg": "#F0F8FF"
       },
-      "weekNum": 5,
+      "weekNum": 6,
       "grid": [
         {
           "subject": "Bible",
           "curriculum": "Join Ezra when possible",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Bible-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Bible-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Bible-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Bible-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Bible-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -1423,6 +1368,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W6-Bible-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Bible-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Bible-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Bible-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Bible-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Bible-Fri"
             }
           ]
         },
@@ -1430,61 +1430,6 @@
           "subject": "Saxon Math",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Lesson 18",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Saxon Math-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Lesson 19",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Saxon Math-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Lesson 20",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Saxon Math-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Assessment (after Lesson 20)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Saxon Math-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Saxon Math-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -1594,6 +1539,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W6-Saxon Math-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Lesson 28",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Saxon Math-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Lesson 29",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Saxon Math-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Lesson 30",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Saxon Math-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Assessment (after Lesson 30)",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Saxon Math-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Saxon Math-Fri"
             }
           ]
         },
@@ -1601,61 +1601,6 @@
           "subject": "History",
           "curriculum": "Pages of History Reading",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Read Vol. 1, pp. 80-84 (finishes Ch. 3, starts Ch. 4)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-History-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Read Vol. 1, Ch. 4, pp. 85-89",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-History-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Read Vol. 1, Ch. 4, pp. 90-94",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-History-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Read Vol. 1, Ch. 4, pp. 95-100",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-History-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-History-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -1765,6 +1710,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W6-History-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Read Vol. 1, Ch. 6, pp. 143-147",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-History-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Read Vol. 1, Ch. 6, pp. 148-152",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-History-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Read Vol. 1, pp. 153-157 (finishes Ch. 6, starts Ch. 7)",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-History-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Read Vol. 1, Ch. 7, pp. 158-163",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-History-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-History-Fri"
             }
           ]
         },
@@ -1772,61 +1772,6 @@
           "subject": "Vocabulary Expansion",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Day 1: Many Words – Watch Word Up! Video - Focus: Multus (Latin for many) & Poly (Greek for many)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Vocabulary Expansion-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Day 2: Review & Write - Vocabulary Words: multiply, multitude, multicolor, polygon, polytheism",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Vocabulary Expansion-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Day 3: Game Day! - Play a game on ABCya!",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Vocabulary Expansion-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Day 4: Writing Assignment - Draw a picture using a multitude of multicolor shapes. Write about all the polygons you used.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Vocabulary Expansion-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Vocabulary Expansion-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -1936,6 +1881,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W6-Vocabulary Expansion-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Video 7: Good Words – Watch Word Up! Video - Focus: Bonus (Latin for good) & Eu (Greek for good)",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Vocabulary Expansion-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Day 2: Review & Write - Vocabulary Words: bonus, bountiful, bon-bon, eulogy, eupepsia, euphemism",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Vocabulary Expansion-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Day 3: Game Day! - Play a game on ABCya!",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Vocabulary Expansion-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Day 4: Writing Assignment - Describe a time you received a bonus for doing a good job on a chore.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Vocabulary Expansion-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Vocabulary Expansion-Fri"
             }
           ]
         },
@@ -1943,61 +1943,6 @@
           "subject": "Literature",
           "curriculum": "Narnia & Christian Heroes",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Read Chap. from Christian Heroes book.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Literature-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Read Chap. from Christian Heroes book.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Literature-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Read Chapter 4: The Bell and the Hammer",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Literature-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Discuss chapter w/mom and Narnia book",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Literature-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Literature-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -2107,6 +2052,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W6-Literature-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Read Chap. from Christian Heroes book.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Literature-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Read Chap. from Christian Heroes book.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Literature-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Read Chapter 7: What Happened at the Front Door",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Literature-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Discuss chapter w/mom and Narnia book",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Literature-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Literature-Fri"
             }
           ]
         },
@@ -2114,61 +2114,6 @@
           "subject": "Grammar",
           "curriculum": "(Shurley Eng. Lev. 2)",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Lesson Jingles EACH day. Complete Ch. 2, Lesson 9",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Grammar-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Lesson Jingles EACH day. Complete Ch. 2, Lesson 10",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Grammar-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Lesson Jingles EACH day. Complete Ch. 2, Lesson 11",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Grammar-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Lesson Jingles EACH day. Complete Ch. 2, Lesson 12",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Grammar-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "CellImage",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Grammar-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -2278,6 +2223,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W6-Grammar-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Lesson Jingles EACH day. Complete Ch. 4, Lesson 1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Grammar-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Lesson Jingles EACH day. Complete Ch. 4, Lesson 2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Grammar-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Lesson Jingles EACH day. Complete Ch. 4, Lesson 3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Grammar-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Lesson Jingles EACH day. Complete Ch. 4, Lesson 4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Grammar-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "CellImage",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Grammar-Fri"
             }
           ]
         },
@@ -2285,61 +2285,6 @@
           "subject": "Handwriting",
           "curriculum": "(Good and Beautiful)",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Complete p. 10",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Handwriting-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Complete p. 11",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Handwriting-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Complete p. 12",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Handwriting-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Handwriting-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Emily-W4-Handwriting-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -2449,6 +2394,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Emily-W6-Handwriting-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Complete p. 19",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Handwriting-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Complete p. 20",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Handwriting-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Complete p. 21",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Handwriting-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Handwriting-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Emily-W7-Handwriting-Fri"
             }
           ]
         }
@@ -2461,67 +2461,12 @@
         "secondary": "#C17F3A",
         "bg": "#F5F5EE"
       },
-      "weekNum": 5,
+      "weekNum": 6,
       "grid": [
         {
           "subject": "Bible",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Bible-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Bible-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Bible-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Bible-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "The Ology, BIble Reading, Catechism Q4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Bible-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -2631,6 +2576,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Grace-W6-Bible-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Bible-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Bible-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Bible-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Bible-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "The Ology, BIble Reading, Catechism Q7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Bible-Fri"
             }
           ]
         },
@@ -2638,61 +2638,6 @@
           "subject": "Mammoth Math",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Thousands, pp. 51-53",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Mammoth Math-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "At the Edge of Whole Thousands, pp. 54-55",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Mammoth Math-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "More Thousands, pp. 56-57",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Mammoth Math-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Practicing with Thousands, pp. 58-59",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Mammoth Math-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Mammoth Math-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -2802,6 +2747,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Grace-W6-Mammoth Math-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Review Chapter 2, pp. 78-79",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Mammoth Math-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Chapter 2 Test & Chapter 3 Activities",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Mammoth Math-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Understanding Multiplication, pp. 84-86",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Mammoth Math-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Multiplication Tables Review, pp. 87-89",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Mammoth Math-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Mammoth Math-Fri"
             }
           ]
         },
@@ -2809,61 +2809,6 @@
           "subject": "History",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Read Story 10",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-History-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Read Story 11",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-History-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Read Story 12",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-History-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Tell mom and Tabitha what you learned.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-History-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-History-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -2973,6 +2918,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Grace-W6-History-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Read Story 19",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-History-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Read Story 20",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-History-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Read Story 21",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-History-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Tell mom and Tabitha what you learned.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-History-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-History-Fri"
             }
           ]
         },
@@ -2980,61 +2980,6 @@
           "subject": "Music",
           "curriculum": "listen & practice each day",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Blessed Assurance (p. 16) - Activity",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Music-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Blessed Assurance (p. 16) - Practice",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Music-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Take My Life and Let It Be (p. 22) - The Story & Hymn Study & Bible Lesson",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Music-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Take My Life and Let It Be (p. 22) - Copywork",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Music-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "CellImage",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Music-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -3144,6 +3089,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Grace-W6-Music-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "A Mighty Fortress Is Our God (p. 34) - Copywork",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Music-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "A Mighty Fortress Is Our God (p. 34) - Music Theory & Practice",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Music-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "A Mighty Fortress Is Our God (p. 34) - Activity",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Music-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "It Is Well with My Soul (p. 40) - The Story & Hymn Study",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Music-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "CellImage",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Music-Fri"
             }
           ]
         },
@@ -3151,61 +3151,6 @@
           "subject": "Literature",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Read Chap. from Christian Heroes book.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Literature-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Read Chap. from Christian Heroes book.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Literature-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Read Chapter 4: The Bell and the Hammer",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Literature-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Discuss chapter w/mom and Narnia book",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Literature-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Literature-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -3315,6 +3260,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Grace-W6-Literature-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Read Chap. from Christian Heroes book.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Literature-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Read Chap. from Christian Heroes book.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Literature-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Read Chapter 7: What Happened at the Front Door",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Literature-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Discuss chapter w/mom and Narnia book",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Literature-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Literature-Fri"
             }
           ]
         },
@@ -3322,61 +3322,6 @@
           "subject": "Reading & Grammar",
           "curriculum": "User: thronesAfire\nPwd: Tremor",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Chapter 2, Lesson 7",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Reading & Grammar-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Chapter 2, Lesson 8",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Reading & Grammar-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Chapter 2, Lesson 9",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Reading & Grammar-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Chapter 2, Lesson 10",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Reading & Grammar-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Reading & Grammar-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -3486,6 +3431,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Grace-W6-Reading & Grammar-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Chapter 3, Lesson 5",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Reading & Grammar-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Chapter 3, Lesson 6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Reading & Grammar-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Chapter 3, Lesson 7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Reading & Grammar-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Chapter 3, Lesson 8",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Reading & Grammar-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Reading & Grammar-Fri"
             }
           ]
         },
@@ -3493,61 +3493,6 @@
           "subject": "Writing & Rhetoric",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Chapter 1 & 2 Transition:** Create an outline for \"The Lion & The Mouse\" and begin the first draft.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Writing & Rhetoric-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Chapter 1 & 2 Transition:** Finish the draft; Edit & Revise.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Writing & Rhetoric-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Chapter 1 & 2 Transition:** Read \"Three Young Bulls and the Lion.\"",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Writing & Rhetoric-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Chapter 1 & 2 Transition:** Work on \"Talk About It\" questions for the new fable.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Writing & Rhetoric-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Writing & Rhetoric-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -3657,6 +3602,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Grace-W6-Writing & Rhetoric-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Chapter 3: The Crow & The Pitcher (Part 1):** Read \"The Crow & The Pitcher.\"",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Writing & Rhetoric-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Chapter 3: The Crow & The Pitcher (Part 1):** Work on \"Talk About It\" questions.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Writing & Rhetoric-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Chapter 3: The Crow & The Pitcher (Part 1):** Practice Oral & Written Narration.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Writing & Rhetoric-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Chapter 3: The Crow & The Pitcher (Part 1):** Work on the \"Go Deeper\" section.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Writing & Rhetoric-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Writing & Rhetoric-Fri"
             }
           ]
         },
@@ -3664,61 +3664,6 @@
           "subject": "Handwriting",
           "curriculum": "Good & Beautiful",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Level 3, p. 19",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Handwriting-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Level 3, pp. 20-21",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Handwriting-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Level 3, p. 22",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Handwriting-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Level 3, pp. 23-24",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Handwriting-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Grace-W4-Handwriting-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -3828,6 +3773,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Grace-W6-Handwriting-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Level 3, p. 37",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Handwriting-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Level 3, pp. 38-39",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Handwriting-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Level 3, p. 40",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Handwriting-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Level 3, pp. 41-42",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Handwriting-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Grace-W7-Handwriting-Fri"
             }
           ]
         }
@@ -3840,67 +3840,12 @@
         "secondary": "#4682B4",
         "bg": "#F0F8FF"
       },
-      "weekNum": 5,
+      "weekNum": 6,
       "grid": [
         {
           "subject": "Bible",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Bible-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Bible-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Bible-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Bible-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "The Ology, BIble Reading w/ Journaling (turn in 5 entries)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Bible-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -4010,6 +3955,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Joey-W6-Bible-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Bible-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Bible-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Bible-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Bible-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "The Ology\nProv. Lesson\nBible Reading, Journaling (5 entries due)",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Bible-Fri"
             }
           ]
         },
@@ -4017,61 +4017,6 @@
           "subject": "Hillsdale History",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Ancient Christianity Lesson #8",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Hillsdale History-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Hillsdale History-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Ancient Christianity Lesson #9",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Hillsdale History-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Ancient Christianity Lesson #10",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Hillsdale History-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Hillsdale History-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -4181,6 +4126,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Joey-W6-Hillsdale History-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "The Rise & Fall of the Roman Empire #4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Hillsdale History-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Hillsdale History-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "The Rise & Fall of the Roman Empire #5",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Hillsdale History-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "The Rise & Fall of the Roman Empire #6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Hillsdale History-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Hillsdale History-Fri"
             }
           ]
         },
@@ -4188,61 +4188,6 @@
           "subject": "Creation Science",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Co-op Science",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Creation Science-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Lesson 2: Step #1",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Creation Science-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Lesson 2: Step #2",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Creation Science-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Lesson 2: Step #3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Creation Science-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "Lesson 2: Step #4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Creation Science-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -4352,6 +4297,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Joey-W6-Creation Science-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Co-Op Science",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Creation Science-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Lesson 3: Step #5",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Creation Science-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Lesson 3: Step #6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Creation Science-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Lesson 3: Step #7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Creation Science-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "Lesson 3: Step #8",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Creation Science-Fri"
             }
           ]
         },
@@ -4359,61 +4359,6 @@
           "subject": "Algebra 1",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Shormann Math",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Algebra 1-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Shormann Math",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Algebra 1-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Shormann Math",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Algebra 1-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Shormann Math",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Algebra 1-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "Shormann Math",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Algebra 1-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -4523,6 +4468,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Joey-W6-Algebra 1-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Shormann Math",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Algebra 1-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Shormann Math",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Algebra 1-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Shormann Math",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Algebra 1-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Shormann Math",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Algebra 1-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "Shormann Math",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Algebra 1-Fri"
             }
           ]
         },
@@ -4530,61 +4530,6 @@
           "subject": "Middle School Literature",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "1/2 of a Lecture",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Middle School Literature-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "2nd 1/2 of the Lecture",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Middle School Literature-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Assignment",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Middle School Literature-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Middle School Literature-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Middle School Literature-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -4694,6 +4639,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Joey-W6-Middle School Literature-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "1/2 of a Lecture",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Middle School Literature-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "2nd 1/2 of the Lecture",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Middle School Literature-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Assignment",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Middle School Literature-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Middle School Literature-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Middle School Literature-Fri"
             }
           ]
         },
@@ -4701,61 +4701,6 @@
           "subject": "Latin 1",
           "curriculum": "🧭/Logic",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Word Up Lesson",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Latin 1-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "A Tutle Twins Logical Fallacy",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Latin 1-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Sherlock Holmes Cunundrum",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Latin 1-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Sherlock Holmes Cunundrum",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Latin 1-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "Sherlock Holmes Cunundrum",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Latin 1-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -4865,6 +4810,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Joey-W6-Latin 1-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Word Up Lesson",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Latin 1-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "A Tutle Twins Logical Fallacy",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Latin 1-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Sherlock Holmes Cunundrum",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Latin 1-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Sherlock Holmes Cunundrum",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Latin 1-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "Sherlock Holmes Cunundrum",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Latin 1-Fri"
             }
           ]
         },
@@ -4872,61 +4872,6 @@
           "subject": "Electives",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Great Music Lesson 4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Electives-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Great Music Lesson 4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Electives-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Great Music Lesson 4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Electives-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Great Music Quiz #4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Electives-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Electives-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -5036,6 +4981,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Joey-W6-Electives-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Great Music Lesson 7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Electives-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Great Music Lesson 7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Electives-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Great Music Lesson 7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Electives-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Great Music Quiz #7",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Electives-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Electives-Fri"
             }
           ]
         },
@@ -5043,61 +5043,6 @@
           "subject": "Music",
           "curriculum": "listen & practice each day",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Blessed Assurance (p. 16) - Activity",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Music-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Blessed Assurance (p. 16) - Practice",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Music-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Take My Life and Let It Be (p. 22) - The Story & Hymn Study & Bible Lesson",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Music-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Take My Life and Let It Be (p. 22) - Copywork",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Music-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "CellImage",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Joey-W4-Music-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -5207,6 +5152,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Joey-W6-Music-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "A Mighty Fortress Is Our God (p. 34) - Copywork",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Music-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "A Mighty Fortress Is Our God (p. 34) - Music Theory & Practice",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Music-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "A Mighty Fortress Is Our God (p. 34) - Activity",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Music-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "It Is Well with My Soul (p. 40) - The Story & Hymn Study",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Music-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "CellImage",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Joey-W7-Music-Fri"
             }
           ]
         }
@@ -5219,67 +5219,12 @@
         "secondary": "#2E8B8B",
         "bg": "#FDFAF5"
       },
-      "weekNum": 5,
+      "weekNum": 6,
       "grid": [
         {
           "subject": "Bible",
           "curriculum": "Old Testament 🧭",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "OT: Quiz",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Bible-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "OT: L3 #1",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Bible-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "OT: L3 #2",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Bible-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Chap. from Seeing w/ New Eyes, Bible Journaling",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Bible-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Bible-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -5389,6 +5334,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Sharon-W6-Bible-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "OT: L5 #3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Bible-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "OT: L6 #1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Bible-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "OT: L6 #2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Bible-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Chap. from Seeing w/ New Eyes, Bible Journaling",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Bible-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Bible-Fri"
             }
           ]
         },
@@ -5396,61 +5396,6 @@
           "subject": "Health",
           "curriculum": "Forms 1-4",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "P1 L3 #4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Health-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "P1 L3 #5",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Health-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "P1 L3 #6",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Health-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "P1 L3 #7 & Quiz",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Health-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "P1 L4 #1-2",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Health-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -5560,6 +5505,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Sharon-W6-Health-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "P1 L5 #6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Health-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "P1 L5 #7 & Quiz",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Health-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "P1 L6 #1-2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Health-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "P1 L6 #3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Health-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Health-Fri"
             }
           ]
         },
@@ -5567,61 +5567,6 @@
           "subject": "History of Ideas",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Socrates Step #3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-History of Ideas-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Socrates Step #4",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-History of Ideas-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Socrates Step #5",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-History of Ideas-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Socrates Step #6",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-History of Ideas-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "Quiz",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-History of Ideas-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -5731,6 +5676,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Sharon-W6-History of Ideas-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Aristotle Step #2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-History of Ideas-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Aristotle Step #3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-History of Ideas-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Aristotle Step #4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-History of Ideas-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Aristotle Step #5",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-History of Ideas-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-History of Ideas-Fri"
             }
           ]
         },
@@ -5738,61 +5738,6 @@
           "subject": "Anatomy",
           "curriculum": "& Physiology",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "☐ Read WHB pg 42-45\n ☐ ACB 44-45",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Anatomy-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "☐  Wksht 6\n ☐ Read WHB pg 46-49",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Anatomy-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "☐ Wksht 7\n ☐ ACB 48-49",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Anatomy-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "☐ Read WHB pg 49-53\n ☐ ACB 50-51",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Anatomy-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Anatomy-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -5902,6 +5847,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Sharon-W6-Anatomy-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "☐ Wksht 13",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Anatomy-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "☐ Read pg 75-79\n ☐ Wksht 14",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Anatomy-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "☐ ACB 106-107\n ☐ Study for Quiz 2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Anatomy-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "☐ Quiz 2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Anatomy-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Anatomy-Fri"
             }
           ]
         },
@@ -5909,61 +5909,6 @@
           "subject": "Math",
           "curriculum": "Calculus for Everyone",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Chapter 4 (2nd)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Math-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Chapter 4 (2nd)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Math-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Chapter 4 (2nd)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Math-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Chapter 4 (2nd)",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Math-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Math-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -6073,6 +6018,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Sharon-W6-Math-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Chap 6 #1 (Part 1)\nReview/Re-do Past Work",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Math-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Chap 6 #1 (Part 2)\nReview/Re-do Past Work",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Math-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Chap 6 #2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Math-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Chap 6 #3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Math-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Math-Fri"
             }
           ]
         },
@@ -6080,61 +6080,6 @@
           "subject": "English",
           "curriculum": "/Lit",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Grace Abounding Chap 28-33 & Day #6\nGoP Lesson 7 - Part One Meter",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-English-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Grace Abounding Chap 34-39 & Day #7\nGoP Lesson 8 - Part Two Meter",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-English-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Grace Abounding Chap 40-44 & Day #8\nGoP Review Lessons 7 & 8 using your workbook.",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-English-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Grace Abounding Chap 45-49 & Day #9\nGoP Review Using Workbook",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-English-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "Grace Abounding Chap 50-54 & Day #10",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-English-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -6244,6 +6189,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Sharon-W6-English-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Life And Narrative of Fredrick Douglas Chap #6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-English-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Life And Narrative of Fredrick Douglas Chap #7-8\nGoP Lesson 13 - Trochee (trope)",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-English-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Life And Narrative of Fredrick Douglas Chap #9\nGoP Lesson 14 - Trochee Imitation",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-English-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "Life And Narrative of Fredrick Douglas Chap #10\nGoP Review Lessons 13 & 14 using your workbook.",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-English-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-English-Fri"
             }
           ]
         },
@@ -6251,61 +6251,6 @@
           "subject": "Electives – How Should We Then Live?",
           "curriculum": "Electives – How Should We Then Live?",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "E-2 Step #5",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Electives – How Should We Then Live?-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Quiz",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Electives – How Should We Then Live?-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "E-3 Step #1",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Electives – How Should We Then Live?-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "E-3 Step #2",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Electives – How Should We Then Live?-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "E-3 Step #3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Electives – How Should We Then Live?-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -6415,6 +6360,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Sharon-W6-Electives – How Should We Then Live?-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "E-5 Step #1",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Electives – How Should We Then Live?-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "E-5 Step #2",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Electives – How Should We Then Live?-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "E-5 Step #3",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Electives – How Should We Then Live?-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "E-5 Step #4",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Electives – How Should We Then Live?-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Electives – How Should We Then Live?-Fri"
             }
           ]
         },
@@ -6422,61 +6422,6 @@
           "subject": "Financial Literacy",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Lesson 2.6 Project",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Financial Literacy-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "Lesson 2.6 Project",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Financial Literacy-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "Lesson 2.7",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Financial Literacy-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "Lesson 2.8",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Financial Literacy-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Financial Literacy-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -6586,6 +6531,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Sharon-W6-Financial Literacy-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Lesson 2.13 Project",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Financial Literacy-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "Lesson 2.13 Project",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Financial Literacy-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "Lesson 2.13 Project",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Financial Literacy-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Financial Literacy-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Financial Literacy-Fri"
             }
           ]
         },
@@ -6593,61 +6593,6 @@
           "subject": "Writing",
           "curriculum": "",
           "tasks": [
-            {
-              "day": "Sat",
-              "date": "8/22",
-              "rawDate": 1787374800000,
-              "week": 4,
-              "task": "Read Office of Assertion Chapter #3",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Writing-Sat"
-            },
-            {
-              "day": "Tue",
-              "date": "8/25",
-              "rawDate": 1787634000000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Writing-Tue"
-            },
-            {
-              "day": "Wed",
-              "date": "8/26",
-              "rawDate": 1787720400000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Writing-Wed"
-            },
-            {
-              "day": "Thu",
-              "date": "8/27",
-              "rawDate": 1787806800000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Writing-Thu"
-            },
-            {
-              "day": "Fri",
-              "date": "8/28",
-              "rawDate": 1787893200000,
-              "week": 4,
-              "task": "",
-              "imageUrl": null,
-              "linkUrl": null,
-              "done": false,
-              "id": "Sharon-W4-Writing-Fri"
-            },
             {
               "day": "Sat",
               "date": "8/29",
@@ -6757,6 +6702,61 @@
               "linkUrl": null,
               "done": false,
               "id": "Sharon-W6-Writing-Fri"
+            },
+            {
+              "day": "Sat",
+              "date": "9/12",
+              "rawDate": 1789189200000,
+              "week": 7,
+              "task": "Read Office of Assertion Chapter #6",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Writing-Sat"
+            },
+            {
+              "day": "Tue",
+              "date": "9/15",
+              "rawDate": 1789448400000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Writing-Tue"
+            },
+            {
+              "day": "Wed",
+              "date": "9/16",
+              "rawDate": 1789534800000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Writing-Wed"
+            },
+            {
+              "day": "Thu",
+              "date": "9/17",
+              "rawDate": 1789621200000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Writing-Thu"
+            },
+            {
+              "day": "Fri",
+              "date": "9/18",
+              "rawDate": 1789707600000,
+              "week": 7,
+              "task": "",
+              "imageUrl": null,
+              "linkUrl": null,
+              "done": false,
+              "id": "Sharon-W7-Writing-Fri"
             }
           ]
         }
