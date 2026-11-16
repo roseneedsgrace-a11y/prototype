@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -97,6 +98,31 @@
     align-items: center;
     padding: 0 10px;
   }
+.admin-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  min-width: 60px;
+  text-align: left;
+}
+.admin-btn:hover { background: #f1f5f9; border-color: #cbd5e1; }
+.admin-btn.danger { color: #dc2626; }
+.admin-btn.danger:hover { background: #fef2f2; border-color: #fca5a5; }
+.admin-btn-sub { 
+  font-size: 10px; 
+  font-weight: 400; 
+  color: #94a3b8; 
+  margin-top: 2px; 
+}
   .nav-link {
     font-size: 13px;
     color: #64748b;
@@ -117,7 +143,7 @@
     color: #94a3b8;
     font-style: italic;
   }
-
+    
   /* ─── TABLE VIEW ─────────────────────────────── */
   .table-view table {
     width: 100%;
@@ -153,6 +179,29 @@
     text-transform: none;
     margin-top: 5px;
   }
+
+    /*-- REFLECTION PROMPTS -- */
+.reflection-overlay {
+  display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+  z-index: 1000; align-items: center; justify-content: center; padding: 20px;
+}
+.reflection-overlay.open { display: flex; }
+.reflection-box {
+  background: white; border-radius: 14px; padding: 24px; max-width: 400px; width: 100%;
+}
+.reflection-box h3 { margin: 0 0 6px 0; font-size: 16px; color: #1e293b; }
+.reflection-box p { font-size: 13px; color: #64748b; margin-bottom: 14px; }
+.reflection-box textarea {
+  width: 100%; min-height: 90px; padding: 10px; border: 1px solid #cbd5e1;
+  border-radius: 8px; font-family: inherit; font-size: 14px; resize: vertical;
+}
+.reflection-actions { display: flex; gap: 10px; margin-top: 14px; }
+.reflection-actions button {
+  flex: 1; padding: 10px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer;
+}
+.reflection-cancel { background: #f1f5f9; color: #475569; }
+.reflection-submit { background: var(--secondary, #741b47); color: white; }
+.reflection-submit:disabled { opacity: 0.5; cursor: default; }
 
   /* ─── TASK CARDS ─────────────────────────────── */
   .task-card {
@@ -510,7 +559,7 @@
 
   /* ─── PRINT STYLES ───────────────────────────── */
   @media print {
-    .controls, .site-header, .admin-links, 
+    .controls, .site-header, .admin-links,
     .list-view, .link-btn, #scrollTopBtn,
     #choreBanner { 
       display: none !important; 
@@ -627,6 +676,116 @@
   @media screen {
     .qr-img { display: none !important; }
   }
+
+  /* ─── VISUAL REFRESH ─────────────────────────── */
+  @media screen {
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Header: soft sheen over the student's color, rounded bottom */
+    .site-header {
+      position: relative;
+      overflow: hidden;
+      border-radius: 0 0 24px 24px;
+      box-shadow: 0 8px 24px rgba(15,23,42,0.12);
+    }
+    .site-header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(120% 140% at 0% 0%, rgba(255,255,255,0.18), transparent 55%),
+        linear-gradient(180deg, transparent 40%, rgba(0,0,0,0.14));
+    }
+    .site-header h1 { position: relative; text-shadow: 0 2px 10px rgba(0,0,0,0.18); }
+
+    /* Chore banner: a rounded card instead of a full-width strip */
+    #choreBanner { width: auto; margin: 0 0 18px 0; }
+    #choreBannerInner { border-radius: 14px; border: 1px solid #e2e8f0; }
+    #choreBanner.active #choreBannerInner { border-color: transparent; }
+
+    /* Controls */
+    .controls {
+      border-radius: 16px;
+      border: 1px solid #eef2f7;
+      box-shadow: 0 1px 2px rgba(15,23,42,0.04), 0 6px 16px rgba(15,23,42,0.06);
+    }
+    select, input[type="number"] { background: #fff; transition: border-color .15s, box-shadow .15s; }
+    select:focus, input[type="number"]:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(148,163,184,0.35);
+    }
+    .print-btn { border-radius: 10px; transition: filter .15s; }
+    .print-btn:hover { filter: brightness(1.12); }
+
+    /* Subject column */
+    .subject-cell { border-radius: 12px; box-shadow: inset 0 -3px 0 rgba(0,0,0,0.08); }
+
+    /* Task cards: softer depth and slightly larger checkboxes */
+    .task-card {
+      border-radius: 12px;
+      box-shadow: 0 1px 2px rgba(15,23,42,0.05);
+      transition: transform .12s ease, box-shadow .15s ease, border-color .15s;
+    }
+    .status-indicator { width: 20px; height: 20px; border-radius: 6px; transition: background .15s, border-color .15s; }
+    .task-card.is-done { opacity: 0.7; box-shadow: none; }
+
+    /* Phone list view */
+    .day-block {
+      border-radius: 16px;
+      box-shadow: 0 1px 2px rgba(15,23,42,0.04), 0 6px 16px rgba(15,23,42,0.05);
+    }
+    .day-header { background: linear-gradient(180deg, #ffffff, #f8fafc); }
+    .list-checkbox { width: 22px; height: 22px; border-radius: 6px; }
+    .progress-pill { font-weight: 600; }
+  }
+
+  /* Gentle lift on hover (mouse only, not touch screens) */
+  @media screen and (hover: hover) {
+    .task-card:not(.empty-card):not(.is-done):hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(15,23,42,0.10);
+      border-color: var(--secondary);
+    }
+  }
+
+  /* Phones */
+  @media screen and (max-width: 700px) {
+    body { padding: 0 14px 160px 14px; }
+    .site-header {
+      width: calc(100% + 28px);
+      margin: 0 -14px 16px -14px;
+      height: auto;
+      min-height: 120px;
+      padding: 22px 16px;
+      border-radius: 0 0 20px 20px;
+    }
+    .site-header h1 { font-size: clamp(1.1rem, 6.2vw, 2rem); line-height: 1.35; letter-spacing: 1px; }
+    #choreBannerInner { padding: 10px 14px; }
+
+    /* Controls: tidy two-column grid */
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 14px;
+      padding: 14px 16px;
+    }
+    .controls > div { display: flex; flex-direction: column; gap: 4px; font-size: 13px; }
+    .controls select, .controls input[type="number"] { width: 100% !important; box-sizing: border-box; }
+    .controls > label { grid-column: 1 / -1; }
+    .controls .print-btn, .controls .admin-btn {
+      margin: 0;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .admin-links { flex-wrap: wrap; gap: 8px 12px; padding: 0 4px; }
+  }
 </style>
 </head>
 <body>
@@ -649,24 +808,50 @@
   <div><strong>Student:</strong> <select id="studentSelect" onchange="updateWeekFromStudent(); render();"></select></div>
   <div><strong>Week:</strong> <input type="number" id="weekInput" min="1" max="36" style="width: 60px" onchange="render()"></div>
   <label style="display:flex; align-items:center; font-size:13px; cursor:pointer;">Status Mode
-    <div class="switch"><input type="checkbox" id="statusToggle" onchange="render()"><span class="slider"></span></div>
+    <div class="switch"><input type="checkbox" id="statusToggle" checked onchange="saveStatusPref(this.checked); render()"><span class="slider"></span></div>
   </label>
-  <button class="print-btn" onclick="window.print()">Print</button>
+  <button class="print-btn" onclick="window.print()">PRINT</button>
+  <button class="admin-btn danger" onclick="adminClearProgress()">✕ Cache</button>
 </div>
 <div class="admin-links">
   <a href="parents.html" class="nav-link">Parent Dashboard</a>
     <span id="lastUpdated" class="timestamp"></span>
     <span id="syncTimer" style="display:none; font-size:11px; color:#94a3b8; font-style:italic;"></span>
    <button id="refreshBtn" onclick="pushAndRefresh()" style="font-size:11px; color:#94a3b8; background:transparent; border:none; padding:4px 6px; border-radius:6px; cursor:pointer; opacity:0.6;">↻ SYNC</button>
+    
 </div>  
 <div id="content">Loading assignments...</div>
 
+<div class="reflection-overlay" id="reflectionOverlay">
+  <div class="reflection-box">
+    <h3 id="reflectionPromptText">What did you learn about?</h3>
+    <p>Answer before checking this off.</p>
+    <textarea id="reflectionAnswer" placeholder="Type your answer..."></textarea>
+    <div class="reflection-actions">
+      <button class="reflection-cancel" onclick="closeReflectionModal(false)">Cancel</button>
+      <button class="reflection-submit" id="reflectionSubmitBtn" onclick="closeReflectionModal(true)">Submit</button>
+    </div>
+  </div>
+</div>
+<div class="reflection-overlay" id="portfolioOverlay">
+  <div class="reflection-box">
+    <h3>Submit your work</h3>
+    <p id="portfolioTaskText">Paste a link to a picture of your work.</p>
+    <input type="url" id="portfolioLink" placeholder="https://..."
+      oninput="document.getElementById('portfolioError').textContent=''"
+      style="width:100%; padding:10px; border:1px solid #cbd5e1; border-radius:8px; font-size:14px; box-sizing:border-box;">
+    <div id="portfolioError" style="color:#dc2626; font-size:12px; margin-top:6px; min-height:14px;"></div>
+    <div class="reflection-actions">
+      <button class="reflection-cancel" onclick="closePortfolioModal(false)">Cancel</button>
+      <button class="reflection-submit" onclick="closePortfolioModal(true)">Submit</button>
+    </div>
+  </div>
+</div>    
 <script>
   let allData = null;
 
 window.onload = function() {
-  fetch('data.json?v=' + Date.now())
-    .then(r => r.json())
+  loadInitialData()
     .then(data => {
       const studentDataWithChores = mergeChoresIntoStudentData(data);
       allData = {
@@ -699,18 +884,65 @@ window.onload = function() {
       fetchAndMergeProgress().then(() => {
         updateWeekFromStudent(); // This triggers render()
       });
-    updateWeekFromStudent();
+      loadPortfolioSubmissions();
+      loadPortfolioSettings();
+      updateWeekFromStudent();
+
+      // Quietly check for anything newer than the GitHub copy
+      forceRefresh();
     })
     .catch(err => console.error("Data load failed:", err));
 };
 
 
+const REFLECTION_PROMPTS = [
+  "What did you learn about?",
+  "Name three facts you learned.",
+  "What was the most interesting part?",
+  "Explain this in your own words.",
+  "What questions do you still have?"
+];
+
+let reflectionResolver = null;
+
+function getReflectionPromptPool() {
+  const list = (allData && allData.config && allData.config.reflectionPrompts) || [];
+  return list.length ? list : REFLECTION_PROMPTS;
+}
+
+function askReflection() {
+  return new Promise(resolve => {
+    reflectionResolver = resolve;
+    const pool = getReflectionPromptPool();
+    const prompt = pool[Math.floor(Math.random() * pool.length)];
+    document.getElementById('reflectionPromptText').textContent = prompt;
+    document.getElementById('reflectionAnswer').value = '';
+    document.getElementById('reflectionOverlay').classList.add('open');
+    document.getElementById('reflectionAnswer').focus();
+  });
+}
+
+function closeReflectionModal(submitted) {
+  const overlay = document.getElementById('reflectionOverlay');
+  const answer = document.getElementById('reflectionAnswer').value.trim();
+  if (submitted && !answer) return; // require non-empty answer
+  overlay.classList.remove('open');
+  if (reflectionResolver) reflectionResolver(submitted ? answer : null);
+  reflectionResolver = null;
+}
+
+function subjectNeedsReflection(studentName, subject) {
+  const list = (allData && allData.config && allData.config.reflectionSubjects) || [];
+  return list.includes(studentName + '::' + subject);
+}
+    
 function updateChoreBanner() {
   if (!allData) return;
 
   const studentName = document.getElementById('studentSelect').value;
   const student = allData.studentData.find(s => s.student === studentName);
-  const chores = student && student.chores ? student.chores.filter(c => c.trim()) : [];
+  // Only the chores scheduled for today (everyday chores + any for today's weekday)
+  const chores = student && student.chores ? getChoresForDate(student.chores, new Date()) : [];
   
   if (!chores.length) {
     document.getElementById('choreBanner').style.display = 'none';
@@ -743,10 +975,10 @@ function updateChoreBanner() {
   const thresholdMet = (todayDone / todayTotal) >= 0.5;
 
   // Check all chores completion
-  const choreStates = chores.map((chore, i) => ({
-    chore,
-    id: getChoreId(student.student, new Date(), i),
-    done: lp[getChoreId(student.student, new Date(), i)] === true
+  const choreStates = chores.map(c => ({
+    chore: c.text,
+    id: getChoreId(student.student, new Date(), c.index),
+    done: lp[getChoreId(student.student, new Date(), c.index)] === true
   }));
   const allDone = choreStates.every(c => c.done);
 
@@ -795,10 +1027,10 @@ function toggleSingleChore(el) {
   const isDone = el.checked;
 
   setLocalProgress(choreId, isDone);
-  fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(choreId)}&status=${isDone}&student=${encodeURIComponent(choreId.split('-chore-')[0])}`, 
-    { mode: 'no-cors' });
+  sendSave(`${API_URL}?action=toggle&key=${encodeURIComponent(choreId)}&status=${isDone}&student=${encodeURIComponent(choreId.split('-chore-')[0])}`);
 
   updateChoreBanner();
+  checkCelebrations();
 }
 
 function toggleChoreExpand() {
@@ -826,8 +1058,7 @@ function toggleChoreBanner(el) {
   // Extract student name from chore id: "Amos-chore-2026-04-24" → "Amos"
   const studentName = choreId.split('-chore-')[0];
 
-  fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(choreId)}&status=${isDone}&student=${encodeURIComponent(studentName)}`, 
-    { mode: 'no-cors' });
+  sendSave(`${API_URL}?action=toggle&key=${encodeURIComponent(choreId)}&status=${isDone}&student=${encodeURIComponent(studentName)}`);
 
   const banner = document.getElementById('choreBanner');
   if (isDone) {
@@ -842,6 +1073,7 @@ function toggleChoreBanner(el) {
     const card = gridRow.closest('.task-card, .list-task-row');
     if (card) card.classList.toggle('is-done', isDone);
   }
+  checkCelebrations();
 }
     
 
@@ -862,7 +1094,22 @@ function onStorageChange() {
     if (selectedOption) {
       weekInput.value = selectedOption.getAttribute('data-week');
     }
+    applyStatusPref();
     render();
+  }
+
+  // Status Mode starts ON for each kid; if they switch it, their choice is
+  // remembered on this device.
+  function statusPrefKey() {
+    return 'status_mode_' + (document.getElementById('studentSelect').value || 'default');
+  }
+  function applyStatusPref() {
+    let v = null;
+    try { v = localStorage.getItem(statusPrefKey()); } catch (e) {}
+    document.getElementById('statusToggle').checked = (v === null) ? true : v === '1';
+  }
+  function saveStatusPref(on) {
+    try { localStorage.setItem(statusPrefKey(), on ? '1' : '0'); } catch (e) {}
   }
 
 
@@ -942,7 +1189,7 @@ function buildMakeupSection(pastDue, studentName) {
           <label class="status-indicator-wrap">
             <input type="checkbox" class="check-overlay" ${isDone ? 'checked' : ''}
               data-id="${t.id}"
-              onchange="toggle('${t.id}', this, '${studentName}', ${t.row}, ${t.col})">
+              onchange="toggle('${t.id}', this, '${studentName}', ${t.row}, ${t.col}, '${(subj.subject||'').replace(/'/g,"\\'")}')">
             <div class="status-indicator"></div>
           </label>
         </div>`;
@@ -973,10 +1220,9 @@ function render() {
 
   const allDays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   const now = new Date();
-  // Normalize "today" to midnight for accurate date comparisons
   const todayTs = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
 
-  // ─── TASK COUNTING ─────────────
+  // ─── TASK COUNTING ────────────────────────────
   const taskCountByDay = {};
   allDays.forEach(d => taskCountByDay[d] = 0);
   
@@ -985,10 +1231,11 @@ function render() {
       const t = (row.tasks || []).find(task =>
         task.day === dayName && parseInt(task.week) === targetWeek
       );
-      if (t && t.task && t.task.trim() !== '') taskCountByDay[dayName]++;
+      if (t && !t.isBreak && t.task && t.task.trim() !== '') taskCountByDay[dayName]++;
     });
   });
 
+  // ─── DAY RAW DATES ────────────────────────────
   const dayRawDates = {};
   allDays.forEach(dayName => {
     const sample = student.grid[0] && (student.grid[0].tasks || []).find(
@@ -997,6 +1244,7 @@ function render() {
     if (sample) dayRawDates[dayName] = sample.rawDate;
   });
 
+  // Calculate Saturday's date even if not in sheet
   if (!dayRawDates['Sat']) {
     const knownDay = ['Mon','Tue','Wed','Thu','Fri'].find(d => dayRawDates[d]);
     if (knownDay) {
@@ -1009,16 +1257,13 @@ function render() {
     }
   }
 
-  // Pre-compute past due per day
+  // ─── PAST DUE PRE-COMPUTATION ─────────────────
   const pastDueByDay = {};
   allDays.forEach(dayName => {
     const rawDate = dayRawDates[dayName];
     const count = taskCountByDay[dayName];
     if (makeupEnabled && count < 3 && rawDate) {
-      // Get all incomplete tasks
       const rawPastDue = getPastDueForDay(student, targetWeek, dayName, rawDate);
-      
-      // CRITICAL FILTER: Task must be from a previous week AND its date must be BEFORE today
       pastDueByDay[dayName] = rawPastDue.map(subj => ({
         ...subj,
         tasks: subj.tasks.filter(t => {
@@ -1031,22 +1276,37 @@ function render() {
     }
   });
 
+  // ─── VISIBLE DAYS ─────────────────────────────
   const visibleDays = allDays.filter(dayName => {
     const count = taskCountByDay[dayName];
     const rawDate = dayRawDates[dayName];
-    if (count >= 1) return true;
+
+    // Always show days with tasks or break days in this week
+    const hasBreakDay = student.grid.some(row =>
+      (row.tasks || []).some(t => t.day === dayName && parseInt(t.week) === targetWeek && t.isBreak)
+    );
+    if (count >= 1 || hasBreakDay) return true;
+
+    // Show empty optional days only if makeup is enabled and has past due tasks
     if (!makeupEnabled || !rawDate) return false;
     return (pastDueByDay[dayName] || []).length > 0;
   });
 
+  // ─── VISIBLE ROWS ─────────────────────────────
   const visibleRows = student.grid.filter(row => {
     const hasCurrentTask = visibleDays.some(dayName => {
       const t = (row.tasks || []).find(task =>
         task.day === dayName && parseInt(task.week) === targetWeek
       );
-      return t && (t.task && t.task.trim() !== '' || t.imageUrl || t.linkUrl);
+      return t && !t.isBreak && (t.task && t.task.trim() !== '' || t.imageUrl || t.linkUrl);
     });
     if (hasCurrentTask) return true;
+
+    // Include row if it has break days in visible days
+    const hasBreakDay = visibleDays.some(dayName =>
+      (row.tasks || []).some(t => t.day === dayName && parseInt(t.week) === targetWeek && t.isBreak)
+    );
+    if (hasBreakDay) return true;
 
     const hasMakeupTask = visibleDays.some(dayName => {
       const pd = pastDueByDay[dayName] || [];
@@ -1076,6 +1336,7 @@ function render() {
   let listHtml = `<div class="list-view"><div class="${isStatusMode ? 'status-mode' : ''}">`;
   const tasksByDay = visibleDays.map(() => []);
 
+  // ─── TABLE BODY ───────────────────────────────
   visibleRows.forEach(row => {
     tableHtml += `<tr><td class="subject-cell">${row.subject}
       <span class="curriculum-subtitle">${row.curriculum || ''}</span></td>`;
@@ -1084,10 +1345,23 @@ function render() {
       const t = (row.tasks || []).find(task => 
         task.day === dayName && parseInt(task.week) === targetWeek
       );
-      
+
       tableHtml += `<td>`;
       let hasRenderedAnything = false;
 
+      // ─── BREAK DAY ────────────────────────────
+      if (t && t.isBreak) {
+        tableHtml += `
+          <div class="task-card" style="background:#f1f5f9; border-color:#e2e8f0; 
+            opacity:0.5; cursor:default; pointer-events:none; min-height:60px;
+            display:flex; align-items:center; justify-content:center;">
+            <div style="color:#cbd5e1; font-size:0.7rem; font-style:italic;">Break</div>
+          </div>`;
+        tableHtml += `</td>`;
+        return;
+      }
+
+      // ─── REGULAR TASK ─────────────────────────
       if (t) {
         const lp = getLocalProgress();
         const isTaskDone = lp[t.id] !== undefined ? lp[t.id] : t.done;
@@ -1095,33 +1369,43 @@ function render() {
         let statusClass = '';
         if (taskDate < todayTs) statusClass = 'due-late';
         else if (taskDate === todayTs) statusClass = 'due-warning';
-      
+
         const hasContent = (t.task && t.task.trim().length > 0) || t.imageUrl || t.linkUrl;
         if (hasContent) {
           hasRenderedAnything = true;
+          const isLinkOnly = t.linkUrl && (!t.task || t.task.trim() === '');
           const mediaHtml = renderMedia(t);
           tableHtml += `
-            <div class="task-card ${isTaskDone ? 'is-done' : ''} ${statusClass}">
+            <div class="task-card ${isTaskDone ? 'is-done' : ''} ${statusClass} ${isLinkOnly ? 'link-only' : ''}">
               ${t.task ? `<div class="task-text">${t.task}</div>` : ''}
+              ${portfolioBadge(t, isTaskDone)}
               <div class="media-container">${mediaHtml}</div>
               <label class="status-indicator-wrap">
                 <input type="checkbox" class="check-overlay" ${isTaskDone ? 'checked' : ''} 
-                  data-id="${t.id}" onchange="toggle('${t.id}', this, '${studentName}', ${t.row}, ${t.col})">
+                  data-id="${t.id}" 
+                  onchange="toggle('${t.id}', this, '${studentName}', ${t.row}, ${t.col}, '${(row.subject||'').replace(/'/g,"\\'")}')">
                 <div class="status-indicator"></div>
               </label>
             </div>`;
-          tasksByDay[dayIdx].push({ ...t, subject: row.subject, curriculum: row.curriculum, statusClass });
+          tasksByDay[dayIdx].push({ 
+            ...t, 
+            subject: row.subject, 
+            curriculum: row.curriculum, 
+            statusClass, 
+            isLinkOnly: !!isLinkOnly 
+          });
         }
       }
-      
+
+      // ─── MAKEUP TASKS ─────────────────────────
       const pd = (pastDueByDay[dayName] || []);
       const subjectPastDue = pd.find(s => s.subject === row.subject);
       const makeupTasks = subjectPastDue ? subjectPastDue.tasks : [];
-      
+
       if (makeupEnabled && taskCountByDay[dayName] < 3 && makeupTasks.length > 0) {
         const needsDivider = hasRenderedAnything;
         hasRenderedAnything = true;
-        tableHtml += `<div class="makeup-section" style="${needsDivider ? 'border-top: 1px dashed #cbd5e1; margin-top: 8px; padding-top: 8px;' : ''}">`;
+        tableHtml += `<div class="makeup-section" style="${needsDivider ? 'border-top:1px dashed #cbd5e1; margin-top:8px; padding-top:8px;' : ''}">`;
         makeupTasks.forEach(mt => {
           const lp = getLocalProgress();
           const isDone = lp[mt.id] !== undefined ? lp[mt.id] : mt.done;
@@ -1129,13 +1413,16 @@ function render() {
           tableHtml += `
             <div class="task-card ${isDone ? 'is-done' : ''}" style="min-height:auto; margin-bottom:5px; border-style:dotted;">
               <div class="task-text" style="font-size:0.75rem;">
-                <small style="color:var(--primary); font-weight:bold; display:block;">MAKEUP (Wk ${mt.week})</small>
+                <small style="color:var(--primary); font-weight:bold; display:block;">
+                  MAKEUP (Wk ${mt.week})
+                </small>
                 ${mt.task}
               </div>
-              <div class="media-container">${mediaHtml}</div>
+              ${mediaHtml ? `<div class="media-container">${mediaHtml}</div>` : ''}
               <label class="status-indicator-wrap">
                 <input type="checkbox" class="check-overlay" ${isDone ? 'checked' : ''} 
-                  data-id="${mt.id}" onchange="toggle('${mt.id}', this, '${studentName}', ${mt.row}, ${mt.col})">
+                  data-id="${mt.id}" 
+                  onchange="toggle('${mt.id}', this, '${studentName}', ${mt.row}, ${mt.col}, '${(row.subject||'').replace(/'/g,"\\'")}')">
                 <div class="status-indicator"></div>
               </label>
             </div>`;
@@ -1146,26 +1433,28 @@ function render() {
       if (!hasRenderedAnything) {
         tableHtml += `<div class="task-card empty-card"></div>`;
       }
+
       tableHtml += `</td>`;
     });
     tableHtml += `</tr>`;
   });
+
   tableHtml += `</tbody></table></div></div>`;
-  
+
   // ─── LIST VIEW ────────────────────────────────
   visibleDays.forEach((dayName, idx) => {
-    const dayTasks = tasksByDay[idx];
+    const dayTasks = tasksByDay[idx].filter(t => !t.isBreak);
     const rawDate = dayRawDates[dayName];
     const dayMidnight = rawDate ? new Date(rawDate).setHours(0,0,0,0) : null;
     const isToday = dayMidnight === todayTs;
-    
-    // Use pre-computed pastDueByDay which already has the date-safety filter
     const pastDueFiltered = pastDueByDay[dayName] || [];
 
     if (dayTasks.length === 0 && pastDueFiltered.length === 0) return;
 
     const lp = getLocalProgress();
-    const doneCount = dayTasks.filter(t => lp[t.id] !== undefined ? lp[t.id] : t.done).length;
+    const doneCount = dayTasks.filter(t => 
+      lp[t.id] !== undefined ? lp[t.id] : t.done
+    ).length;
 
     let dayHeader = dayName;
     if (makeupEnabled && taskCountByDay[dayName] === 0 && rawDate) {
@@ -1179,27 +1468,44 @@ function render() {
         <span class="progress-pill">${doneCount} / ${dayTasks.length} done</span>
       </div>`;
 
+    // Regular tasks
     dayTasks.forEach(t => {
       const isDone = lp[t.id] !== undefined ? lp[t.id] : t.done;
       const mediaHtml = renderMedia(t);
       listHtml += `
-        <label class="list-task-row ${isDone ? 'is-done' : ''} ${t.statusClass}">
+        <label class="list-task-row ${isDone ? 'is-done' : ''} ${t.statusClass || ''}">
           <div class="list-checkbox"></div>
           <div style="flex:1">
-            <div style="font-size:10px; font-weight:bold; color:var(--primary); text-transform:uppercase;">${t.subject}</div>
-            ${t.curriculum ? `<div style="font-size:10px; color:#94a3b8; margin-bottom:4px;">${t.curriculum}</div>` : ''}
+            <div style="font-size:10px; font-weight:bold; color:var(--primary); 
+              text-transform:uppercase;">${t.subject}</div>
+            ${t.curriculum ? `<div style="font-size:10px; color:#94a3b8; 
+              margin-bottom:4px;">${t.curriculum}</div>` : ''}
             ${t.task ? `<div class="task-text" style="font-size:14px;">${t.task}</div>` : ''}
-            <div>${mediaHtml}</div>
+             ${portfolioBadge(t, isDone)}
+            ${mediaHtml ? `<div>${mediaHtml}</div>` : ''}
           </div>
           <input type="checkbox" class="check-overlay" ${isDone ? 'checked' : ''}
-            data-id="${t.id}" onchange="toggle('${t.id}', this, '${studentName}', ${t.row}, ${t.col})">
+            data-id="${t.id}" 
+            onchange="toggle('${t.id}', this, '${studentName}', ${t.row}, ${t.col}, '${(t.subject||'').replace(/'/g,"\\'")}')">
         </label>`;
     });
 
+    // Makeup tasks
     if (pastDueFiltered.length > 0) {
-      listHtml += `<div style="font-size:10px; font-weight:700; color:#94a3b8; text-transform:uppercase; padding:6px 16px; background:#f8fafc; border-top:2px dashed #e2e8f0; letter-spacing:1px;">Make-up Work</div>`;
+      listHtml += `
+        <div style="font-size:10px; font-weight:700; color:#94a3b8; 
+          text-transform:uppercase; padding:6px 16px; background:#f8fafc; 
+          border-top:2px dashed #e2e8f0; letter-spacing:1px;">
+          Make-up Work
+        </div>`;
+      
       pastDueFiltered.forEach(subj => {
-        listHtml += `<div style="font-size:10px; font-weight:700; color:var(--primary); text-transform:uppercase; padding:4px 16px; background:#f8fafc;">${subj.subject}</div>`;
+        listHtml += `
+          <div style="font-size:10px; font-weight:700; color:var(--primary); 
+            text-transform:uppercase; padding:4px 16px; background:#f8fafc;">
+            ${subj.subject}
+          </div>`;
+        
         subj.tasks.forEach(t => {
           const isDone = lp[t.id] !== undefined ? lp[t.id] : t.done;
           const mediaHtml = renderMedia(t);
@@ -1207,15 +1513,21 @@ function render() {
             <label class="list-task-row ${isDone ? 'is-done' : ''}">
               <div class="list-checkbox"></div>
               <div style="flex:1">
-                <div class="task-text" style="font-size:14px;">${t.task} <span style="color:#94a3b8; font-size:11px;">(Wk ${t.week} - ${t.date})</span></div>
-                <div>${mediaHtml}</div>
+                <div class="task-text" style="font-size:14px;">${t.task} 
+                  <span style="color:#94a3b8; font-size:11px;">
+                    (Wk ${t.week} - ${t.date})
+                  </span>
+                </div>
+                ${mediaHtml ? `<div>${mediaHtml}</div>` : ''}
               </div>
               <input type="checkbox" class="check-overlay" ${isDone ? 'checked' : ''}
-                data-id="${t.id}" onchange="toggle('${t.id}', this, '${studentName}', ${t.row}, ${t.col})">
+                data-id="${t.id}" 
+                onchange="toggle('${t.id}', this, '${studentName}', ${t.row}, ${t.col}, '${(subj.subject||'').replace(/'/g,"\\'")}')">
             </label>`;
         });
       });
     }
+
     listHtml += `</div>`;
   });
 
@@ -1243,50 +1555,168 @@ function render() {
   return html;
 }
 
-    
-function toggle(id, el, studentName, row, col) {
-  const isDone = el.checked;
-  
-  console.log('Toggle called:', { id, isDone, studentName, row, col });
-  
-  setLocalProgress(id, isDone);
-
-  document.querySelectorAll(`input[data-id="${id}"]`).forEach(input => {
-    input.checked = isDone;
-    const card = input.closest('.task-card, .list-task-row');
-    if (card) card.classList.toggle('is-done', isDone);
-  });
-
-  if (id.includes('-chore-')) {
-    const choreStudent = id.split('-chore-')[0];
-    console.log('Chore fetch:', `${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}&student=${encodeURIComponent(choreStudent)}`);
-    fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}&student=${encodeURIComponent(choreStudent)}`, 
-      { mode: 'no-cors' });
-  } else {
-    console.log('Assignment fetch:', `${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}&student=${encodeURIComponent(studentName)}&row=${row}&col=${col}`);
-    fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}&student=${encodeURIComponent(studentName)}&row=${row}&col=${col}`, 
-      { mode: 'no-cors' });
-    startSyncTimer();
+function adminClearProgress() {
+  if (confirm('Clear all locally cached progress? This won\'t affect the spreadsheet.')) {
+    localStorage.removeItem('local_progress');
+    render();
+    alert('Local cache cleared.');
   }
-  
-  updateChoreBanner();
+}
+    
+// ─── PORTFOLIO LINK ───────────────────────────
+let portfolioResolver = null;
+let portfolioSubmissions = {};
+
+let portfolioSettings = { enabled: true, keywords: ['portfolio'] };
+
+function isPortfolioTask(text) {
+  if (!portfolioSettings.enabled) return false;
+  const t = String(text || '').toLowerCase();
+  return portfolioSettings.keywords.some(k => k && t.indexOf(k) !== -1);
 }
 
-  function forceRefresh() {
+function loadPortfolioSettings() {
+  fetch(`${API_URL}?action=getPortfolioSettings`)
+    .then(r => r.json())
+    .then(s => { if (s && Array.isArray(s.keywords)) { portfolioSettings = s; render(); } })
+    .catch(() => {});
+}
+
+function isValidLink(s) {
+  try { const u = new URL(s); return u.protocol === 'https:' || u.protocol === 'http:'; }
+  catch (e) { return false; }
+}
+
+function findTaskById(studentName, id) {
+  const student = allData.studentData.find(s => s.student === studentName);
+  if (!student) return null;
+  for (const row of student.grid) {
+    const t = (row.tasks || []).find(x => String(x.id) === String(id));
+    if (t) return t;
+  }
+  return null;
+}
+
+function loadPortfolioSubmissions() {
+  fetch(`${API_URL}?action=getPortfolioSubmissions`)
+    .then(r => r.json())
+    .then(m => { portfolioSubmissions = m || {}; render(); })
+    .catch(() => {});
+}
+
+function portfolioBadge(t, isDone) {
+  if (isDone || !isPortfolioTask(t.task)) return '';
+  return portfolioSubmissions[t.id]
+    ? '<div style="font-size:11px; color:#b45309; font-weight:600; margin-top:4px;">⏳ Submitted, waiting for parent</div>'
+    : '<div style="font-size:11px; color:#94a3b8; margin-top:4px;">📎 Needs a picture link</div>';
+}
+
+function askPortfolioLink(taskText, existingLink) {
+  return new Promise(resolve => {
+    portfolioResolver = resolve;
+    document.getElementById('portfolioLink').value = existingLink || '';
+    document.getElementById('portfolioError').textContent = '';
+    document.getElementById('portfolioTaskText').textContent =
+      'Paste a link to a picture of your work.' + (taskText ? ' (' + taskText + ')' : '');
+    document.getElementById('portfolioOverlay').classList.add('open');
+    document.getElementById('portfolioLink').focus();
+  });
+}
+
+function closePortfolioModal(submitted) {
+  const link = document.getElementById('portfolioLink').value.trim();
+  if (submitted && !isValidLink(link)) {
+    document.getElementById('portfolioError').textContent =
+      'Please paste a full link that starts with https://';
+    return;
+  }
+  document.getElementById('portfolioOverlay').classList.remove('open');
+  if (portfolioResolver) portfolioResolver(submitted ? link : null);
+  portfolioResolver = null;
+}
+
+async function submitPortfolioLink(task, studentName, subject, link) {
+  const qs = new URLSearchParams({
+    action: 'submitPortfolio',
+    key: task.id,
+    student: studentName,
+    subject: subject || '',
+    task: task.task || '',
+    week: task.week || '',
+    date: task.date || '',
+    link: link
+  });
+  try {
+    const res = await (await fetch(`${API_URL}?${qs.toString()}`)).json();
+    if (!res.success) throw new Error(res.error || 'failed');
+    portfolioSubmissions[task.id] = { student: studentName, subject, task: task.task, link };
+    render();
+    alert('Submitted! Your parent will look at it and check it off.');
+    checkCelebrations();
+  } catch (e) {
+    alert('Sorry, that did not go through. Please try again.');
+  }
+}
+
+// ─── TOGGLE (replaces existing) ───────────────
+async function toggle(id, el, studentName, row, col, subject) {
+  const wantsDone = el.checked;
+  const isChore = id.includes('-chore-');
+  const task = isChore ? null : findTaskById(studentName, id);
+
+  // Portfolio tasks: student submits a link; only the parent marks them done
+  if (task && isPortfolioTask(task.task)) {
+    el.checked = !wantsDone;   // undo the checkbox change either way
+    if (wantsDone) {
+      const existing = portfolioSubmissions[id] && portfolioSubmissions[id].link;
+      const link = await askPortfolioLink(task.task, existing);
+      if (link) await submitPortfolioLink(task, studentName, subject, link);
+    }
+    return;
+  }
+
+  let reflectionAnswer = null;
+  if (wantsDone && !isChore && subject && subjectNeedsReflection(studentName, subject)) {
+    reflectionAnswer = await askReflection();
+    if (reflectionAnswer === null) { el.checked = false; return; }
+  }
+
+  setLocalProgress(id, wantsDone);
+  document.querySelectorAll(`input[data-id="${id}"]`).forEach(input => {
+    input.checked = wantsDone;
+    const card = input.closest('.task-card, .list-task-row');
+    if (card) card.classList.toggle('is-done', wantsDone);
+  });
+
+  if (isChore) {
+    const choreStudent = id.split('-chore-')[0];
+    sendSave(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${wantsDone}&student=${encodeURIComponent(choreStudent)}`);
+  } else {
+    let url = `${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${wantsDone}&student=${encodeURIComponent(studentName)}&row=${row}&col=${col}`;
+    if (reflectionAnswer !== null) {
+      url += `&subject=${encodeURIComponent(subject)}&reflection=${encodeURIComponent(reflectionAnswer)}`;
+    }
+    sendSave(url);
+    startSyncTimer();
+  }
+  updateChoreBanner();
+  checkCelebrations();
+}
+    
+function forceRefresh() {
     const btn = document.getElementById('refreshBtn');
     btn.textContent = 'Checking...';
     btn.disabled = true;
 
-    fetch('data.json?v=' + Date.now())
-      .then(r => r.json())
+    fetchLatestData()
       .then(data => {
         const newTime = new Date(data.generated).getTime();
         const oldTime = allData && allData.generated ? new Date(allData.generated).getTime() : 0;
 
         if (newTime > oldTime) {
-          allData = data;
+          allData = { ...data, studentData: mergeChoresIntoStudentData(data) };
           updateWeekFromStudent();
-          showTimestamp(data.generated); // from utils.js
+          showTimestamp(data.generated);
           btn.textContent = '✓ Updated!';
         } else {
           btn.textContent = '✓ Current';
@@ -1296,7 +1726,7 @@ function toggle(id, el, studentName, row, col) {
         btn.style.fontWeight = 'normal';
 
         setTimeout(() => {
-          btn.textContent = '↻';
+          btn.textContent = '↻ SYNC';
           btn.disabled = false;
         }, 2000);
       })
@@ -1306,5 +1736,182 @@ function toggle(id, el, studentName, row, col) {
       });
   }
 </script>
+<!-- ─── DAILY CELEBRATIONS ─────────────────────── -->
+<style>
+  .celebrate-overlay {
+    display: none; position: fixed; inset: 0; z-index: 2000;
+    background: rgba(15,23,42,0.55); align-items: center; justify-content: center; padding: 20px;
+  }
+  .celebrate-overlay.open { display: flex; }
+  .celebrate-box {
+    background: #fff; border-radius: 22px; padding: 28px 24px 22px; max-width: 360px; width: 100%;
+    text-align: center; box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+    animation: celebratePop 0.45s cubic-bezier(.2,1.4,.4,1) both;
+  }
+  .celebrate-emoji { font-size: 72px; line-height: 1; display: inline-block; animation: celebrateHigh5 0.9s ease 0.2s 2; }
+  .celebrate-title { font-size: 22px; font-weight: 800; color: #1e293b; margin: 14px 0 6px; }
+  .celebrate-text { font-size: 15px; color: #475569; line-height: 1.5; margin: 0 0 14px; }
+  .celebrate-chores { text-align: left; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px;
+    padding: 10px 14px; margin: 0 0 16px; font-size: 14px; color: #334155; }
+  .celebrate-chores div { padding: 3px 0; }
+  .celebrate-candy { font-size: 17px; font-weight: 700; color: #9d174d; background: #fdf2f8;
+    border: 2px dashed #f9a8d4; border-radius: 14px; padding: 12px; margin: 0 0 16px; }
+  .celebrate-btn { width: 100%; padding: 12px; border: none; border-radius: 12px; font-size: 16px; font-weight: 700;
+    color: #fff; background: var(--primary, #741b47); cursor: pointer; }
+  .confetti-piece { position: fixed; top: -12px; width: 10px; height: 14px; z-index: 2001; pointer-events: none;
+    border-radius: 2px; animation: confettiFall linear forwards; }
+  #choreBanner.nudge #choreBannerInner { animation: choreNudge 0.6s ease 3; }
+  @keyframes celebratePop { from { transform: scale(0.6); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+  @keyframes celebrateHigh5 { 0%,100% { transform: rotate(0) scale(1); } 30% { transform: rotate(-14deg) scale(1.15); } 60% { transform: rotate(10deg) scale(1.1); } }
+  @keyframes confettiFall { to { transform: translate3d(var(--dx), 105vh, 0) rotate(var(--rot)); opacity: 0.9; } }
+  @keyframes choreNudge { 0%,100% { transform: scale(1); } 50% { transform: scale(1.03); box-shadow: 0 0 0 4px rgba(250,204,21,0.6); } }
+  @media (prefers-reduced-motion: reduce) {
+    .celebrate-box, .celebrate-emoji, #choreBanner.nudge #choreBannerInner { animation: none; }
+    .confetti-piece { display: none; }
+  }
+  @media print { .celebrate-overlay, .confetti-piece { display: none !important; } }
+</style>
+
+<div class="celebrate-overlay" id="celebrateOverlay" onclick="if(event.target===this) closeCelebration()">
+  <div class="celebrate-box" role="dialog" aria-live="polite">
+    <div class="celebrate-emoji" id="celebrateEmoji">🙌</div>
+    <div class="celebrate-title" id="celebrateTitle"></div>
+    <p class="celebrate-text" id="celebrateText"></p>
+    <div id="celebrateExtra"></div>
+    <button class="celebrate-btn" id="celebrateBtn" onclick="closeCelebration()">Yay!</button>
+  </div>
+</div>
+
+<script>
+// Celebrates when today's schoolwork is finished (and nudges toward chores),
+// and again when schoolwork AND chores are all done (candy time!).
+// Each celebration shows once per student per day on this device.
+
+function todayKey() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function getTodayStatus(studentName) {
+  if (!allData || !allData.studentData) return null;
+  const student = allData.studentData.find(s => s.student === studentName);
+  if (!student) return null;
+
+  const lp = getLocalProgress();
+  const todayTs = new Date().setHours(0, 0, 0, 0);
+
+  // Today's schoolwork (any week), skipping breaks and blank cells
+  let schoolTotal = 0, schoolDone = 0;
+  (student.grid || []).forEach(row => {
+    (row.tasks || []).forEach(t => {
+      if (!t.rawDate || new Date(t.rawDate).setHours(0, 0, 0, 0) !== todayTs) return;
+      if (t.isBreak) return;
+      if (!((t.task && t.task.trim()) || t.imageUrl || t.linkUrl)) return;
+      schoolTotal++;
+      const done = lp[t.id] !== undefined ? lp[t.id] : t.done;
+      // A picture-link task counts once it's been submitted for a parent to check
+      const submitted = isPortfolioTask(t.task) && portfolioSubmissions && portfolioSubmissions[t.id];
+      if (done || submitted) schoolDone++;
+    });
+  });
+
+  const chores = student.chores ? getChoresForDate(student.chores, new Date()) : [];
+  const choresLeft = chores.filter(c => lp[getChoreId(student.student, new Date(), c.index)] !== true)
+                           .map(c => c.text);
+
+  return {
+    schoolTotal, schoolDone,
+    schoolComplete: schoolTotal > 0 && schoolDone === schoolTotal,
+    choreTotal: chores.length,
+    choresLeft
+  };
+}
+
+function alreadyCelebrated(studentName, level) {
+  try { return localStorage.getItem(`celebrated_${studentName}_${todayKey()}_${level}`) === '1'; } catch (e) { return false; }
+}
+function markCelebrated(studentName, level) {
+  try { localStorage.setItem(`celebrated_${studentName}_${todayKey()}_${level}`, '1'); } catch (e) {}
+}
+
+function checkCelebrations() {
+  const studentName = document.getElementById('studentSelect').value;
+  const s = getTodayStatus(studentName);
+  if (!s || !s.schoolComplete) return;
+
+  if (s.choresLeft.length === 0) {
+    if (alreadyCelebrated(studentName, 'all')) return;
+    markCelebrated(studentName, 'all');
+    markCelebrated(studentName, 'school');
+    showCelebration({
+      emoji: '🙌',
+      title: `You did it ALL, ${studentName}!`,
+      text: s.choreTotal ? 'Every bit of schoolwork and every chore is done for today. High five!' : 'Every bit of schoolwork is done for today. High five!',
+      extra: '<div class="celebrate-candy">🍬 Go get a piece of candy from the jar! 🍬</div>',
+      button: 'Yum! 🍬',
+      confetti: 140
+    });
+  } else {
+    if (alreadyCelebrated(studentName, 'school')) return;
+    markCelebrated(studentName, 'school');
+    const list = s.choresLeft.map(c => `<div>⬜ ${c}</div>`).join('');
+    showCelebration({
+      emoji: '🙌',
+      title: 'High five! Schoolwork done!',
+      text: 'Awesome work! Now finish your chores. Get them all done and you earn a piece of candy! 🍬',
+      extra: `<div class="celebrate-chores">${list}</div>`,
+      button: "I'm on it! 💪",
+      confetti: 70,
+      afterClose: nudgeChores
+    });
+  }
+}
+
+let celebrationAfterClose = null;
+function showCelebration(o) {
+  document.getElementById('celebrateEmoji').textContent = o.emoji;
+  document.getElementById('celebrateTitle').textContent = o.title;
+  document.getElementById('celebrateText').textContent = o.text;
+  document.getElementById('celebrateExtra').innerHTML = o.extra || '';
+  document.getElementById('celebrateBtn').textContent = o.button || 'Yay!';
+  celebrationAfterClose = o.afterClose || null;
+  const ov = document.getElementById('celebrateOverlay');
+  ov.classList.remove('open'); void ov.offsetWidth; ov.classList.add('open');
+  launchConfetti(o.confetti || 80);
+  try { if (navigator.vibrate) navigator.vibrate([60, 40, 60, 40, 120]); } catch (e) {}
+}
+
+function closeCelebration() {
+  document.getElementById('celebrateOverlay').classList.remove('open');
+  if (celebrationAfterClose) { const f = celebrationAfterClose; celebrationAfterClose = null; f(); }
+}
+
+function nudgeChores() {
+  const banner = document.getElementById('choreBanner');
+  if (!banner || banner.style.display === 'none') return;
+  banner.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  banner.classList.remove('nudge'); void banner.offsetWidth; banner.classList.add('nudge');
+  setTimeout(() => banner.classList.remove('nudge'), 2200);
+}
+
+function launchConfetti(count) {
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const colors = ['#f43f5e', '#f59e0b', '#22c55e', '#3b82f6', '#a855f7', '#ec4899', '#facc15'];
+  for (let i = 0; i < count; i++) {
+    const p = document.createElement('div');
+    p.className = 'confetti-piece';
+    p.style.left = Math.random() * 100 + 'vw';
+    p.style.background = colors[i % colors.length];
+    p.style.setProperty('--dx', (Math.random() * 200 - 100) + 'px');
+    p.style.setProperty('--rot', (Math.random() * 720 - 360) + 'deg');
+    p.style.animationDuration = (2.2 + Math.random() * 1.8) + 's';
+    p.style.animationDelay = (Math.random() * 0.6) + 's';
+    if (Math.random() < 0.4) { p.style.width = '8px'; p.style.height = '8px'; p.style.borderRadius = '50%'; }
+    document.body.appendChild(p);
+    setTimeout(() => p.remove(), 5000);
+  }
+}
+</script>
+
 </body>
 </html>
