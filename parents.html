@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>e
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
   <title>Parent Dashboard</title>
   <style>
-    /* ... [Keeping your existing CSS] ... */
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8fafc; color: #1e293b; padding-bottom: 60px; }
     .site-header { background: #741b47; width: 100%; height: 180px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; margin-bottom: 0; }
@@ -22,6 +22,14 @@
     .day-nav button:hover { background: #f1f5f9; }
     .day-nav button:disabled { opacity: 0.35; cursor: default; background: white; }
     .day-nav .current-day { font-size: 15px; font-weight: 700; color: #1e293b; min-width: 220px; text-align: center; }
+    .day-nav { flex-wrap: wrap; }
+    .day-nav .nav-tools { display: flex; align-items: center; gap: 4px; }
+    @media (max-width: 600px) {
+      .day-nav { gap: 8px; padding: 10px 12px; }
+      .day-nav button { padding: 8px 10px; }
+      .day-nav .current-day { min-width: 0; flex: 1; font-size: 14px; }
+      .day-nav .nav-tools { flex-basis: 100%; justify-content: center; margin-top: -2px; }
+    }
     .stats-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; padding: 0 24px; margin-bottom: 24px; max-width: 900px; margin-left: auto; margin-right: auto; }
     .stat-card { background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px 16px; text-align: center; }
     .stat-card .stat-num { font-size: 28px; font-weight: 700; line-height: 1; margin-bottom: 4px; }
@@ -180,9 +188,12 @@
 </div> <div class="day-nav">
   <button id="prevDay" onclick="changeDay(-1)">← Previous</button>
   <div class="current-day" id="currentDayLabel">Loading Date...</div>
-  <button id="nextDay" onclick="changeDay(1)">Next →</button><br/>
+  <button id="nextDay" onclick="changeDay(1)">Next →</button>
+  <div class="nav-tools">
   <span id="syncTimer" style="display:none; font-size:11px; color:#94a3b8; font-style:italic;"></span>
   <button id="refreshBtn" onclick="forceRefresh()" style="font-size:11px; color:#94a3b8; background:transparent; border:none; padding:4px 6px; border-radius:6px; cursor:pointer; opacity:0.6;">↻</button>
+  <button id="lockBtn" onclick="lockDashboard()" title="Lock and forget the PIN on this device" style="font-size:11px; color:#94a3b8; background:transparent; border:none; padding:4px 6px; border-radius:6px; cursor:pointer; opacity:0.6;">🔒 Lock</button>
+  </div>
 </div>
 
 <div id="statsStrip" class="stats-strip"></div>
@@ -208,6 +219,32 @@
     return `<div class="stat-card"><div class="stat-num" style="color:${color};">${num}</div><div class="stat-label">${label}</div></div>`;
   }
 
+  let portfolioSettings = { enabled: true, keywords: ['portfolio'] };
+  function isPortfolioTask(text) {
+    if (!portfolioSettings.enabled) return false;
+    const t = String(text || '').toLowerCase();
+    return portfolioSettings.keywords.some(k => k && t.indexOf(k) !== -1);
+  }
+
+  function escHtml(s) {
+    return String(s || '').replace(/[&<>"']/g, c =>
+      ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
+  function portfolioHtml(t) {
+    if (!isPortfolioTask(t.task)) return '';
+    const sub = window.portfolioMap && window.portfolioMap[t.id];
+    const url = sub && /^https?:\/\//i.test(sub.link || '') ? sub.link : '';
+    if (url) {
+      return `<div style="margin-top:6px;">
+        <a href="${escHtml(url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"
+          style="display:inline-block; font-size:12px; font-weight:600; color:white; background:#741b47; padding:5px 10px; border-radius:6px; text-decoration:none;">
+          📷 View submitted work</a>
+        ${t.done ? '' : '<span style="font-size:11px; color:#b45309; margin-left:6px;">Review it, then tap this row to mark complete</span>'}
+      </div>`;
+    }
+    return t.done ? '' : '<div style="font-size:11px; color:#94a3b8; margin-top:4px;">📎 No work submitted yet</div>';
+  }
 
   // 3. Sync Actions
 
@@ -217,8 +254,7 @@ function forceRefresh() {
   btn.textContent = 'Checking...';
   btn.disabled = true;
 
-  fetch('data.json?v=' + Date.now())
-    .then(r => r.json())
+  fetchLatestData()
     .then(data => {
       const newTime = new Date(data.generated).getTime();
       const oldTime = allData && allData.generated ? new Date(allData.generated).getTime() : 0;
@@ -270,18 +306,111 @@ function updateColors(palette, headerColor) {
 }
 
   // 5. Everything else
-window.onload = function() {
+// ─── PARENT PIN GATE ─────────────────────────
+// The PIN is kept for this tab (sessionStorage) and, if "Remember" is ticked,
+// on this device for PIN_REMEMBER_DAYS (localStorage).
+const PIN_REMEMBER_DAYS = 30;
+
+function getStoredPin() {
+  try {
+    const s = sessionStorage.getItem('parent_pin');
+    if (s) return s;
+    const saved = JSON.parse(localStorage.getItem('parent_pin_saved') || 'null');
+    if (saved && saved.pin && saved.expires > Date.now()) return saved.pin;
+    localStorage.removeItem('parent_pin_saved');
+  } catch (e) {}
+  return '';
+}
+function setStoredPin(v, remember) {
+  try {
+    sessionStorage.setItem('parent_pin', v);
+    if (remember) {
+      localStorage.setItem('parent_pin_saved', JSON.stringify({ pin: v, expires: Date.now() + PIN_REMEMBER_DAYS * 86400000 }));
+    }
+  } catch (e) {}
+}
+function forgetPin() {
+  try { sessionStorage.removeItem('parent_pin'); localStorage.removeItem('parent_pin_saved'); } catch (e) {}
+}
+function lockDashboard() {
+  forgetPin();
+  showLockScreen('Locked. This device no longer remembers your PIN.');
+}
+function pinQ() { return '&pin=' + encodeURIComponent(getStoredPin()) + '&device=' + encodeURIComponent(getDeviceId()); }
+
+// Resolves true (right PIN), false (wrong PIN), or null (couldn't reach the server).
+function verifyPin(pin) {
+  return fetch(`${API_URL}?action=checkPin&pin=${encodeURIComponent(pin)}&device=${encodeURIComponent(getDeviceId())}`)
+    .then(r => r.json())
+    .then(r => !!(r && r.success))
+    .catch(() => null);
+}
+
+function showLockScreen(msg) {
+  document.getElementById('statsStrip').innerHTML = '';
+  const c = document.getElementById('content');
+  c.className = '';
+  c.innerHTML = `
+    <div style="max-width:320px; margin:40px auto; text-align:center; padding:0 20px;">
+      <div style="font-size:28px;">🔒</div>
+      <div style="font-weight:700; margin:8px 0 14px;">Parent PIN</div>
+      <input type="password" id="pinInput" inputmode="numeric" autocomplete="off"
+        onkeydown="if(event.key==='Enter') submitPin()"
+        style="width:100%; padding:10px; border:1px solid #cbd5e1; border-radius:8px; font-size:16px; text-align:center;">
+      <label style="display:flex; align-items:center; justify-content:center; gap:6px; font-size:12px; color:#475569; margin-top:10px; cursor:pointer;">
+        <input type="checkbox" id="rememberPin" checked> Remember me on this device for ${PIN_REMEMBER_DAYS} days
+      </label>
+      <div style="color:#dc2626; font-size:12px; min-height:16px; margin-top:8px;">${msg || ''}</div>
+      <button class="approve-btn" onclick="submitPin()" style="margin-top:8px; padding:10px 24px; font-size:13px;">Unlock</button>
+    </div>`;
+  setTimeout(() => { const i = document.getElementById('pinInput'); if (i) i.focus(); }, 0);
+}
+
+async function submitPin() {
+  const input = document.getElementById('pinInput');
+  const pin = input ? input.value.trim() : '';
+  if (!pin) return;
+  const remember = !!(document.getElementById('rememberPin') || {}).checked;
+  const ok = await verifyPin(pin);
+  if (ok) {
+    setStoredPin(pin, remember);
+    startDashboard();
+  } else if (ok === null) {
+    showLockScreen('Couldn\'t reach the server. Check your connection and try again.');
+  } else {
+    showLockScreen('Wrong PIN, or too many tries. Wait 15 minutes and try again.');
+  }
+}
+
+window.onload = async function() {
+  // Accept ?pin=1234 from a bookmarked link
+  const params = new URLSearchParams(window.location.search);
+  const urlPin = params.get('pin');
+  if (urlPin) {
+    setStoredPin(urlPin.trim(), true);
+    // Remove the PIN from the address bar so it doesn't stay on screen
+    params.delete('pin');
+    const clean = window.location.pathname + (params.toString() ? '?' + params : '') + window.location.hash;
+    history.replaceState(null, '', clean);
+  }
+
+  const stored = getStoredPin();
+  if (!stored) return showLockScreen('');
+  const ok = await verifyPin(stored);
+  if (ok) startDashboard();
+  else if (ok === null) showLockScreen('Couldn\'t reach the server. Check your connection and try again.');
+  else { forgetPin(); showLockScreen(urlPin ? 'That PIN didn\'t work.' : 'Please enter your PIN again.'); }
+};
+
+function startDashboard() {
+  document.getElementById('content').innerHTML = 'Loading assignments...';
   // Set the date label immediately so it shows before render completes
   const dateStr = currentDate.toLocaleDateString('en-US', { 
     weekday: 'long', month: 'long', day: 'numeric' 
   });
   document.getElementById('currentDayLabel').textContent = dateStr;
 
-  fetch('data.json?v=' + new Date().getTime())
-    .then(r => {
-      if (!r.ok) throw new Error("File not found on server");
-      return r.json();
-    })
+  loadInitialData()
     .then(function(data) {
       const studentDataWithChores = mergeChoresIntoStudentData(data);
       allData = {
@@ -296,11 +425,26 @@ window.onload = function() {
       // Render immediately with local progress
       renderForDate(currentDate);
 
+      // Quietly check for anything newer than the GitHub copy
+      forceRefresh();
+
       // Then fetch server progress and re-render silently
       fetchAndMergeProgress().then(() => {
         renderForDate(currentDate);
         updateMakeupToggleBtn(allData.config && allData.config.makeupDaysEnabled !== false);
       });
+      fetch(`${API_URL}?action=getReflections${pinQ()}`)
+        .then(r => r.json())
+        .then(refs => { window.reflectionsMap = refs; renderForDate(currentDate); })
+        .catch(() => {});
+      fetch(`${API_URL}?action=getPortfolioSubmissions${pinQ()}`)
+        .then(r => r.json())
+        .then(m => { window.portfolioMap = m; renderForDate(currentDate); })
+        .catch(() => {});
+      fetch(`${API_URL}?action=getPortfolioSettings`)
+        .then(r => r.json())
+        .then(cfg => { if (cfg && Array.isArray(cfg.keywords)) { portfolioSettings = cfg; renderForDate(currentDate); } })
+        .catch(() => {});
     })
     .catch(e => {
       const content = document.getElementById('content');
@@ -308,7 +452,7 @@ window.onload = function() {
         content.innerHTML = `<div style="padding:40px;text-align:center;color:#dc2626;">Error loading data: ${e.message}</div>`;
       }
     });
-};
+}
 
 function applyHeaderSettings(config) {
   if (config.headerText) {
@@ -486,6 +630,8 @@ function buildStudentCard(s) {
   
 function buildTaskRow(t, palette, isPastDue, studentName) {
   const dateLabel = isPastDue ? `<span class="past-due-date">${t.date}</span>` : '';
+  const ref = window.reflectionsMap && window.reflectionsMap[t.id];
+  const reflectionHtml = ref ? `<div style="font-size:12px; color:#64748b; margin-top:4px; font-style:italic;">"${ref.answer}"</div>` : '';
   return `
     <div class="task-row ${t.done ? 'is-done' : ''}" id="prow-${t.id}"
       onclick="toggleTask('${t.id}', '${palette.primary}', '${palette.secondary}', '${studentName}', ${t.row || 0}, ${t.col || 0})">
@@ -495,6 +641,8 @@ function buildTaskRow(t, palette, isPastDue, studentName) {
       <div class="task-info">
         ${isPastDue ? '' : `<div class="task-subject" style="color:${palette.primary};">${t.subject}</div>`}
         <div class="task-text">${t.task}${dateLabel}</div>
+        ${reflectionHtml}
+        ${portfolioHtml(t)}
       </div>
     </div>`;
 }
@@ -503,6 +651,7 @@ function buildChoreRow(studentName, chores, palette, date) {
   if (!chores || !chores.length) return '';
   
   const lp = getLocalProgress();
+  const todaysChores = getChoresForDate(chores, date);
   let html = `<div class="chore-section-label">
     Last but Not Least: Daily Chores
     <button onclick="editChores('${studentName}', event)" 
@@ -511,8 +660,12 @@ function buildChoreRow(studentName, chores, palette, date) {
     </button>
   </div>`;
   
-  chores.forEach((chore, i) => {
-    const id = getChoreId(studentName, date, i);
+  if (!todaysChores.length) {
+    html += `<div class="no-tasks">No chores scheduled today</div>`;
+  }
+
+  todaysChores.forEach(c => {
+    const id = getChoreId(studentName, date, c.index);
     const isDone = lp[id] === true;
     html += `
       <div class="task-row ${isDone ? 'is-done' : ''}" id="prow-${id}"
@@ -521,7 +674,7 @@ function buildChoreRow(studentName, chores, palette, date) {
           ${isDone ? `<span style="display:block;width:5px;height:9px;border:2px solid white;border-top:none;border-left:none;transform:rotate(45deg) translate(-1px,-1px);"></span>` : ''}
         </div>
         <div class="task-info">
-          <div class="task-text">${chore}</div>
+          <div class="task-text">${c.text}</div>
         </div>
       </div>`;
   });
@@ -529,10 +682,14 @@ function buildChoreRow(studentName, chores, palette, date) {
 
   html += `
     <div id="chore-edit-${studentName}" style="display:none; padding:12px 18px; background:#f8fafc; border-top:1px solid #e2e8f0;">
+      <div style="font-size:11px; color:#64748b; margin-bottom:8px; line-height:1.4;">
+        Every day: just type the chore. Certain days only: start with the day(s) and a colon,
+        like <b>Tue: Take out the trash</b> or <b>Mon, Thu: Clean bathroom</b>.
+      </div>
       <div id="chore-inputs-${studentName}">
         ${chores.map((c, i) => `
           <div style="display:flex; gap:6px; margin-bottom:6px; align-items:center;">
-            <input type="text" value="${c}" id="chore-input-${studentName}-${i}"
+            <input type="text" value="${escHtml(c)}" id="chore-input-${studentName}-${i}"
               style="flex:1; padding:6px 10px; border:1px solid #cbd5e1; border-radius:6px; font-size:13px;"
               onclick="event.stopPropagation()">
             <button onclick="removeChoreInput('${studentName}', ${i}, event)"
@@ -570,7 +727,7 @@ function addChoreInput(studentName, event) {
   const div = document.createElement('div');
   div.style.cssText = 'display:flex; gap:6px; margin-bottom:6px; align-items:center;';
   div.innerHTML = `
-    <input type="text" value="" id="chore-input-${studentName}-${i}"
+    <input type="text" value="" placeholder="e.g. Tue: Take out the trash" id="chore-input-${studentName}-${i}"
       style="flex:1; padding:6px 10px; border:1px solid #cbd5e1; border-radius:6px; font-size:13px;"
       onclick="event.stopPropagation()">
     <button onclick="removeChoreInput('${studentName}', ${i}, event)"
@@ -602,7 +759,7 @@ function saveChores(studentName, event) {
 
   document.getElementById('chore-edit-' + studentName).style.display = 'none';
 
-  fetch(`${API_URL}?action=updateChore&student=${encodeURIComponent(studentName)}&chores=${encodeURIComponent(JSON.stringify(newChores))}`,
+  fetch(`${API_URL}?action=updateChore&student=${encodeURIComponent(studentName)}&chores=${encodeURIComponent(JSON.stringify(newChores))}${pinQ()}`,
     { mode: 'no-cors' });
 
   setTimeout(() => {
@@ -614,7 +771,6 @@ function saveChores(studentName, event) {
 }
 function cancelChoreEdit(studentName, event) {
   event.stopPropagation();
-  document.getElementById('chore-text-' + studentName).style.display = 'block';
   document.getElementById('chore-edit-' + studentName).style.display = 'none';
 }
 
@@ -630,9 +786,9 @@ function renderStats(filtered) {
 
     // Count chore if student has one
     if (s.chores && s.chores.length) {
-      s.chores.forEach((chore, i) => {
+      getChoresForDate(s.chores, currentDate).forEach(c => {
         choreTotal++;
-        const choreId = getChoreId(s.student, currentDate, i);
+        const choreId = getChoreId(s.student, currentDate, c.index);
         if (lp[choreId] === true) choreDone++;
       });
     }
@@ -676,16 +832,14 @@ function toggleTask(id, palettePrimary, paletteSecondary, studentName, row, col)
   if (id.includes('-chore-')) {
     // Always derive student name from chore id to be safe
     const choreStudent = id.split('-chore-')[0];
-    fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}&student=${encodeURIComponent(choreStudent)}`, 
-      { mode: 'no-cors' });
+    sendSave(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}&student=${encodeURIComponent(choreStudent)}`);
   } else {
     allData.students.forEach(s => {
       s.grid.forEach(subj => {
         subj.tasks.forEach(t => { if (t.id === id) t.done = isDone; });
       });
     });
-    fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}&student=${encodeURIComponent(studentName)}&row=${row}&col=${col}`, 
-      { mode: 'no-cors' });
+    sendSave(`${API_URL}?action=toggle&key=${encodeURIComponent(id)}&status=${isDone}&student=${encodeURIComponent(studentName)}&row=${row}&col=${col}${pinQ()}`);
     startSyncTimer();
   }
 
@@ -725,7 +879,7 @@ function toggleTask(id, palettePrimary, paletteSecondary, studentName, row, col)
 function approveEntireDay(studentName, silent) {
   const student = allData.students.find(s => s.student === studentName);
   if (!student) return;
-  if (!silent && !confirm(`Mark everything today for ${studentName} as done?`)) return;
+  if (!silent && !confirm(`Mark everything today for ${studentName} as done? (Portfolio tasks are skipped; mark those individually.)`)) return;
 
   const targetMidnight = Date.UTC(
     currentDate.getFullYear(), 
@@ -737,7 +891,7 @@ function approveEntireDay(studentName, silent) {
     subj.tasks.forEach(t => {
       const d = new Date(t.rawDate);
       const taskMidnight = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
-      if (taskMidnight === targetMidnight && !t.done) {
+      if (taskMidnight === targetMidnight && !t.done && !isPortfolioTask(t.task)) {
         t.done = true;
         setLocalProgress(t.id, true);
         const row = document.getElementById('prow-' + t.id);
@@ -750,8 +904,7 @@ function approveEntireDay(studentName, silent) {
           }
         }
         // Pass cell address
-        fetch(`${API_URL}?action=toggle&key=${encodeURIComponent(t.id)}&status=true&student=${encodeURIComponent(studentName)}&row=${t.row}&col=${t.col}`, 
-          { mode: 'no-cors' });
+        sendSave(`${API_URL}?action=toggle&key=${encodeURIComponent(t.id)}&status=true&student=${encodeURIComponent(studentName)}&row=${t.row}&col=${t.col}${pinQ()}`);
       }
     });
   });
@@ -763,15 +916,15 @@ function toggleMakeupDays() {
   const statusEl = document.getElementById('makeupToggleStatus');
   const btn = document.getElementById('makeupToggleBtn');
   
-  // Determine flip
-  const currentlyEnabled = statusEl.textContent.trim() === "ON";
+  // Determine flip (text is "Currently ON", "Currently OFF", "ON" or "OFF")
+  const currentlyEnabled = /ON$/.test(statusEl.textContent.trim());
   const newState = !currentlyEnabled;
 
   statusEl.textContent = "Updating...";
   btn.disabled = true;
 
   // This calls your GAS Web App URL
-  const url = `${api_url}?action=setMakeupDays&enabled=${newState}`;
+  const url = `${API_URL}?action=setMakeupDays&enabled=${newState}${pinQ()}`;
 
   fetch(url)
     .then(response => response.json())
@@ -779,12 +932,15 @@ function toggleMakeupDays() {
       if (data.success) {
         statusEl.textContent = newState ? "ON" : "OFF";
         btn.classList.toggle('active-state', newState); // Optional CSS class change
-        
-        // Alert the user or log success
         console.log("GitHub Sync Triggered");
+      } else {
+        statusEl.textContent = currentlyEnabled ? "ON" : "OFF";
       }
     })
-    .catch(err => alert("Error: " + err))
+    .catch(err => {
+      statusEl.textContent = currentlyEnabled ? "ON" : "OFF";
+      alert("Error: " + err);
+    })
     .finally(() => { btn.disabled = false; });
 }
 
@@ -844,16 +1000,15 @@ function updateMakeupToggleBtn(enabled) {
     adminStatus('Pushing to GitHub...', '#f59e0b');
     fetch(`${API_URL}?action=push`, { mode: 'no-cors' })
       .then(() => {
-        adminStatus('Push sent! Waiting for GitHub...', '#f59e0b');
-        setTimeout(() => adminRefresh(), 8000);
+        adminStatus('Push done! Loading latest data...', '#f59e0b');
+        adminRefresh();
       })
       .catch(() => adminStatus('Push failed — try again', '#dc2626'));
   }
 
 function adminRefresh() {
   adminStatus('Fetching latest data...', '#f59e0b');
-  fetch('data.json?v=' + Date.now())
-    .then(r => r.json())
+  fetchLatestData()
     .then(data => {
       const newTime = new Date(data.generated).getTime();
       const oldTime = allData && allData.generated ? new Date(allData.generated).getTime() : 0;
@@ -891,11 +1046,12 @@ function adminRefresh() {
   }
 
   function adminApproveAll() {
-    if (!confirm('Mark ALL tasks today as done for every student?')) return;
+    if (!confirm('Mark ALL tasks today as done for every student? (Portfolio tasks are skipped.)')) return;
     allData.students.forEach(s => {
       approveEntireDay(s.student, true);
     });
-    adminStatus('✓ All tasks marked done.', '#16a34a');
+    renderForDate(currentDate);
+    adminStatus('✓ All tasks marked done (portfolio tasks skipped).', '#16a34a');
   }
 
   function cycleCardView(studentName, event) {
